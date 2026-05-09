@@ -1,0 +1,1579 @@
+{
+  "pages": {
+    "/": {
+      "title": "Givens Fire and Forestry",
+      "file": "research/pages/home.html",
+      "images": [
+        "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67956de65d106c459aaaac72/1737846249178/black_red_minimalist_lumberjack_logo_design-removebg-preview.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3840e580-bb84-46af-9c3b-b158654d2e84/20171019_100730.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/78dee972-d079-4881-bb6d-193fcab2ebb9/20230824_160905.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/78dee972-d079-4881-bb6d-193fcab2ebb9/20230824_160905.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/794cdb9c-b833-4cf0-8489-2984a7825573/GIVENS+%281%29.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/86e80d42-1d1d-4ec3-b98a-995fdaccef66/20240420_143635.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/86e80d42-1d1d-4ec3-b98a-995fdaccef66/20240420_143635.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/8e9f2c36-d0b6-42c9-b118-fb0f62554bd6/Image_1739138668530.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/8e9f2c36-d0b6-42c9-b118-fb0f62554bd6/Image_1739138668530.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c0893c59-470d-4d1b-8a4d-5308c647fdff/8304799397366373428.jpg.jpeg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c0893c59-470d-4d1b-8a4d-5308c647fdff/8304799397366373428.jpg.jpeg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c87795f0-4f3a-43cc-82e2-e521c63663a4/MONTANA+DIVISION+%281%29.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/caab8a44-3279-4bc3-ac92-4b64c01ec032/20240909_134220.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/caab8a44-3279-4bc3-ac92-4b64c01ec032/20240909_134220.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d775a66f-6abf-4240-908b-e01d74d4b5e9/20201224_182400.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/de5e2f2d-25fc-449a-9608-e3fe010c534a/20171019_095721.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/de5e2f2d-25fc-449a-9608-e3fe010c534a/20171019_095721.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/fd996f1d-d8a2-4c66-abc5-1b5569818537/Screenshot+2026-02-10+at+6.20.57%E2%80%AFPM.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/fd996f1d-d8a2-4c66-abc5-1b5569818537/Screenshot+2026-02-10+at+6.20.57%E2%80%AFPM.png\",",
+        "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+        "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+      ],
+      "text": [
+        {
+          "tag": "a",
+          "text": "Skip to Content"
+        },
+        {
+          "tag": "a",
+          "text": "Givens Fire and Forestry"
+        },
+        {
+          "tag": "a",
+          "text": "Home"
+        },
+        {
+          "tag": "a",
+          "text": "About"
+        },
+        {
+          "tag": "a",
+          "text": "Gallery"
+        },
+        {
+          "tag": "a",
+          "text": "Services"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Removal"
+        },
+        {
+          "tag": "a",
+          "text": "Contact"
+        },
+        {
+          "tag": "a",
+          "text": "Resources"
+        },
+        {
+          "tag": "a",
+          "text": "Toolbox"
+        },
+        {
+          "tag": "a",
+          "text": "Get a Quote!"
+        },
+        {
+          "tag": "button",
+          "text": "Open Menu Close Menu"
+        },
+        {
+          "tag": "h1",
+          "text": "Creating Fire Smart Spaces For Safer Living"
+        },
+        {
+          "tag": "h4",
+          "text": "SERVING COMMERCIAL AND RESIDENTIAL PROPERTIES, Call us today"
+        },
+        {
+          "tag": "a",
+          "text": "406-539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "Our Services: Protecting Montana, One Property at a Time"
+        },
+        {
+          "tag": "h2",
+          "text": "Defensible Space Consulting"
+        },
+        {
+          "tag": "p",
+          "text": "From former wildland firefighters, we deliver no-nonsense defensible space solutions. We assess, design, and clear hazardous areas, creating a fire-safe perimeter that keeps your property protected from wildfires. Trust our expertise to make your home fire-resistant and secure."
+        },
+        {
+          "tag": "a",
+          "text": "Learn more!"
+        },
+        {
+          "tag": "h2",
+          "text": "Slash Pile Removal"
+        },
+        {
+          "tag": "p",
+          "text": "We specialize in efficient slash pile removal, reducing fire hazards and improving forest health. Our expert team removes debris, clears excess vegetation, and ensures your property is safe from wildfire threats. Let us handle the heavy lifting while you gain peace of mind."
+        },
+        {
+          "tag": "h2",
+          "text": "Hazardous Tree Removal"
+        },
+        {
+          "tag": "p",
+          "text": "Hazardous trees, including dead, fire-damaged, leaning, diseased, or insect-infested trees, are a major wildfire risk. Studies show these trees contribute to 70% of wildfire spread. Our expert team safely removes these high-risk trees, using advanced equipment to reduce fire hazards and protect your property. By addressing these threats, we can lower your wildfire risk by up to 70%, keeping your home and landscape safe"
+        },
+        {
+          "tag": "h2",
+          "text": "Post burn Clean-Up"
+        },
+        {
+          "tag": "p",
+          "text": "After a wildfire, cleanup is crucial to prevent further risks like erosion, pest infestations, and lingering fire hazards. Our expert team specializes in post-burn cleanup, removing charred debris, dead vegetation, and hazardous materials. We restore your landscape by clearing away remnants of the fire, ensuring a safer environment and preparing your property for recovery. Trust us to handle the tough work, reducing future risks and helping your property bounce back."
+        },
+        {
+          "tag": "h2",
+          "text": "Brush Removal Services"
+        },
+        {
+          "tag": "p",
+          "text": "Overgrown brush is a major fire hazard, providing fuel for wildfires and increasing risk to your property. Our brush removal services create defensible space, reduce fire intensity, and improve land health. We clear hazardous vegetation efficiently while preserving the natural beauty of your land. goes here"
+        },
+        {
+          "tag": "a",
+          "text": "Learn More!"
+        },
+        {
+          "tag": "h2",
+          "text": "Storm Removal"
+        },
+        {
+          "tag": "p",
+          "text": "When severe weather strikes, downed trees and debris create immediate hazards and potential fire risks. Our storm removal service quickly clears fallen timber, damaged branches, and storm-related debris from your property. We assess damage, remove hazardous materials, and restore safety to your landscape. With efficient response and professional cleanup, we help you recover fast while reducing future wildfire fuel loads."
+        },
+        {
+          "tag": "h1",
+          "text": "Schedule a consultation"
+        },
+        {
+          "tag": "p",
+          "text": "Givens Fire & Forestry LLC, led by experienced wildland firefighter Samuel Givens, brings over 5 years of wildfire expertise and 4 years of home ignition zone management to protect what matters most\u2014your home and your peace of mind."
+        },
+        {
+          "tag": "h3",
+          "text": "\u200d \u200d"
+        },
+        {
+          "tag": "a",
+          "text": "(406)-539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "Wildfires claim thousands of homes each year, with properties in the urban wildland interface facing the greatest danger. Without proper fire-smart planning, beautiful landscapes can become fuel for destruction."
+        },
+        {
+          "tag": "a",
+          "text": "Book consultation"
+        },
+        {
+          "tag": "p",
+          "text": "Our services go beyond simple tree removal. From fire-smart home consultations to eco-friendly land management, we help homeowners create defensible spaces that safeguard their property while enhancing its natural beauty. With a commitment to education, sustainability, and personalized care, Givens Fire & Forestry delivers expert solutions to keep your property safe in an increasingly wildfire-prone world."
+        },
+        {
+          "tag": "h3",
+          "text": "No Job is Too Big for Us \u2013 Givens Fire and Forestry: Wildfire Defense Experts"
+        },
+        {
+          "tag": "p",
+          "text": "At Givens Fire and Forestry, we specialize in advanced wildfire mitigation strategies to protect your property from the ground up. Our services include hazardous tree removal, wildfire fuel reduction, slash pile removal, post-burn cleanup, and fire-smart property consultation. We apply industry best practices such as creating defensible space, strategic thinning, and managed fuel breaks to reduce fire intensity and prevent crown fires. Our team utilizes risk assessments, fire modeling, and firebreak construction techniques to ensure a comprehensive defense plan. With deep expertise in fire behavior and forest ecology, we provide tailored solutions that make your property more resilient to wildfires."
+        },
+        {
+          "tag": "h3",
+          "text": "Choose Givens Fire and Forestry for expert wildfire defense and risk reduction."
+        },
+        {
+          "tag": "h1",
+          "text": "Have Questions or Need a Free Estimate?"
+        },
+        {
+          "tag": "h4",
+          "text": "Givens Fire and Forestry is here to assist with all your wildfire defense needs. Fill out the form, and we\u2019ll get back to you with a consultation or a free bid to help protect your property."
+        },
+        {
+          "tag": "h4",
+          "text": "THREE FORKS MONTANA"
+        },
+        {
+          "tag": "a",
+          "text": "(406) 539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "GIVENS FIRE & FORESTRY LLC"
+        }
+      ]
+    },
+    "/about": {
+      "title": "About | Protect Your Property \u2014 Get Expert Help \u2014 Givens Fire and Forestry",
+      "file": "research/pages/about.html",
+      "images": [
+        "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+        "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1607694583486-2PQT0LQ193RL7MCB6DX4/20140228_Trade+151_0046.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1607694644871-IC85FNH781UNZSZEGHDR/Aro+Ha_0428.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1618497259178-6XJGK9GR6YAVBQL5L519/20140301_Trade-151_012-2.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1737940520489-1MHMJ2C9I0E19RMI4VYF/unsplash-image--iretlQZEU4.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1737940520489-1MHMJ2C9I0E19RMI4VYF/unsplash-image--iretlQZEU4.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/50f83785-6637-4092-ac21-90d09b1f4765/IMAGE+2025-01-26+17%3A44%3A48.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/5119bc66-d281-47d4-9eba-5a010aeabb5c/Screen+Shot+2025-01-26+at+5.25.06+PM.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/794cdb9c-b833-4cf0-8489-2984a7825573/GIVENS+%281%29.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/98c97794-5018-4acd-b73d-732641cc233c/Teueudh.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/98c97794-5018-4acd-b73d-732641cc233c/Teueudh.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b5525354-971e-4617-a8a0-88f1f88becaf/44536680_10212078440187725_2851013928333344768_n.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/db5ce26f-c747-492e-8c81-ac6c2874b651/19075-Picsart-AiImageEnhancer.jpeg",
+        "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+        "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+      ],
+      "text": [
+        {
+          "tag": "a",
+          "text": "Skip to Content"
+        },
+        {
+          "tag": "a",
+          "text": "Givens Fire and Forestry"
+        },
+        {
+          "tag": "a",
+          "text": "Home"
+        },
+        {
+          "tag": "a",
+          "text": "About"
+        },
+        {
+          "tag": "a",
+          "text": "Gallery"
+        },
+        {
+          "tag": "a",
+          "text": "Services"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Removal"
+        },
+        {
+          "tag": "a",
+          "text": "Contact"
+        },
+        {
+          "tag": "a",
+          "text": "Resources"
+        },
+        {
+          "tag": "a",
+          "text": "Toolbox"
+        },
+        {
+          "tag": "a",
+          "text": "Get a Quote!"
+        },
+        {
+          "tag": "button",
+          "text": "Open Menu Close Menu"
+        },
+        {
+          "tag": "h1",
+          "text": "Who we are"
+        },
+        {
+          "tag": "p",
+          "text": "At Givens Fire & Forestry LLC , we are more than just a tree service\u2014we are your dedicated partners in creating safe, resilient, and fire-resistant landscapes. Founded by Samuel Givens, a veteran wildland firefighter, our company has grown from a local Montana operation into a regional leader in wildfire mitigation and environmentally conscious land management."
+        },
+        {
+          "tag": "p",
+          "text": "Serving Montana, with plans to expand soon into the Greater Spokane, Washington area, our team brings decades of combined \"on-the-line\" firefighting experience to every property we service. We specialize in:"
+        },
+        {
+          "tag": "p",
+          "text": "Wildfire mitigation: using frontline tactics to create defensible space"
+        },
+        {
+          "tag": "p",
+          "text": "Tree health and hazard removal: identifying risks before they become emergencies"
+        },
+        {
+          "tag": "p",
+          "text": "Sustainable forestry: managing land with an eye toward long-term ecological health"
+        },
+        {
+          "tag": "p",
+          "text": "Our mission is simple: to empower homeowners with the knowledge and professional services needed to protect their investments while enhancing the natural beauty of Big Sky Country and the Inland Northwest."
+        },
+        {
+          "tag": "h1",
+          "text": "Meet Samuel Givens"
+        },
+        {
+          "tag": "p",
+          "text": "Throughout his time on the frontlines, Samuel has served in multiple critical leadership roles, including Incident Commander Type 5 (ICT5), Crew Boss Trainee, and Certified Faller. His intimate understanding of wildfire behavior and forest health was forged in the heat of active fire management, giving him a unique perspective on how to effectively mitigate risk before a fire ever starts."
+        },
+        {
+          "tag": "p",
+          "text": "Samuel\u2019s passion extends beyond the field and into education; he is dedicated to empowering homeowners with \"fire-smart\" strategies and sustainable land management solutions. By combining technical expertise with a lifelong dedication to forestry, Samuel ensures that every project in the Montana division is executed with precision, care, and a focus on long-term environmental resilience."
+        },
+        {
+          "tag": "a",
+          "text": "(406)-539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "As the founder of Givens Fire & Forestry LLC, Samuel Givens has built a career centered on a deep commitment to protecting homes and communities from the devastating effects of wildfires. Based in Montana, Samuel brings over seven years of nationwide wildland firefighting experience to the lead of our Montana operations."
+        },
+        {
+          "tag": "p",
+          "text": "Founder & Operator, Montana Division"
+        },
+        {
+          "tag": "h1",
+          "text": "Meet Robert Berry"
+        },
+        {
+          "tag": "p",
+          "text": "Robert\u2019s firefighting career has taken him across the North American continent, spanning the Western United States and Canada\u2014including Oregon, Washington, California, Utah, Idaho, Montana, Colorado, British Columbia, and Saskatchewan. This extensive \"on-the-ground\" experience across diverse terrains gives him a specialized understanding of fire behavior and fuel management in various climates."
+        },
+        {
+          "tag": "p",
+          "text": "Now based in the greater Spokane area, Robert is preparing to serve the local community as part of our upcoming expansion into Eastern Washington . His mission is to help Inland Northwest property owners mitigate tree hazards and implement proven defensible space strategies, ensuring homes and families are better protected from the ever-present threat of wildfire."
+        },
+        {
+          "tag": "p",
+          "text": "As a key operator supporting our planned Eastern Washington expansion , Robert Berry brings a decade of unique environmental experience and a deep-seated passion for forest stewardship to Givens Fire & Forestry. Robert\u2019s career began in the rugged landscapes of Southeast Alaska, where he spent 10 years living and working on the edge of the Tongass National Forest. This immersion in one of the world\u2019s most complex ecosystems laid the foundation for his transition into professional wildland firefighting in 2020."
+        },
+        {
+          "tag": "p",
+          "text": "Operator, Eastern Washington Division (Upcoming Expansion)"
+        },
+        {
+          "tag": "p",
+          "text": "Why Chose us?"
+        },
+        {
+          "tag": "h2",
+          "text": "Experienced Leadership"
+        },
+        {
+          "tag": "p",
+          "text": "Founded and led by Samuel Givens, a certified wildland firefighter, with over five years of hands-on experience in fire safety and forest management."
+        },
+        {
+          "tag": "h2",
+          "text": "Fire-Smart Solutions"
+        },
+        {
+          "tag": "p",
+          "text": "We provide effective and environmentally-friendly solutions that reduce wildfire risk while maintaining the beauty of your property."
+        },
+        {
+          "tag": "h2",
+          "text": "Customer-Centric Approach"
+        },
+        {
+          "tag": "p",
+          "text": "We believe in educating our clients, offering personalized consultations, and working within your budget to achieve the best results."
+        },
+        {
+          "tag": "h2",
+          "text": "Ongoing Education"
+        },
+        {
+          "tag": "p",
+          "text": "We take at least two forestry courses per year to stay updated on the latest industry best practices and innovative techniques in fire mitigation."
+        },
+        {
+          "tag": "h2",
+          "text": "Eco-Friendly Practices"
+        },
+        {
+          "tag": "p",
+          "text": "We prioritize sustainability by using low-impact methods and recycling biomass whenever possible."
+        },
+        {
+          "tag": "h2",
+          "text": "Built on Trust"
+        },
+        {
+          "tag": "p",
+          "text": "We\u2019ve earned the trust of homeowners through consistent, reliable service and a commitment to safety. Our focus is on building lasting relationships by delivering quality work and ensuring peace of mind for every client."
+        },
+        {
+          "tag": "h4",
+          "text": "\u201cAt Givens Fire & Forestry, our commitment to sustainability is unwavering. We employ low-impact methods and recycle biomass whenever feasible. Adhering strictly to all Stream Management Zone (SMZ) regulations, we ensure the use of appropriate bar oil and take necessary precautions to preserve stream and river ecosystems. Forest health remains one of our top priorities, and we show the utmost respect for riparian zones, recognizing their delicate role within the ecosystem..\u201d"
+        },
+        {
+          "tag": "h3",
+          "text": "Our values are centered on safety, sustainability, education, and integrity. We prioritize protecting your home, preserving the environment, empowering you with knowledge, and always acting with transparency and honesty in every service we provide."
+        },
+        {
+          "tag": "h4",
+          "text": "THREE FORKS MONTANA"
+        },
+        {
+          "tag": "a",
+          "text": "(406) 539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "GIVENS FIRE & FORESTRY LLC"
+        }
+      ]
+    },
+    "/gallery": {
+      "title": "Gallery | View Our Projects Today \u2014 Givens Fire and Forestry",
+      "file": "research/pages/gallery.html",
+      "images": [
+        "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0c297c39-2e1c-45d7-994a-325466c9353d/20171019_095718.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1f018e1d-f2b8-4d78-afb5-33b4b8aa168a/20240916_115101.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/2685b784-deb2-41ae-9153-fbf4fe19faed/1000003137.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/336d1dac-c133-43f9-88cf-b4603bc0b2fd/20240903_182933.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3b7bef65-1d80-440d-9ba7-7834ecc9f3f8/20170913_184013.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/45728da6-5463-4db9-863c-8a546fc0400e/Screenshot_20220817-010240_Instagram.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/5f611b33-6e72-4fc7-a7c6-385421ec68ce/20240414_084336.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/673302e4-06ed-497b-b2bf-d237aa18cd3e/20230421_122843.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a600a0ec-bba9-4237-9122-2b5d08f14f1c/20240412_162104.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b361feb4-6b7f-48c6-b69e-95380704d6c0/20240905_192443.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d0457ddb-e40e-468d-8c2c-7f317f28f833/1000003437.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d8370524-5c0a-41ff-bcbe-42ce548b7985/20180708_135845%281%29.jpg",
+        "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+        "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+      ],
+      "text": [
+        {
+          "tag": "a",
+          "text": "Skip to Content"
+        },
+        {
+          "tag": "a",
+          "text": "Givens Fire and Forestry"
+        },
+        {
+          "tag": "a",
+          "text": "Home"
+        },
+        {
+          "tag": "a",
+          "text": "About"
+        },
+        {
+          "tag": "a",
+          "text": "Gallery"
+        },
+        {
+          "tag": "a",
+          "text": "Services"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Removal"
+        },
+        {
+          "tag": "a",
+          "text": "Contact"
+        },
+        {
+          "tag": "a",
+          "text": "Resources"
+        },
+        {
+          "tag": "a",
+          "text": "Toolbox"
+        },
+        {
+          "tag": "a",
+          "text": "Get a Quote!"
+        },
+        {
+          "tag": "button",
+          "text": "Open Menu Close Menu"
+        },
+        {
+          "tag": "h1",
+          "text": "PAST PROJECTS GALLERY"
+        },
+        {
+          "tag": "h4",
+          "text": "THREE FORKS MONTANA"
+        },
+        {
+          "tag": "a",
+          "text": "(406) 539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "GIVENS FIRE & FORESTRY LLC"
+        }
+      ]
+    },
+    "/services": {
+      "title": "Services | Protect Your Property Now \u2014 Givens Fire and Forestry",
+      "file": "research/pages/services.html",
+      "images": [
+        "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/08993a82-897b-4e30-8c29-f415b7dac305/20230825_111330.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/08993a82-897b-4e30-8c29-f415b7dac305/20230825_111330.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0bd1dc8f-fd1d-4c36-95a1-abce76080550/Before+and+after+1.1.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0bd1dc8f-fd1d-4c36-95a1-abce76080550/Before+and+after+1.1.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0e8b70a8-7cc8-4dc7-88af-730a6821160e/Before+and+after+1.3.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0e8b70a8-7cc8-4dc7-88af-730a6821160e/Before+and+after+1.3.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739056883633-BE5SCGPO6LRMD25NL6Q0/unsplash-image-NUjw3H9k1EM.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1768965122187-HGXVVHI0LN1Y2CIF8LZN/unsplash-image-50bzI1F6urA.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1768965122187-HGXVVHI0LN1Y2CIF8LZN/unsplash-image-50bzI1F6urA.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3b2cd896-1de5-47bc-a685-835fa673242a/traced-Screenshot+2026-01-23+at+4.35.17%E2%80%AFPM.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/5f611b33-6e72-4fc7-a7c6-385421ec68ce/20240414_084336.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6703ec87-6d77-49e8-a06c-c25314122f5d/Screenshot+2026-02-10+at+6.29.24%E2%80%AFPM.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6fd728e4-c4c0-44cd-8a0c-b941b711ab70/20171019_122517.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/71fde2d9-1964-4902-a771-eadbf2275d95/20210721_095010.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/71fde2d9-1964-4902-a771-eadbf2275d95/20210721_095010.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/7591ec94-9422-4294-873e-c41a59616977/Screenshot+2026-02-10+at+6.29.42%E2%80%AFPM.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a6776eb0-5dbf-4dad-8878-94903aee2d73/20230824_160905.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a6776eb0-5dbf-4dad-8878-94903aee2d73/20230824_160905.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b361feb4-6b7f-48c6-b69e-95380704d6c0/20240905_192443.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c87795f0-4f3a-43cc-82e2-e521c63663a4/MONTANA+DIVISION+%281%29.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/caab8a44-3279-4bc3-ac92-4b64c01ec032/20240909_134220.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/de5e2f2d-25fc-449a-9608-e3fe010c534a/20171019_095721.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/dfb14460-876c-4af3-90f5-398b2a165436/Screenshot+2026-02-10+at+6.20.57%E2%80%AFPM.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ff576e5a-29d2-42c7-90b1-7a03b68744e4/Screenshot+2026-02-10+at+6.29.31%E2%80%AFPM.png",
+        "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+        "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+      ],
+      "text": [
+        {
+          "tag": "a",
+          "text": "Skip to Content"
+        },
+        {
+          "tag": "a",
+          "text": "Givens Fire and Forestry"
+        },
+        {
+          "tag": "a",
+          "text": "Home"
+        },
+        {
+          "tag": "a",
+          "text": "About"
+        },
+        {
+          "tag": "a",
+          "text": "Gallery"
+        },
+        {
+          "tag": "a",
+          "text": "Services"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Removal"
+        },
+        {
+          "tag": "a",
+          "text": "Contact"
+        },
+        {
+          "tag": "a",
+          "text": "Resources"
+        },
+        {
+          "tag": "a",
+          "text": "Toolbox"
+        },
+        {
+          "tag": "a",
+          "text": "Get a Quote!"
+        },
+        {
+          "tag": "button",
+          "text": "Open Menu Close Menu"
+        },
+        {
+          "tag": "h2",
+          "text": "Our Services"
+        },
+        {
+          "tag": "p",
+          "text": "| DEFENSIBLE SPACE CONSULTING | POST BURN CLEAN-UP | SLASH PILE REMOVAL | HAZARDOUS TREE REMOVAL | WILDFIRE FUEL MITIGATION | BRUSH PILE REMOVAL |"
+        },
+        {
+          "tag": "p",
+          "text": "Defensible Space Consulting"
+        },
+        {
+          "tag": "h2",
+          "text": "Before"
+        },
+        {
+          "tag": "p",
+          "text": "This forest scene demonstrates classic wildfire hazards we commonly address in Montana, where over 940,000 acres burned in 2021 alone. You can see the dangerous conditions: densely packed trees with touching canopies, multiple layers of vegetation creating ladder fuels, and thick understory growth. Note the overcrowded birch trees in the foreground and heavy ground vegetation. The wooden cabin visible in the background is particularly vulnerable under these conditions, which could rapidly carry fire from the ground to the tree crowns - a scenario that contributed to Montana's $347 million in fire suppression costs between 2017-2021."
+        },
+        {
+          "tag": "h2",
+          "text": "After"
+        },
+        {
+          "tag": "p",
+          "text": "Following our professional mitigation work by former wildland firefighters, observe the dramatic improvement in defensible space - a critical factor given that homes with proper defensible space are 75% more likely to survive a wildfire. We've strategically removed selected trees to create proper spacing, eliminated ladder fuels, and cleared excess ground vegetation, following Montana DNRC guidelines. The forest floor is now maintained with a natural mulch layer from chipped materials. Notice how the remaining trees are well-spaced while still providing shade and aesthetic value. The path created provides both access for maintenance and a natural fire break. This strategic approach not only protects structures but helps preserve healthy forest ecology - critical in Montana where an average of 1,800 wildfires occur annually"
+        },
+        {
+          "tag": "h4",
+          "text": "While Montana faces massive acreage threats, the Spokane area carries some of the highest structure-risk in the nation."
+        },
+        {
+          "tag": "h4",
+          "text": "In Spokane County alone, over 44,000 homes are considered at high to extreme risk of wildfire damage. We don\u2019t just clear brush; we follow Washington DNR 'Firewise' standards to give your home a fighting chance in the Inland Northwest\u2019s unique 'Home Ignition Zone'"
+        },
+        {
+          "tag": "h3",
+          "text": "Hazardous Tree Removal"
+        },
+        {
+          "tag": "p",
+          "text": "As certified Class C Fallers and former wildland firefighters, we specialize in removing the most challenging hazardous trees that threaten property and safety. In our firefighting careers, we've safely dropped trees up to 45\" diameter under extreme conditions - now we bring that expertise to your property."
+        },
+        {
+          "tag": "p",
+          "text": "What makes a tree hazardous? Dead standing snags that could fall any moment. Storm-damaged leaners with split tops. Disease-killed giants threatening structures. Widow-makers with dangerous overhead branches. The harsh conditions of the Inland Northwest and Big Sky Country create all these hazards and more."
+        },
+        {
+          "tag": "a",
+          "text": "Click Here For Flat Rates on Residential Tree Removal"
+        },
+        {
+          "tag": "p",
+          "text": "Our expertise extends to the specific health threats of the Inland Northwest. Eastern Washington is currently seeing a massive surge in tree mortality from Douglas-fir beetles and Ips pine engravers , which have affected hundreds of thousands of acres recently. If your pines are turning red or dropping needles, they aren't just dying\u2014they are becoming high-intensity fuel for the next fire season. We specialize in identifying and removing these 'standing matches' before they threaten your home"
+        },
+        {
+          "tag": "p",
+          "text": "Our advanced falling techniques come from years of fireline experience: precision directional falling, bore cutting for control, multiple wedge sets for accuracy. When the job demands it, we deploy heavy machinery and professional rigging systems. With hazard trees contributing to over 100 firefighter fatalities in two decades, we take safety seriously."
+        },
+        {
+          "tag": "p",
+          "text": "From single dangerous trees to complex technical removals requiring crane support, we handle what others won't touch. Because after managing the most dangerous trees under the worst fire conditions, we know exactly how to protect your property from hazard trees."
+        },
+        {
+          "tag": "h1",
+          "text": "Slash Pile Removal"
+        },
+        {
+          "tag": "h4",
+          "text": "What is Slash, and Why Should You Remove It?"
+        },
+        {
+          "tag": "p",
+          "text": "Slash refers to tree limbs, branches, and debris left behind from land clearing, tree removal, or forestry work. If left unmanaged, these piles become a major fire hazard, providing fuel for wildfires and increasing the risk to your home and property. Over time, slash piles also attract pests and contribute to poor land health, making proper disposal essential for both safety and environmental reasons."
+        },
+        {
+          "tag": "h4",
+          "text": "Our Slash Pile Removal Process"
+        },
+        {
+          "tag": "p",
+          "text": "We provide safe and efficient slash pile removal tailored to your property\u2019s needs. Whether you need hauling, chipping, or on-site disposal, we handle everything to ensure compliance with fire safety regulations. Our team evaluates your land, determines the best removal method, and leaves your property safer and cleaner."
+        },
+        {
+          "tag": "h4",
+          "text": "Burning Services & Field Burns"
+        },
+        {
+          "tag": "p",
+          "text": "In areas where burning is permitted, we offer controlled slash pile burns and larger-scale field burning services. With expert wildland firefighter supervision and strict safety measures, we ensure that burns are conducted responsibly, reducing fire hazards while maintaining soil health. We handle permits, timing, and execution, so you can rest easy knowing the job is done safely and effectively."
+        },
+        {
+          "tag": "h1",
+          "text": "POST BURN CLEAN-UP"
+        },
+        {
+          "tag": "h4",
+          "text": "Safe & Thorough Debris Removal"
+        },
+        {
+          "tag": "p",
+          "text": "Wildfires leave behind dangerous debris, from burned structures to hazardous ash and unstable trees. Proper cleanup is crucial to ensuring safety and preventing further damage. We specialize in the careful removal of fire-damaged homes, sheds, and other structures while prioritizing the safe handling of hazardous materials. Our team also works to recover any salvageable belongings, offering homeowners peace of mind during the recovery process."
+        },
+        {
+          "tag": "h4",
+          "text": "Land Restoration & Hazard Mitigation"
+        },
+        {
+          "tag": "p",
+          "text": "After the fire is out, the land remains at risk. Burned vegetation weakens soil stability, increasing the chances of erosion, mudslides, and sediment runoff. Our team clears hazardous trees and brush, stabilizes the soil, and helps reintroduce native plant life to promote natural recovery. By addressing these risks early, we ensure your property remains both safe and environmentally healthy."
+        },
+        {
+          "tag": "h4",
+          "text": "Comprehensive Cleanup for a Fresh Start"
+        },
+        {
+          "tag": "p",
+          "text": "Every wildfire recovery is unique, and we tailor our services to meet your specific needs. Whether you need full-site clearing, selective cleanup, or assistance with hazardous debris, we have the expertise and equipment to handle it efficiently. Our goal is not just to remove the remnants of destruction but to help you move forward with a clean, stable, and safer property."
+        },
+        {
+          "tag": "p",
+          "text": "Brush Removal & Land Management Services"
+        },
+        {
+          "tag": "p",
+          "text": "Looking at the first image, we see a dense, overgrown area with thick vegetation. The brush is tangled and chaotic, with fallen debris, dead branches, and thick undergrowth creating a cluttered forest floor. This impenetrable wall of vegetation creates a dangerous fuel ladder that allows fire to spread rapidly across property lines and climb into treetops. The natural drainage channel is barely visible beneath the accumulated brush, wildlife habitat is compromised, and sunlight struggles to penetrate the dense canopy, hindering forest health."
+        },
+        {
+          "tag": "p",
+          "text": "The transformation is remarkable! The second image shows the same area after professional brush clearing. The natural drainage path is now clearly defined with smooth stones visible along the bottom, reducing erosion risks. The surrounding vegetation has been strategically thinned, creating essential defensible space while allowing healthy trees to remain. Sunlight now penetrates to the forest floor, promoting diverse plant growth and improved wildlife habitat. The clear separation between ground vegetation and tree canopies breaks the fuel ladder\u2014a crucial element of fire prevention that reduces potential fire intensity and enhances overall property aesthetics and usability."
+        },
+        {
+          "tag": "h1",
+          "text": "Storm Removal"
+        },
+        {
+          "tag": "p",
+          "text": "From the heavy 'snow-load' of Southwest Montana to the notorious windstorms and ice events of the Spokane Valley, our teams are ready. Storm-damaged trees in Washington often involve 'widow-makers' hung up in dense Ponderosa canopies\u2014technical removals that require the precision of a certified faller."
+        },
+        {
+          "tag": "p",
+          "text": "When severe weather hits, downed trees and debris don't just create safety hazards\u2014they dramatically increase wildfire fuel loads on your property. Our emergency storm removal service delivers rapid response to clear fallen timber, damaged branches, and storm debris before they become bigger problems. We bring specialized equipment and experienced crews who understand the urgency of the situation, safely removing hazardous trees from structures, access roads, and critical infrastructure."
+        },
+        {
+          "tag": "p",
+          "text": "Storm damage requires more than just cleanup\u2014it demands expertise in hazard assessment and strategic removal. Our team evaluates structural damage, identifies unstable trees that pose ongoing threats, and executes controlled removal operations that protect your buildings and landscape. We handle everything from large-diameter trees suspended on structures to widespread debris fields, ensuring your property is restored to a safe condition while simultaneously reducing future wildfire risk. When the unexpected happens, we're ready to respond with the equipment, skills, and speed your emergency demands."
+        },
+        {
+          "tag": "h1",
+          "text": "We're Here to Help!"
+        },
+        {
+          "tag": "p",
+          "text": "With dedicated crews based in Three Forks, MT , and expanding soon to Spokane, WA , we proudly serve homeowners and landowners across Southwest Montana , with Inland Northwest services launching soon . Whether you need wildfire mitigation, tree removal, or post-burn cleanup, our team is ready to assist. Reach out today to schedule a consultation or join our Spokane-area interest list."
+        },
+        {
+          "tag": "h4",
+          "text": "THREE FORKS MONTANA"
+        },
+        {
+          "tag": "a",
+          "text": "(406) 539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "GIVENS FIRE & FORESTRY LLC"
+        }
+      ]
+    },
+    "/flat-rates-for-tree-removal": {
+      "title": "Tree Removal \u2014 Givens Fire and Forestry",
+      "file": "research/pages/flat-rates-for-tree-removal.html",
+      "images": [
+        "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+        "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/728dd6a9-8a51-4ccb-8ce6-646159615591/Gemini_Generated_Image_fkhdxnfkhdxnfkhd.png?content-type=image%2Fpng",
+        "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/a8b59b36-dfb0-453c-ad7a-6bb0a054c035/Gemini_Generated_Image_wdnxtdwdnxtdwdnx.png?content-type=image%2Fpng",
+        "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/c6cb13fd-9867-4b27-a7fe-0ef30c4f8094/Gemini_Generated_Image_dfxn1ddfxn1ddfxn.png?content-type=image%2Fpng",
+        "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/f8f13536-0409-42dd-9228-b5a048d7bdf8/Gemini_Generated_Image_nkortbnkortbnkor.png?content-type=image%2Fpng",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1771806738109-QM4MCFREI100KDW7GKKV/unsplash-image-IYu-6NpPXh8.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1771806738109-QM4MCFREI100KDW7GKKV/unsplash-image-IYu-6NpPXh8.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/45680ac4-7acf-45eb-ba02-165b0f5c107a/forest_green_aerial_view_145946_1280x1280.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/45680ac4-7acf-45eb-ba02-165b0f5c107a/forest_green_aerial_view_145946_1280x1280.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b6c1174a-cc1e-4a60-aa8f-4c072f2ab744/20230907_175912.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b6c1174a-cc1e-4a60-aa8f-4c072f2ab744/20230907_175912.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+        "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+        "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+      ],
+      "text": [
+        {
+          "tag": "a",
+          "text": "Skip to Content"
+        },
+        {
+          "tag": "a",
+          "text": "Givens Fire and Forestry"
+        },
+        {
+          "tag": "a",
+          "text": "Home"
+        },
+        {
+          "tag": "a",
+          "text": "About"
+        },
+        {
+          "tag": "a",
+          "text": "Gallery"
+        },
+        {
+          "tag": "a",
+          "text": "Services"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Removal"
+        },
+        {
+          "tag": "a",
+          "text": "Contact"
+        },
+        {
+          "tag": "a",
+          "text": "Resources"
+        },
+        {
+          "tag": "a",
+          "text": "Toolbox"
+        },
+        {
+          "tag": "a",
+          "text": "Get a Quote!"
+        },
+        {
+          "tag": "button",
+          "text": "Open Menu Close Menu"
+        },
+        {
+          "tag": "h1",
+          "text": "Flat Rate Tree Removal"
+        },
+        {
+          "tag": "p",
+          "text": "Professional Forestry Services | Transparent Pricing | No Surprises"
+        },
+        {
+          "tag": "a",
+          "text": "\u2190 View All Services 0' - 35' Height"
+        },
+        {
+          "tag": "h3",
+          "text": "Small Removal $300 - $1,000"
+        },
+        {
+          "tag": "li",
+          "text": "Minimal Rigging"
+        },
+        {
+          "tag": "li",
+          "text": "Quick Cleanup"
+        },
+        {
+          "tag": "li",
+          "text": "Ground-Based Most Common 35' - 50' Height"
+        },
+        {
+          "tag": "h3",
+          "text": "Standard Removal $800 - $2,500"
+        },
+        {
+          "tag": "li",
+          "text": "Advanced Rigging"
+        },
+        {
+          "tag": "li",
+          "text": "Structure Protection"
+        },
+        {
+          "tag": "li",
+          "text": "Climbing Work"
+        },
+        {
+          "tag": "li",
+          "text": "Aerial Man Lift 50' - 100'+ Height"
+        },
+        {
+          "tag": "h3",
+          "text": "Large / Complex $1,200 - $3,500+"
+        },
+        {
+          "tag": "li",
+          "text": "Heavy Equipment"
+        },
+        {
+          "tag": "li",
+          "text": "High-Risk Zones"
+        },
+        {
+          "tag": "li",
+          "text": "Expert Rigging"
+        },
+        {
+          "tag": "li",
+          "text": "Crane Removal \u2190 Swipe to view tiers \u2192 Standard Project Minimum: $1,600"
+        },
+        {
+          "tag": "h4",
+          "text": "\ud83d\udccd The \"Neighborhood Deal\""
+        },
+        {
+          "tag": "p",
+          "text": "Save by booking with a neighbor on the same day! We can often waive minimums or offer group discounts for multiple removals in one area."
+        },
+        {
+          "tag": "h3",
+          "text": "Pricing Variables"
+        },
+        {
+          "tag": "p",
+          "text": "Final quotes may vary based on: Tree Species Complexity/Rigging Accessibility Equipment Needs Hazard Level"
+        },
+        {
+          "tag": "h3",
+          "text": "Ready to crunch the numbers?"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Height Calculator"
+        },
+        {
+          "tag": "p",
+          "text": "Don't know how big your tree is? Check out this easy-to-use calculator!"
+        },
+        {
+          "tag": "a",
+          "text": "Firewood Cord Calculator"
+        },
+        {
+          "tag": "p",
+          "text": "Wanna know how much firewood you could get? Use this!"
+        },
+        {
+          "tag": "a",
+          "text": "\u2190 Back to All Services"
+        },
+        {
+          "tag": "h2",
+          "text": "Get in Touch"
+        },
+        {
+          "tag": "h4",
+          "text": "THREE FORKS MONTANA"
+        },
+        {
+          "tag": "a",
+          "text": "(406) 539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "GIVENS FIRE & FORESTRY LLC"
+        }
+      ]
+    },
+    "/appointments": {
+      "title": "Appointments | Book Professional Forest Services Today \u2014 Givens Fire and Forestry",
+      "file": "research/pages/appointments.html",
+      "images": [
+        "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739324807615-ZSEVWEKRV5HVEM3YPH7O/unsplash-image-gZqDZ5r0DIo.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739324807615-ZSEVWEKRV5HVEM3YPH7O/unsplash-image-gZqDZ5r0DIo.jpg\",",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+        "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+        "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+      ],
+      "text": [
+        {
+          "tag": "a",
+          "text": "Skip to Content"
+        },
+        {
+          "tag": "a",
+          "text": "Givens Fire and Forestry"
+        },
+        {
+          "tag": "a",
+          "text": "Home"
+        },
+        {
+          "tag": "a",
+          "text": "About"
+        },
+        {
+          "tag": "a",
+          "text": "Gallery"
+        },
+        {
+          "tag": "a",
+          "text": "Services"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Removal"
+        },
+        {
+          "tag": "a",
+          "text": "Contact"
+        },
+        {
+          "tag": "a",
+          "text": "Resources"
+        },
+        {
+          "tag": "a",
+          "text": "Toolbox"
+        },
+        {
+          "tag": "a",
+          "text": "Get a Quote!"
+        },
+        {
+          "tag": "button",
+          "text": "Open Menu Close Menu"
+        },
+        {
+          "tag": "h2",
+          "text": "Schedule your appointment"
+        },
+        {
+          "tag": "p",
+          "text": "Book an appointment with our forestry experts today to receive professional guidance on sustainable forest management practices. Our team is dedicated to helping you maximize the health and productivity of your woodland resources."
+        },
+        {
+          "tag": "a",
+          "text": "(406) 539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "Tap to call our Montana office \u2014 or request a time with the form below."
+        },
+        {
+          "tag": "p",
+          "text": "Montana division"
+        },
+        {
+          "tag": "h3",
+          "text": "Gallatin Valley"
+        },
+        {
+          "tag": "p",
+          "text": "Operator Samuel Givens"
+        },
+        {
+          "tag": "p",
+          "text": "Washington division"
+        },
+        {
+          "tag": "p",
+          "text": "Launching soon \u00b7 Greater Spokane"
+        },
+        {
+          "tag": "h3",
+          "text": "Robert Berry, operator"
+        },
+        {
+          "tag": "p",
+          "text": "Spokane-area services are on the way. Call our Montana number above to get on the early scheduling list and hear when we open the Washington route."
+        },
+        {
+          "tag": "h4",
+          "text": "THREE FORKS MONTANA"
+        },
+        {
+          "tag": "p",
+          "text": "GIVENS FIRE & FORESTRY LLC"
+        }
+      ]
+    },
+    "/resources": {
+      "title": "Resources | Enhance Fire Safety Today \u2014 Givens Fire and Forestry",
+      "file": "research/pages/resources.html",
+      "images": [
+        "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739058811805-0WD2YARASTZI2DSB8TLC/unsplash-image-7RuhOrZO-1g.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/51266b1d-81b8-4ef5-8136-d7c7a35b1cbb/DNRC.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6161f2f4-3430-4e98-bde2-d8b3695fbfe3/unnamed+%281%29.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/9acd48ec-f239-4e6c-b655-3963912aad15/images.jpeg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/9e8bffae-4da0-436f-872e-f9ce00809274/Firewise-logo.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c6e46d63-c100-4453-af2c-289e29f77e44/MSU-core-logo-initial-only-400x300px.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/da427bab-3c16-4c32-bc07-332924391eeb/unnamed.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/e91f3b16-7b4b-4afa-9491-0a513e69124b/images.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/eddf2a88-9b07-4cfd-8722-006a9f94ac9e/ab67656300005f1f0485c40f584aa0bf418526eb.jpeg",
+        "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+        "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+      ],
+      "text": [
+        {
+          "tag": "a",
+          "text": "Skip to Content"
+        },
+        {
+          "tag": "a",
+          "text": "Givens Fire and Forestry"
+        },
+        {
+          "tag": "a",
+          "text": "Home"
+        },
+        {
+          "tag": "a",
+          "text": "About"
+        },
+        {
+          "tag": "a",
+          "text": "Gallery"
+        },
+        {
+          "tag": "a",
+          "text": "Services"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Removal"
+        },
+        {
+          "tag": "a",
+          "text": "Contact"
+        },
+        {
+          "tag": "a",
+          "text": "Resources"
+        },
+        {
+          "tag": "a",
+          "text": "Toolbox"
+        },
+        {
+          "tag": "a",
+          "text": "Get a Quote!"
+        },
+        {
+          "tag": "button",
+          "text": "Open Menu Close Menu"
+        },
+        {
+          "tag": "button",
+          "text": "View fullsize"
+        },
+        {
+          "tag": "h1",
+          "text": "Educational Resources for Wildfire Mitigation and Forest Management"
+        },
+        {
+          "tag": "p",
+          "text": "At Givens Fire & Forestry LLC, we believe in empowering homeowners and landowners with the knowledge they need to protect their properties. Below are some trusted resources that provide valuable information on wildfire prevention, forest management, and general safety measures. Whether you're just starting to learn about fire mitigation or you're looking to expand your knowledge, these links can help you take the necessary steps to safeguard your land."
+        },
+        {
+          "tag": "h3",
+          "text": "Montana State University Extension Forestry Calendar"
+        },
+        {
+          "tag": "p",
+          "text": "The Montana State University Extension Forestry Calendar is a comprehensive resource for individuals interested in forestry and natural resource management. It provides a detailed schedule of upcoming events, workshops, and educational opportunities throughout Montana, catering to both landowners and professionals."
+        },
+        {
+          "tag": "p",
+          "text": "Participants can engage in a variety of activities designed to enhance their understanding of forest health, fire prevention, and sustainable land management practices. These events cover topics such as forest ecology, fire and insect management for resilience, wildlife habitat enhancement, understory and range management, and forest assessment and maintenance. Additionally, workshops on writing Forest Stewardship Management Plans and resources for further assistance are available."
+        },
+        {
+          "tag": "a",
+          "text": "LEARN MORE"
+        },
+        {
+          "tag": "h3",
+          "text": "NIFC Wildfire Incident Situation Report"
+        },
+        {
+          "tag": "p",
+          "text": "The National Interagency Fire Center (NIFC) Incident Management Situation Report (IMSR) is a crucial daily publication that offers in-depth insights into wildfire incidents across the United States. It provides detailed information on active fires, fire weather conditions, and the various resources being mobilized to manage these incidents. By keeping up with these reports, homeowners, land managers, and emergency responders can stay informed about fire activity trends, anticipate potential threats, and understand the ongoing coordinated efforts to protect communities and critical infrastructure. This valuable resource helps in making informed decisions about fire preparedness and response."
+        },
+        {
+          "tag": "h3",
+          "text": "Fire Weather & Avalanche Center"
+        },
+        {
+          "tag": "p",
+          "text": "The Fire Weather & Avalanche Center provides real-time, comprehensive wildfire and avalanche forecasts, maps, and analysis to help you stay informed about hazardous conditions in your area. This site offers detailed fire weather reports, including temperature, wind speed, humidity, and precipitation forecasts, which are essential for understanding and assessing wildfire risks. It also provides avalanche forecasts with snowpack conditions, danger ratings, and safety recommendations for mountainous regions. Whether you're a homeowner, landowner, or fire prevention professional, this resource is crucial for staying ahead of environmental factors that impact safety and fire prevention efforts."
+        },
+        {
+          "tag": "h3",
+          "text": "Firewise USA"
+        },
+        {
+          "tag": "p",
+          "text": "Firewise USA is a program developed by the National Fire Protection Association (NFPA) to empower communities in reducing wildfire risks. The program offers a wealth of valuable resources, strategies, and practical tips designed to help homeowners and communities take proactive steps to prepare for and protect properties from wildfires. By becoming part of Firewise USA, you gain access to tools, expert advice, and best practices for creating defensible spaces, reducing fire hazards, and improving your property\u2019s resilience to wildfires. It\u2019s an essential initiative for anyone looking to safeguard their home and neighborhood from the devastating impacts of wildfire."
+        },
+        {
+          "tag": "h3",
+          "text": "ANCHOR POINT PODCAST"
+        },
+        {
+          "tag": "p",
+          "text": "The Anchor Point Podcast is a dedicated resource for the wildland firefighting community, offering deep, insightful discussions on a wide range of topics including fire behavior, safety protocols, and the mental health challenges faced by firefighters. The podcast features candid interviews with industry professionals, shedding light on both the personal and professional aspects of the job. Each episode serves as a platform for sharing valuable knowledge and experiences, encouraging learning, growth, and reflection among those in the field. By highlighting the often-overlooked emotional and psychological impacts of wildland firefighting, the podcast fosters a sense of connection and support within the community. Anchor Point Podcast provides essential insights and resources for navigating the complexities of the profession while promoting mental well-being and safety on the job."
+        },
+        {
+          "tag": "h3",
+          "text": "HOTSHOT WAKE UP BLOG"
+        },
+        {
+          "tag": "p",
+          "text": "The Hotshot Wake Up is a powerful podcast that offers unfiltered and authentic perspectives from the world of wildland firefighting. Hosted by seasoned firefighters with years of firsthand experience, the show delves into the unique challenges, intense experiences, and invaluable lessons learned in this high-stakes and demanding profession.The podcast emphasizes the importance of community support, resilience, and education, providing a platform for discussing mental and physical well-being, stress management, and the critical need for a supportive environment within the firefighting community. Hotshot Wake Up offers insightful stories and candid conversations that bring attention to the human side of firefighting."
+        },
+        {
+          "tag": "h3",
+          "text": "Wildland Fire Learning Portal"
+        },
+        {
+          "tag": "p",
+          "text": "This portal serves as a comprehensive hub for both wildland firefighters and the general public, offering a wide range of resources and training programs. It includes in-depth courses on essential topics such as fire prevention, safety protocols, and best practices for reducing the risk of wildfires. Whether you\u2019re a firefighter looking to advance your skills or a homeowner and community member interested in safeguarding your property, this site provides valuable tools, knowledge, and expert advice to help protect lives and property from the dangers of wildfires. With a focus on real-world strategies, the portal empowers users to take proactive measures to reduce fire hazards, enhance community preparedness, and respond effectively to wildfire threats. It\u2019s a vital resource for anyone looking to contribute to wildfire risk reduction and safety."
+        },
+        {
+          "tag": "p",
+          "text": "The Montana Department of Natural Resources and Conservation offers grants designed to help landowners reduce hazardous fuels and enhance wildfire safety on their properties. These grants can cover a range of services, including brush removal, tree thinning, and creating defensible space. If you're looking to reduce fire risks on your land, you may be eligible for funding to help pay for the services your property needs. Visit this link to find out more and see if you qualify for this valuable assistance, which can help cover the cost of the work provided by our experienced team."
+        },
+        {
+          "tag": "h3",
+          "text": "Montana DNRC Hazardous Fuels Reduction Grants"
+        },
+        {
+          "tag": "h4",
+          "text": "THREE FORKS MONTANA"
+        },
+        {
+          "tag": "a",
+          "text": "(406) 539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "GIVENS FIRE & FORESTRY LLC"
+        }
+      ]
+    },
+    "/toolbox": {
+      "title": "Toolbox | Enhance Your Forestry Efficiency Today \u2014 Givens Fire and Forestry",
+      "file": "research/pages/toolbox.html",
+      "images": [
+        "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d7c28a7c-e6e1-4050-9d1b-dba8fa0d0b9a/d2CoInzCTGKXNeEwKzJMgQ.jpeg",
+        "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/f7232bc1-b36d-4a11-b333-c840830e4482/LIvDTcXFSPyD1L9VpmZOFA.jpeg",
+        "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+        "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+        "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+      ],
+      "text": [
+        {
+          "tag": "a",
+          "text": "Skip to Content"
+        },
+        {
+          "tag": "a",
+          "text": "Givens Fire and Forestry"
+        },
+        {
+          "tag": "a",
+          "text": "Home"
+        },
+        {
+          "tag": "a",
+          "text": "About"
+        },
+        {
+          "tag": "a",
+          "text": "Gallery"
+        },
+        {
+          "tag": "a",
+          "text": "Services"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Removal"
+        },
+        {
+          "tag": "a",
+          "text": "Contact"
+        },
+        {
+          "tag": "a",
+          "text": "Resources"
+        },
+        {
+          "tag": "a",
+          "text": "Toolbox"
+        },
+        {
+          "tag": "a",
+          "text": "Get a Quote!"
+        },
+        {
+          "tag": "button",
+          "text": "Open Menu Close Menu"
+        },
+        {
+          "tag": "h1",
+          "text": "Toolbox \ud83d\udee0\ufe0f"
+        },
+        {
+          "tag": "p",
+          "text": "Here are two useful tools for tree measurements and calculations. Click on the tool names or the images below to start using them!"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Volume & Cords Calculator \ud83e\udeb5"
+        },
+        {
+          "tag": "p",
+          "text": "Got a felled tree and want to know how much firewood you\u2019ve got? This tool calculates the tree\u2019s volume based on diameter and height, then converts it into cords of wood. Ideal for firewood sellers, homesteaders, and loggers who need quick and accurate estimates"
+        },
+        {
+          "tag": "a",
+          "text": "Tree Height Calculator \ud83c\udf32"
+        },
+        {
+          "tag": "p",
+          "text": "Want to estimate a tree\u2019s height without climbing it? This tool helps you calculate tree height using a simple angle measurement method. Just input your distance from the tree and the angle of elevation, and get an instant height calculation."
+        },
+        {
+          "tag": "h4",
+          "text": "THREE FORKS MONTANA"
+        },
+        {
+          "tag": "a",
+          "text": "(406) 539-4224"
+        },
+        {
+          "tag": "p",
+          "text": "GIVENS FIRE & FORESTRY LLC"
+        }
+      ]
+    }
+  },
+  "all_links": [
+    "https://anchorpointpodcast.com/",
+    "https://dnrc.mt.gov/forestry/Grants/StewardshipGrants/Hazardous-Fuels-Reduction",
+    "https://thehotshotwakeup.substack.com/",
+    "https://www.facebook.com/profile.php?id=61573118516671",
+    "https://www.fireweatheravalanche.org/fire/",
+    "https://www.givensfireandforestry.com/",
+    "https://www.givensfireandforestry.com/about",
+    "https://www.givensfireandforestry.com/appointments",
+    "https://www.givensfireandforestry.com/cart",
+    "https://www.givensfireandforestry.com/firewood-cord-calculator",
+    "https://www.givensfireandforestry.com/flat-rates-for-tree-removal",
+    "https://www.givensfireandforestry.com/gallery",
+    "https://www.givensfireandforestry.com/resources",
+    "https://www.givensfireandforestry.com/services",
+    "https://www.givensfireandforestry.com/services#storm",
+    "https://www.givensfireandforestry.com/services/#brushremoval",
+    "https://www.givensfireandforestry.com/services/#defense",
+    "https://www.givensfireandforestry.com/services/#postburn",
+    "https://www.givensfireandforestry.com/services/#slash",
+    "https://www.givensfireandforestry.com/services/#tree",
+    "https://www.givensfireandforestry.com/toolbox",
+    "https://www.givensfireandforestry.com/tree-height-calculator",
+    "https://www.instagram.com/givensfireandforestry/",
+    "https://www.montana.edu/extension/forestry/calendar/index.html",
+    "https://www.nfpa.org/Education-and-Research/Wildfire/Firewise-USA",
+    "https://www.nifc.gov/nicc-files/sitreprt.pdf",
+    "https://www.wildlandfirersg.org/s/?language=en_US"
+  ],
+  "font_links": [
+    "https://fonts.googleapis.com/css2?family=Anton:ital,wght@0,400&family=Oswald:ital,wght@0,400;0,700&family=Newsreader:ital,wght@0,400",
+    "https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400&family=Anton:ital,wght@0,400&family=Oswald:ital,wght@0,400;0,700",
+    "https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400&family=Oswald:ital,wght@0,400;0,700&family=Anton:ital,wght@0,400",
+    "https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,400;0,700&family=Newsreader:ital,wght@0,400&family=Anton:ital,wght@0,400"
+  ],
+  "font_families_raw": [
+    " 'Helvetica Neue', Arial, sans-serif",
+    " inherit"
+  ],
+  "hex_colors": [
+    "#124",
+    "#1a3c34",
+    "#222",
+    "#82a3a1",
+    "#888",
+    "#8d993e07",
+    "#c45c26",
+    "#e1e1e1",
+    "#eee",
+    "#f0b85c",
+    "#f9fbfb",
+    "#fff",
+    "#ffffff"
+  ],
+  "rgb_colors": [
+    "rgba(0, 0, 0, 0.42)",
+    "rgba(0, 0, 0, 0.55)",
+    "rgba(0,0,0,0.05)",
+    "rgba(0,0,0,0.6)",
+    "rgba(255, 255, 255, 0.2)",
+    "rgba(255, 255, 255, 0.28)",
+    "rgba(255, 255, 255, 0.55)",
+    "rgba(255, 255, 255, 0.62)",
+    "rgba(255, 255, 255, 0.78)",
+    "rgba(255, 255, 255, 0.85)",
+    "rgba(255, 255, 255, 0.9)",
+    "rgba(255, 255, 255, 0.92)",
+    "rgba(255, 255, 255, 0.94)",
+    "rgba(255,255,255,0.1)",
+    "rgba(255,255,255,0.15)",
+    "rgba(255,255,255,0.3)",
+    "rgba(255,255,255,0.6)"
+  ],
+  "width_mentions": [
+    "--sqs-site-max-width",
+    "max-width)))",
+    "max-width: 100%",
+    "max-width: 100% !important",
+    "max-width: 1099px) calc((100vw - 20px) / 2)",
+    "max-width: 1100px",
+    "max-width: 1199px) calc((100vw - 20px) / 2)",
+    "max-width: 240px",
+    "max-width: 250px",
+    "max-width: 42rem",
+    "max-width: 56rem",
+    "max-width: 575px) calc((100vw - 0px) / 1)",
+    "max-width: 600px",
+    "max-width: 640px) 100vw",
+    "max-width: 700px) ",
+    "max-width: 75%",
+    "max-width: 767px) ",
+    "max-width: 767px) 100vw",
+    "max-width: 767px) 50vw",
+    "max-width: 767px) 75vw",
+    "max-width: 767px) 87.5vw",
+    "max-width: 767px) calc((100vw - 20px) / 2)",
+    "max-width: 768px) ",
+    "max-width: 799px) 200vw",
+    "max-width: 900px",
+    "max-width: 96vw",
+    "max-width: calc( ( var(--sqs-site-max-width",
+    "max-width:100%\">"
+  ],
+  "all_images": [
+    "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67956de65d106c459aaaac72/1737846249178/black_red_minimalist_lumberjack_logo_design-removebg-preview.png",
+    "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+    "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/728dd6a9-8a51-4ccb-8ce6-646159615591/Gemini_Generated_Image_fkhdxnfkhdxnfkhd.png?content-type=image%2Fpng",
+    "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/a8b59b36-dfb0-453c-ad7a-6bb0a054c035/Gemini_Generated_Image_wdnxtdwdnxtdwdnx.png?content-type=image%2Fpng",
+    "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/c6cb13fd-9867-4b27-a7fe-0ef30c4f8094/Gemini_Generated_Image_dfxn1ddfxn1ddfxn.png?content-type=image%2Fpng",
+    "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/f8f13536-0409-42dd-9228-b5a048d7bdf8/Gemini_Generated_Image_nkortbnkortbnkor.png?content-type=image%2Fpng",
+    "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1607694583486-2PQT0LQ193RL7MCB6DX4/20140228_Trade+151_0046.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1607694644871-IC85FNH781UNZSZEGHDR/Aro+Ha_0428.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1618497259178-6XJGK9GR6YAVBQL5L519/20140301_Trade-151_012-2.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/08993a82-897b-4e30-8c29-f415b7dac305/20230825_111330.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/08993a82-897b-4e30-8c29-f415b7dac305/20230825_111330.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0bd1dc8f-fd1d-4c36-95a1-abce76080550/Before+and+after+1.1.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0bd1dc8f-fd1d-4c36-95a1-abce76080550/Before+and+after+1.1.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0c297c39-2e1c-45d7-994a-325466c9353d/20171019_095718.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0e8b70a8-7cc8-4dc7-88af-730a6821160e/Before+and+after+1.3.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0e8b70a8-7cc8-4dc7-88af-730a6821160e/Before+and+after+1.3.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1737940520489-1MHMJ2C9I0E19RMI4VYF/unsplash-image--iretlQZEU4.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1737940520489-1MHMJ2C9I0E19RMI4VYF/unsplash-image--iretlQZEU4.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739056883633-BE5SCGPO6LRMD25NL6Q0/unsplash-image-NUjw3H9k1EM.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739058811805-0WD2YARASTZI2DSB8TLC/unsplash-image-7RuhOrZO-1g.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739324807615-ZSEVWEKRV5HVEM3YPH7O/unsplash-image-gZqDZ5r0DIo.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739324807615-ZSEVWEKRV5HVEM3YPH7O/unsplash-image-gZqDZ5r0DIo.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1768965122187-HGXVVHI0LN1Y2CIF8LZN/unsplash-image-50bzI1F6urA.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1768965122187-HGXVVHI0LN1Y2CIF8LZN/unsplash-image-50bzI1F6urA.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1771806738109-QM4MCFREI100KDW7GKKV/unsplash-image-IYu-6NpPXh8.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1771806738109-QM4MCFREI100KDW7GKKV/unsplash-image-IYu-6NpPXh8.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1f018e1d-f2b8-4d78-afb5-33b4b8aa168a/20240916_115101.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/2685b784-deb2-41ae-9153-fbf4fe19faed/1000003137.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/336d1dac-c133-43f9-88cf-b4603bc0b2fd/20240903_182933.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3840e580-bb84-46af-9c3b-b158654d2e84/20171019_100730.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3b2cd896-1de5-47bc-a685-835fa673242a/traced-Screenshot+2026-01-23+at+4.35.17%E2%80%AFPM.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3b7bef65-1d80-440d-9ba7-7834ecc9f3f8/20170913_184013.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/45680ac4-7acf-45eb-ba02-165b0f5c107a/forest_green_aerial_view_145946_1280x1280.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/45680ac4-7acf-45eb-ba02-165b0f5c107a/forest_green_aerial_view_145946_1280x1280.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/45728da6-5463-4db9-863c-8a546fc0400e/Screenshot_20220817-010240_Instagram.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/50f83785-6637-4092-ac21-90d09b1f4765/IMAGE+2025-01-26+17%3A44%3A48.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/5119bc66-d281-47d4-9eba-5a010aeabb5c/Screen+Shot+2025-01-26+at+5.25.06+PM.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/51266b1d-81b8-4ef5-8136-d7c7a35b1cbb/DNRC.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/5f611b33-6e72-4fc7-a7c6-385421ec68ce/20240414_084336.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6161f2f4-3430-4e98-bde2-d8b3695fbfe3/unnamed+%281%29.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6703ec87-6d77-49e8-a06c-c25314122f5d/Screenshot+2026-02-10+at+6.29.24%E2%80%AFPM.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/673302e4-06ed-497b-b2bf-d237aa18cd3e/20230421_122843.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6fd728e4-c4c0-44cd-8a0c-b941b711ab70/20171019_122517.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/71fde2d9-1964-4902-a771-eadbf2275d95/20210721_095010.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/71fde2d9-1964-4902-a771-eadbf2275d95/20210721_095010.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/7591ec94-9422-4294-873e-c41a59616977/Screenshot+2026-02-10+at+6.29.42%E2%80%AFPM.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/78dee972-d079-4881-bb6d-193fcab2ebb9/20230824_160905.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/78dee972-d079-4881-bb6d-193fcab2ebb9/20230824_160905.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/794cdb9c-b833-4cf0-8489-2984a7825573/GIVENS+%281%29.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/86e80d42-1d1d-4ec3-b98a-995fdaccef66/20240420_143635.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/86e80d42-1d1d-4ec3-b98a-995fdaccef66/20240420_143635.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/8e9f2c36-d0b6-42c9-b118-fb0f62554bd6/Image_1739138668530.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/8e9f2c36-d0b6-42c9-b118-fb0f62554bd6/Image_1739138668530.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/98c97794-5018-4acd-b73d-732641cc233c/Teueudh.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/98c97794-5018-4acd-b73d-732641cc233c/Teueudh.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/9acd48ec-f239-4e6c-b655-3963912aad15/images.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/9e8bffae-4da0-436f-872e-f9ce00809274/Firewise-logo.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a600a0ec-bba9-4237-9122-2b5d08f14f1c/20240412_162104.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a6776eb0-5dbf-4dad-8878-94903aee2d73/20230824_160905.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a6776eb0-5dbf-4dad-8878-94903aee2d73/20230824_160905.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b361feb4-6b7f-48c6-b69e-95380704d6c0/20240905_192443.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b5525354-971e-4617-a8a0-88f1f88becaf/44536680_10212078440187725_2851013928333344768_n.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b6c1174a-cc1e-4a60-aa8f-4c072f2ab744/20230907_175912.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b6c1174a-cc1e-4a60-aa8f-4c072f2ab744/20230907_175912.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c0893c59-470d-4d1b-8a4d-5308c647fdff/8304799397366373428.jpg.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c0893c59-470d-4d1b-8a4d-5308c647fdff/8304799397366373428.jpg.jpeg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c6e46d63-c100-4453-af2c-289e29f77e44/MSU-core-logo-initial-only-400x300px.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c87795f0-4f3a-43cc-82e2-e521c63663a4/MONTANA+DIVISION+%281%29.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/caab8a44-3279-4bc3-ac92-4b64c01ec032/20240909_134220.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/caab8a44-3279-4bc3-ac92-4b64c01ec032/20240909_134220.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d0457ddb-e40e-468d-8c2c-7f317f28f833/1000003437.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d775a66f-6abf-4240-908b-e01d74d4b5e9/20201224_182400.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d7c28a7c-e6e1-4050-9d1b-dba8fa0d0b9a/d2CoInzCTGKXNeEwKzJMgQ.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d8370524-5c0a-41ff-bcbe-42ce548b7985/20180708_135845%281%29.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/da427bab-3c16-4c32-bc07-332924391eeb/unnamed.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/db5ce26f-c747-492e-8c81-ac6c2874b651/19075-Picsart-AiImageEnhancer.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/de5e2f2d-25fc-449a-9608-e3fe010c534a/20171019_095721.jpg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/de5e2f2d-25fc-449a-9608-e3fe010c534a/20171019_095721.jpg\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/dfb14460-876c-4af3-90f5-398b2a165436/Screenshot+2026-02-10+at+6.20.57%E2%80%AFPM.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/e91f3b16-7b4b-4afa-9491-0a513e69124b/images.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/eddf2a88-9b07-4cfd-8722-006a9f94ac9e/ab67656300005f1f0485c40f584aa0bf418526eb.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/f7232bc1-b36d-4a11-b333-c840830e4482/LIvDTcXFSPyD1L9VpmZOFA.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/fd996f1d-d8a2-4c66-abc5-1b5569818537/Screenshot+2026-02-10+at+6.20.57%E2%80%AFPM.png",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/fd996f1d-d8a2-4c66-abc5-1b5569818537/Screenshot+2026-02-10+at+6.20.57%E2%80%AFPM.png\",",
+    "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ff576e5a-29d2-42c7-90b1-7a03b68744e4/Screenshot+2026-02-10+at+6.29.31%E2%80%AFPM.png",
+    "https://static1.squarespace.com/static/custom-css/6795560bcd9b2260ee3527e5/6795560bcd9b2260ee352806/6/custom.css",
+    "https://static1.squarespace.com/static/versioned-site-css/6795560bcd9b2260ee3527e5/53/5c5a519771c10ba3470d8101/6795560bcd9b2260ee352806/1780/site.css?nocustom=true",
+    "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/",
+    "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.24618f321442829cf50ddb341e64781c.js",
+    "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1778089882207-IV5GHHG20Y02RIG1FE1F/static.css"
+  ]
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toolbox | Givens Fire and Forestry</title>
+    <meta name="description" content="Tree height and firewood cord calculators for forestry planning.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Newsreader:opsz@6..72&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to Content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Givens Fire and Forestry home">Givens Fire and Forestry</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span class="sr-only">Open Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="tree-removal.html">Tree Removal</a>
+        <a href="contact.html">Contact</a>
+        <a href="resources.html">Resources</a>
+        <a href="toolbox.html" aria-current="page">Toolbox</a>
+        <a class="social-link" href="https://www.instagram.com/givensfireandforestry/" aria-label="Instagram">IG</a>
+        <a class="social-link" href="https://www.facebook.com/profile.php?id=61573118516671" aria-label="Facebook">FB</a>
+        <a class="quote-link" href="contact.html">Get a Quote!</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="section toolbox-section">
+        <div class="container centered-copy">
+          <h1>Toolbox</h1>
+          <p>Here are two useful tools for tree measurements and calculations. Use them to estimate firewood volume or tree height before your consultation.</p>
+        </div>
+        <div class="container tool-grid">
+          <article class="tool-card">
+            <img src="assets/images/d2coinzctgkxneewkzjmgq.jpg" alt="Firewood cord calculator illustration">
+            <h2>Tree Volume &amp; Cords Calculator</h2>
+            <p>Got a felled tree and want to know how much firewood you've got? This tool calculates the tree's volume based on diameter and height, then converts it into cords of wood.</p>
+            <form class="tool-form" data-cord-form>
+              <label>Diameter in inches<input type="number" min="1" step="0.1" name="diameter" value="18"></label>
+              <label>Log length in feet<input type="number" min="1" step="0.1" name="length" value="16"></label>
+              <button class="button" type="submit">Calculate Cords</button>
+              <output data-cord-result>Estimated result appears here.</output>
+            </form>
+          </article>
+          <article class="tool-card">
+            <img src="assets/images/livdtcxfspyd1l9vpmzofa.jpg" alt="Tree height calculator illustration">
+            <h2>Tree Height Calculator</h2>
+            <p>Want to estimate a tree's height without climbing it? Input your distance from the tree and angle of elevation for an instant height estimate.</p>
+            <form class="tool-form" data-height-form>
+              <label>Distance from tree in feet<input type="number" min="1" step="0.1" name="distance" value="60"></label>
+              <label>Angle of elevation<input type="number" min="1" max="89" step="0.1" name="angle" value="45"></label>
+              <label>Eye height in feet<input type="number" min="0" step="0.1" name="eye" value="5.5"></label>
+              <button class="button" type="submit">Calculate Height</button>
+              <output data-height-result>Estimated result appears here.</output>
+            </form>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Three Forks Montana</p>
+      <a href="tel:14065394224">(406) 539-4224</a>
+      <p>Givens Fire &amp; Forestry LLC</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

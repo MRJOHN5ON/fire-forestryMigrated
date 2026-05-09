@@ -1,0 +1,418 @@
+{
+  "assets": [
+    {
+      "page": "/",
+      "source": "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67956de65d106c459aaaac72/1737846249178/black_red_minimalist_lumberjack_logo_design-removebg-preview.png",
+      "file": "assets/images/logo-emblem.png",
+      "bytes": 73264
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/065a8c47-b165-4920-b091-8c90cfc1e7c4/GIVENS.png",
+      "file": "assets/images/logo-crest.png",
+      "bytes": 256582
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3840e580-bb84-46af-9c3b-b158654d2e84/20171019_100730.jpg",
+      "file": "assets/images/20171019-100730.jpg",
+      "bytes": 746756
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/78dee972-d079-4881-bb6d-193fcab2ebb9/20230824_160905.jpg",
+      "file": "assets/images/20230824-160905.jpg",
+      "bytes": 481130
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/794cdb9c-b833-4cf0-8489-2984a7825573/GIVENS+%281%29.png",
+      "file": "assets/images/givens-1.png",
+      "bytes": 379018
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/86e80d42-1d1d-4ec3-b98a-995fdaccef66/20240420_143635.jpg",
+      "file": "assets/images/20240420-143635.jpg",
+      "bytes": 258022
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/8e9f2c36-d0b6-42c9-b118-fb0f62554bd6/Image_1739138668530.jpg",
+      "file": "assets/images/image-1739138668530.jpg",
+      "bytes": 177938
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a652d670-f2ef-4282-9a29-5423437bb764/favicon.ico",
+      "file": "assets/images/favicon.ico",
+      "bytes": 9608
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c0893c59-470d-4d1b-8a4d-5308c647fdff/8304799397366373428.jpg.jpeg",
+      "file": "assets/images/8304799397366373428-jpg.jpg",
+      "bytes": 399948
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c87795f0-4f3a-43cc-82e2-e521c63663a4/MONTANA+DIVISION+%281%29.png",
+      "file": "assets/images/montana-division-1.png",
+      "bytes": 93652
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ca9c0a3f-7078-4a2b-853a-f977de30cb12/favicon.ico",
+      "file": "assets/images/favicon-2.ico",
+      "bytes": 9728
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/caab8a44-3279-4bc3-ac92-4b64c01ec032/20240909_134220.jpg",
+      "file": "assets/images/20240909-134220.jpg",
+      "bytes": 322438
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d775a66f-6abf-4240-908b-e01d74d4b5e9/20201224_182400.jpg",
+      "file": "assets/images/20201224-182400.jpg",
+      "bytes": 121600
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/de5e2f2d-25fc-449a-9608-e3fe010c534a/20171019_095721.jpg",
+      "file": "assets/images/20171019-095721.jpg",
+      "bytes": 332626
+    },
+    {
+      "page": "/",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/fd996f1d-d8a2-4c66-abc5-1b5569818537/Screenshot+2026-02-10+at+6.20.57%E2%80%AFPM.png",
+      "file": "assets/images/screenshot-2026-02-10-at-6-20-57-pm.png",
+      "bytes": 2518250
+    },
+    {
+      "page": "/about",
+      "source": "http://static1.squarespace.com/static/6795560bcd9b2260ee3527e5/t/67b243cb40324540b1071e72/1739736011107/New+logo.png",
+      "file": "assets/images/new-logo.png",
+      "bytes": 150808
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1607694583486-2PQT0LQ193RL7MCB6DX4/20140228_Trade+151_0046.jpg",
+      "file": "assets/images/20140228-trade-151-0046.jpg",
+      "bytes": 203854
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1607694644871-IC85FNH781UNZSZEGHDR/Aro+Ha_0428.jpg",
+      "file": "assets/images/aro-ha-0428.jpg",
+      "bytes": 313034
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1618497259178-6XJGK9GR6YAVBQL5L519/20140301_Trade-151_012-2.jpg",
+      "file": "assets/images/20140301-trade-151-012-2.jpg",
+      "bytes": 187284
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1737940520489-1MHMJ2C9I0E19RMI4VYF/unsplash-image--iretlQZEU4.jpg",
+      "file": "assets/images/unsplash-image-iretlqzeu4.jpg",
+      "bytes": 308682
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/50f83785-6637-4092-ac21-90d09b1f4765/IMAGE+2025-01-26+17%3A44%3A48.jpg",
+      "file": "assets/images/image-2025-01-26-17-44-48.jpg",
+      "bytes": 362566
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/5119bc66-d281-47d4-9eba-5a010aeabb5c/Screen+Shot+2025-01-26+at+5.25.06+PM.png",
+      "file": "assets/images/screen-shot-2025-01-26-at-5-25-06-pm.png",
+      "bytes": 2229776
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/98c97794-5018-4acd-b73d-732641cc233c/Teueudh.jpg",
+      "file": "assets/images/teueudh.jpg",
+      "bytes": 477046
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b5525354-971e-4617-a8a0-88f1f88becaf/44536680_10212078440187725_2851013928333344768_n.jpg",
+      "file": "assets/images/44536680-10212078440187725-2851013928333344768-n.jpg",
+      "bytes": 104126
+    },
+    {
+      "page": "/about",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/db5ce26f-c747-492e-8c81-ac6c2874b651/19075-Picsart-AiImageEnhancer.jpeg",
+      "file": "assets/images/19075-picsart-aiimageenhancer.jpg",
+      "bytes": 400694
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0c297c39-2e1c-45d7-994a-325466c9353d/20171019_095718.jpg",
+      "file": "assets/images/20171019-095718.jpg",
+      "bytes": 360130
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1f018e1d-f2b8-4d78-afb5-33b4b8aa168a/20240916_115101.jpg",
+      "file": "assets/images/20240916-115101.jpg",
+      "bytes": 1794158
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/2685b784-deb2-41ae-9153-fbf4fe19faed/1000003137.jpg",
+      "file": "assets/images/1000003137.jpg",
+      "bytes": 502460
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/336d1dac-c133-43f9-88cf-b4603bc0b2fd/20240903_182933.jpg",
+      "file": "assets/images/20240903-182933.jpg",
+      "bytes": 366296
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3b7bef65-1d80-440d-9ba7-7834ecc9f3f8/20170913_184013.jpg",
+      "file": "assets/images/20170913-184013.jpg",
+      "bytes": 220528
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/45728da6-5463-4db9-863c-8a546fc0400e/Screenshot_20220817-010240_Instagram.jpg",
+      "file": "assets/images/screenshot-20220817-010240-instagram.jpg",
+      "bytes": 107704
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/5f611b33-6e72-4fc7-a7c6-385421ec68ce/20240414_084336.jpg",
+      "file": "assets/images/20240414-084336.jpg",
+      "bytes": 1086900
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/673302e4-06ed-497b-b2bf-d237aa18cd3e/20230421_122843.jpg",
+      "file": "assets/images/20230421-122843.jpg",
+      "bytes": 1540326
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a600a0ec-bba9-4237-9122-2b5d08f14f1c/20240412_162104.jpg",
+      "file": "assets/images/20240412-162104.jpg",
+      "bytes": 1397756
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b361feb4-6b7f-48c6-b69e-95380704d6c0/20240905_192443.jpg",
+      "file": "assets/images/20240905-192443.jpg",
+      "bytes": 510320
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d0457ddb-e40e-468d-8c2c-7f317f28f833/1000003437.jpg",
+      "file": "assets/images/1000003437.jpg",
+      "bytes": 491920
+    },
+    {
+      "page": "/gallery",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d8370524-5c0a-41ff-bcbe-42ce548b7985/20180708_135845%281%29.jpg",
+      "file": "assets/images/20180708-135845-1.jpg",
+      "bytes": 618042
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/08993a82-897b-4e30-8c29-f415b7dac305/20230825_111330.jpg",
+      "file": "assets/images/20230825-111330.jpg",
+      "bytes": 444350
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0bd1dc8f-fd1d-4c36-95a1-abce76080550/Before+and+after+1.1.jpg",
+      "file": "assets/images/before-and-after-1-1.jpg",
+      "bytes": 504966
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/0e8b70a8-7cc8-4dc7-88af-730a6821160e/Before+and+after+1.3.jpg",
+      "file": "assets/images/before-and-after-1-3.jpg",
+      "bytes": 481626
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739056883633-BE5SCGPO6LRMD25NL6Q0/unsplash-image-NUjw3H9k1EM.jpg",
+      "file": "assets/images/unsplash-image-nujw3h9k1em.jpg",
+      "bytes": 190492
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1768965122187-HGXVVHI0LN1Y2CIF8LZN/unsplash-image-50bzI1F6urA.jpg",
+      "file": "assets/images/unsplash-image-50bzi1f6ura.jpg",
+      "bytes": 501296
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/3b2cd896-1de5-47bc-a685-835fa673242a/traced-Screenshot+2026-01-23+at+4.35.17%E2%80%AFPM.png",
+      "file": "assets/images/traced-screenshot-2026-01-23-at-4-35-17-pm.png",
+      "bytes": 137440
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6703ec87-6d77-49e8-a06c-c25314122f5d/Screenshot+2026-02-10+at+6.29.24%E2%80%AFPM.png",
+      "file": "assets/images/screenshot-2026-02-10-at-6-29-24-pm.png",
+      "bytes": 2291764
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6fd728e4-c4c0-44cd-8a0c-b941b711ab70/20171019_122517.jpg",
+      "file": "assets/images/20171019-122517.jpg",
+      "bytes": 406836
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/71fde2d9-1964-4902-a771-eadbf2275d95/20210721_095010.jpg",
+      "file": "assets/images/20210721-095010.jpg",
+      "bytes": 144752
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/7591ec94-9422-4294-873e-c41a59616977/Screenshot+2026-02-10+at+6.29.42%E2%80%AFPM.png",
+      "file": "assets/images/screenshot-2026-02-10-at-6-29-42-pm.png",
+      "bytes": 2643756
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/a6776eb0-5dbf-4dad-8878-94903aee2d73/20230824_160905.jpg",
+      "file": "assets/images/20230824-160905-2.jpg",
+      "bytes": 481130
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/dfb14460-876c-4af3-90f5-398b2a165436/Screenshot+2026-02-10+at+6.20.57%E2%80%AFPM.png",
+      "file": "assets/images/screenshot-2026-02-10-at-6-20-57-pm-2.png",
+      "bytes": 2518250
+    },
+    {
+      "page": "/services",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/ff576e5a-29d2-42c7-90b1-7a03b68744e4/Screenshot+2026-02-10+at+6.29.31%E2%80%AFPM.png",
+      "file": "assets/images/screenshot-2026-02-10-at-6-29-31-pm.png",
+      "bytes": 2037640
+    },
+    {
+      "page": "/flat-rates-for-tree-removal",
+      "source": "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/728dd6a9-8a51-4ccb-8ce6-646159615591/Gemini_Generated_Image_fkhdxnfkhdxnfkhd.png",
+      "file": "assets/images/gemini-generated-image-fkhdxnfkhdxnfkhd.png",
+      "bytes": 1786254
+    },
+    {
+      "page": "/flat-rates-for-tree-removal",
+      "source": "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/a8b59b36-dfb0-453c-ad7a-6bb0a054c035/Gemini_Generated_Image_wdnxtdwdnxtdwdnx.png",
+      "file": "assets/images/gemini-generated-image-wdnxtdwdnxtdwdnx.png",
+      "bytes": 1810294
+    },
+    {
+      "page": "/flat-rates-for-tree-removal",
+      "source": "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/c6cb13fd-9867-4b27-a7fe-0ef30c4f8094/Gemini_Generated_Image_dfxn1ddfxn1ddfxn.png",
+      "file": "assets/images/gemini-generated-image-dfxn1ddfxn1ddfxn.png",
+      "bytes": 1603740
+    },
+    {
+      "page": "/flat-rates-for-tree-removal",
+      "source": "https://images.squarespace-cdn.com/content/6795560bcd9b2260ee3527e5/f8f13536-0409-42dd-9228-b5a048d7bdf8/Gemini_Generated_Image_nkortbnkortbnkor.png",
+      "file": "assets/images/gemini-generated-image-nkortbnkortbnkor.png",
+      "bytes": 1358506
+    },
+    {
+      "page": "/flat-rates-for-tree-removal",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1771806738109-QM4MCFREI100KDW7GKKV/unsplash-image-IYu-6NpPXh8.jpg",
+      "file": "assets/images/unsplash-image-iyu-6nppxh8.jpg",
+      "bytes": 526002
+    },
+    {
+      "page": "/flat-rates-for-tree-removal",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/45680ac4-7acf-45eb-ba02-165b0f5c107a/forest_green_aerial_view_145946_1280x1280.jpg",
+      "file": "assets/images/forest-green-aerial-view-145946-1280x1280.jpg",
+      "bytes": 417822
+    },
+    {
+      "page": "/flat-rates-for-tree-removal",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/b6c1174a-cc1e-4a60-aa8f-4c072f2ab744/20230907_175912.jpg",
+      "file": "assets/images/20230907-175912.jpg",
+      "bytes": 425998
+    },
+    {
+      "page": "/appointments",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739324807615-ZSEVWEKRV5HVEM3YPH7O/unsplash-image-gZqDZ5r0DIo.jpg",
+      "file": "assets/images/unsplash-image-gzqdz5r0dio.jpg",
+      "bytes": 334080
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/1739058811805-0WD2YARASTZI2DSB8TLC/unsplash-image-7RuhOrZO-1g.jpg",
+      "file": "assets/images/unsplash-image-7ruhorzo-1g.jpg",
+      "bytes": 254758
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/51266b1d-81b8-4ef5-8136-d7c7a35b1cbb/DNRC.png",
+      "file": "assets/images/dnrc.png",
+      "bytes": 59842
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/6161f2f4-3430-4e98-bde2-d8b3695fbfe3/unnamed+%281%29.jpg",
+      "file": "assets/images/unnamed-1.jpg",
+      "bytes": 58524
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/9acd48ec-f239-4e6c-b655-3963912aad15/images.jpeg",
+      "file": "assets/images/images.jpg",
+      "bytes": 11532
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/9e8bffae-4da0-436f-872e-f9ce00809274/Firewise-logo.png",
+      "file": "assets/images/firewise-logo.png",
+      "bytes": 14724
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/c6e46d63-c100-4453-af2c-289e29f77e44/MSU-core-logo-initial-only-400x300px.jpg",
+      "file": "assets/images/msu-core-logo-initial-only-400x300px.jpg",
+      "bytes": 7014
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/da427bab-3c16-4c32-bc07-332924391eeb/unnamed.jpg",
+      "file": "assets/images/unnamed.jpg",
+      "bytes": 44874
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/e91f3b16-7b4b-4afa-9491-0a513e69124b/images.png",
+      "file": "assets/images/images.png",
+      "bytes": 2154
+    },
+    {
+      "page": "/resources",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/eddf2a88-9b07-4cfd-8722-006a9f94ac9e/ab67656300005f1f0485c40f584aa0bf418526eb.jpeg",
+      "file": "assets/images/ab67656300005f1f0485c40f584aa0bf418526eb.jpg",
+      "bytes": 20078
+    },
+    {
+      "page": "/toolbox",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/d7c28a7c-e6e1-4050-9d1b-dba8fa0d0b9a/d2CoInzCTGKXNeEwKzJMgQ.jpeg",
+      "file": "assets/images/d2coinzctgkxneewkzjmgq.jpg",
+      "bytes": 183138
+    },
+    {
+      "page": "/toolbox",
+      "source": "https://images.squarespace-cdn.com/content/v1/6795560bcd9b2260ee3527e5/f7232bc1-b36d-4a11-b333-c840830e4482/LIvDTcXFSPyD1L9VpmZOFA.jpeg",
+      "file": "assets/images/livdtcxfspyd1l9vpmzofa.jpg",
+      "bytes": 177530
+    }
+  ]
+}
