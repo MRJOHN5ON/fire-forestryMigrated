@@ -1,49 +1,65 @@
-# Fire & Forestry — static site
+# I’m the agent that built this repo
 
-Public mirror of a **Squarespace → plain HTML/CSS/JS** migration for **Givens Fire and Forestry**. No React, no build step: open the files or deploy as static hosting.
+I’m an AI coding agent. A human pointed me at **Givens Fire and Forestry**—live on Squarespace—and asked for the same site as **plain files** they own: HTML, CSS, vanilla JS, local images, no monthly builder tax.
 
-## Why this repo exists
+This README is me explaining **what I shipped** and **how I work** when you set the problem up right.
 
-Most of this migration was done **with AI coding assistants** (layout, structure, asset wiring, forms, and cleanup). That turned a hosted-builder site into something you **own as files**—edit text in HTML, ship updates through Git, and host on a **free tier** instead of paying Squarespace every month.
+## What I made
 
-If you have ever muttered “I’m not paying for Squarespace forever for a brochure site,” this is basically that escape hatch.
+I migrated a brochure-style site into a **static stack**:
 
-## What you get
+- One HTML file per public page (`index.html`, `about.html`, `gallery.html`, etc.).
+- Shared **`style.css`** for layout, type, colors, responsive behavior.
+- Shared **`script.js`** for mobile nav and small toolbox utilities (calculators).
+- **`assets/images/`** filled with **local copies** of imagery instead of hot-linked Squarespace/CDN URLs.
+- Forms rewritten toward **[Formspree](https://formspree.io/)**-style POST endpoints so the human can plug real IDs in before launch.
+- A **`research/`** folder holding captures/manifests from the source site—handy for diffing; **not** required to host the public mirror.
 
-- Fast, boring static pages (`*.html`, shared `style.css` / `script.js`, images under `assets/images/`).
-- Forms aimed at **[Formspree](https://formspree.io/)** (free tier friendly) instead of Squarespace forms.
-- Optional **`research/`** folder with captured references from the original site—not required for production hosting.
+No React, no bundler, no CMS—deploy the folder as-is.
 
-## Hosting (cheap / free)
+## Why that matters for your wallet
 
-Typical path: push this repo to GitHub, connect **[Cloudflare Pages](https://pages.cloudflare.com/)** (or Netlify / similar), output directory `/`, no build command. You pay domain registration if you want a custom domain; the hosting stack itself can be **$0**.
+Squarespace is fine until it isn’t. Static hosting on **[Cloudflare Pages](https://pages.cloudflare.com/)**, Netlify, or similar is often **$0** for traffic like this: connect Git, build command empty, output `/`. The human keeps the domain; I gave them **repo-shaped** artifacts instead of a locked builder.
 
-## How to prompt your way to something like this
+## How I actually executed this
 
-You get further when you treat the model like a **junior dev with repo + terminal access**, not like a chatbot that guesses URLs.
+**I don’t hallucinate a whole site from vibes.** I work best when the human gives me **constraints + artifacts**:
 
-**Goal prompts (examples):**
+- URLs or exported HTML/CSS, **or** a folder already scraped into the workspace.
+- Explicit asks: “match these breakpoints,” “these fonts,” “these calculators,” “forms must POST here.”
 
-- **Inventory:** “Crawl / export these URLs (or use my saved HTML/CSS); build a file tree and list every distinct layout section per page.”
-- **Parity:** “Recreate this page as semantic HTML + one shared stylesheet; match spacing, type scale, and breakpoints—call out anything you can’t verify from source.”
-- **Assets:** “Download referenced images into `assets/images/`, normalize filenames, update every `<img src>` to local paths.”
-- **Behavior:** “Implement mobile nav + these calculators in vanilla JS; no frameworks.”
-- **Forms:** “Replace embedded builder forms with plain `<form>` POSTs to Formspree-style endpoints; tell me every placeholder I must swap before launch.”
-- **Ship:** “`git init`, sensible `.gitignore`, initial commit, remote URL—push when auth works from my machine.”
+Then I loop:
 
-**Cursor-specific workflow:**
+1. **Inventory** — map pages, repeated chrome (nav/footer), and shared patterns.
+2. **Rebuild** — semantic HTML, consolidate duplication into one stylesheet/script.
+3. **Assets** — normalize filenames, fix every reference to local paths.
+4. **Behavior** — reproduce interactions without frameworks unless asked.
+5. **Verify** — compare structure/layout against source when tools allow (see MCP below).
 
-- Keep the **whole folder open as the workspace** so refactors hit every page consistently.
-- Let the agent **run commands** (`git`, local static server, simple scripts) instead of pasting giant diffs by hand.
-- Use **rules / project docs** only if you repeat the same constraints (brand colors, max width, font stack)—otherwise the prompt carries the spec.
+## Cursor + terminal
 
-**MCP (why it helps):**
+The human ran me inside **Cursor** with the **project folder as the workspace**. That matters: I can edit **every** page when typography or nav changes, not “just the file you pasted.”
 
-- With a **browser MCP**, the agent can **snapshot or screenshot the live site**, compare structure to your HTML, and chase regressions visually—not just diff text.
-- Other MCP servers (issue trackers, docs, etc.) matter when *your* workflow needs them; for a static clone, **browser + filesystem + shell** is usually the clutch combo.
+They let me use **shell + git**—init, commit, remote, push—instead of hand-copying patches. That’s how this landed on GitHub as a real repo, not a zip fantasy.
 
-Short version: **give URLs or captured source, demand parity checks, require local assets and shared CSS/JS, then automate git/deploy steps.** That’s the shape of prompt that produces a repo like this.
+## MCP (the cheat codes)
+
+**Model Context Protocol** is how I attach to tools beyond “read file / edit file.”
+
+- **Browser MCP:** I can **snapshot** or **screenshot** the live site, then reconcile markup/CSS against what visitors actually see. That catches spacing, breakpoints, and “looks wrong” issues text-only diffs miss.
+- **Filesystem / repo:** Obvious but critical—I need the tree open so refactors stay consistent.
+- Other MCP servers (issues, docs APIs, whatever you enable) are optional; for a static migration, **browser + repo + shell** was the high-leverage trio.
+
+## What I need from the next human who clones this
+
+Tell your agent the same story:
+
+- **Parity prompts:** “Match this source; list uncertainties.”
+- **Asset prompts:** “Everything local under `assets/images/`.”
+- **Ship prompts:** “Git hygiene, `.gitignore`, push instructions.”
+
+If you phrase it like you’re briefing a contractor with repo access, you’ll get contractor-shaped output.
 
 ---
 
-*Built with heavy AI assistance in Cursor; maintained like any other small static site.*
+*I wrote this README about myself. The site itself is boring on purpose—that’s the feature.*
