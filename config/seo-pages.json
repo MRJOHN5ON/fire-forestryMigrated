@@ -1,0 +1,83 @@
+{
+  "site": {
+    "domain": "https://www.givensfireandforestry.com",
+    "name": "Givens Fire and Forestry",
+    "legalName": "Givens Fire & Forestry LLC",
+    "defaultImage": "https://www.givensfireandforestry.com/assets/images/givens-1.png",
+    "phone": "+1-406-539-4224",
+    "locale": "en_US",
+    "twitterCard": "summary_large_image"
+  },
+  "pages": {
+    "index.html": {
+      "title": "Givens Fire and Forestry",
+      "canonicalPath": "/",
+      "description": "Givens Fire and Forestry offers expert wildfire mitigation services across Montana, including hazardous tree removal, fuel reduction, post burn cleanup, and fire-smart property consultations.",
+      "ogTitle": "Givens Fire and Forestry",
+      "schema": "localBusiness"
+    },
+    "about.html": {
+      "title": "About | Givens Fire and Forestry",
+      "canonicalPath": "/about",
+      "description": "Givens Fire & Forestry offers expert wildfire mitigation, forest management, and fire-smart solutions to protect properties and promote environmental sustainability in Montana.",
+      "ogTitle": "About | Givens Fire and Forestry",
+      "schema": "webPage"
+    },
+    "gallery.html": {
+      "title": "Gallery | Givens Fire and Forestry",
+      "canonicalPath": "/gallery",
+      "description": "Explore Givens Fire and Forestry past projects showcasing fire management and forestry services in Three Forks, Montana.",
+      "ogTitle": "Gallery | Givens Fire and Forestry",
+      "schema": "webPage"
+    },
+    "services.html": {
+      "title": "Services | Givens Fire and Forestry",
+      "canonicalPath": "/services",
+      "description": "Wildfire mitigation, hazardous tree removal, slash pile removal, brush clearing, storm cleanup, and post-burn cleanup services across Montana.",
+      "ogTitle": "Services | Givens Fire and Forestry",
+      "schema": "webPage"
+    },
+    "tree-removal.html": {
+      "title": "Flat Rate Tree Removal | Givens Fire and Forestry",
+      "canonicalPath": "/tree-removal",
+      "description": "Transparent flat-rate residential tree removal pricing in Southwest Montana. Small, standard, and large removal tiers with free quote requests.",
+      "ogTitle": "Flat Rate Tree Removal | Givens Fire and Forestry",
+      "schema": "service"
+    },
+    "contact.html": {
+      "title": "Contact & Appointments | Givens Fire and Forestry",
+      "canonicalPath": "/contact",
+      "description": "Schedule a consultation with Givens Fire and Forestry for expert forest management and fire safety services in Three Forks and Gallatin Valley, Montana.",
+      "ogTitle": "Contact & Appointments | Givens Fire and Forestry",
+      "schema": "contactPage"
+    },
+    "resources.html": {
+      "title": "Resources | Givens Fire and Forestry",
+      "canonicalPath": "/resources",
+      "description": "Educational resources on wildfire mitigation, forest management, and fire safety from Givens Fire and Forestry to protect your land and community.",
+      "ogTitle": "Resources | Givens Fire and Forestry",
+      "schema": "webPage"
+    },
+    "toolbox.html": {
+      "title": "Toolbox | Givens Fire and Forestry",
+      "canonicalPath": "/toolbox",
+      "description": "Free forestry calculators for tree height and firewood cord estimates. Built for homesteaders, loggers, and Montana landowners planning removal or firewood sales.",
+      "ogTitle": "Toolbox | Givens Fire and Forestry",
+      "schema": "webPage"
+    },
+    "tree-height-calculator.html": {
+      "title": "Tree Height Calculator | Givens Fire and Forestry",
+      "canonicalPath": "/tree-height-calculator",
+      "description": "Estimate tree height without climbing using five field-tested methods. Free calculator with metric and imperial units from Givens Fire and Forestry.",
+      "ogTitle": "Tree Height Calculator | Givens Fire and Forestry",
+      "schema": "softwareApplication"
+    },
+    "firewood-cord-calculator.html": {
+      "title": "Firewood Cord Calculator | Givens Fire and Forestry",
+      "canonicalPath": "/firewood-cord-calculator",
+      "description": "Calculate felled tree volume and convert to cords of firewood. Free frustum-based cord calculator for sellers, homesteaders, and loggers in Montana.",
+      "ogTitle": "Firewood Cord Calculator | Givens Fire and Forestry",
+      "schema": "softwareApplication"
+    }
+  }
+}

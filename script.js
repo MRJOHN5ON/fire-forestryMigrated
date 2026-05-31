@@ -1,3 +1,12 @@
+const formConfig = window.GFF_FORMS || {};
+
+document.querySelectorAll("form[data-form-key]").forEach((form) => {
+  const endpoint = formConfig[form.dataset.formKey];
+  if (endpoint) {
+    form.action = endpoint;
+  }
+});
+
 document.querySelectorAll("[data-playback-rate]").forEach((video) => {
   const rate = Number(video.dataset.playbackRate);
   if (rate > 0) {

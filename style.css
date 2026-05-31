@@ -1781,15 +1781,13 @@ blockquote {
   background: #f2f1ee;
 }
 
-.services-contact__upload {
-  flex: 1 1 16rem;
-  display: grid;
-  gap: 0.35rem;
+.services-contact__photo-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  line-height: 1.55;
 }
 
-.services-contact__upload label {
-  display: grid;
-  gap: 0.35rem;
+.services-contact__photo-note a {
   font-weight: 700;
 }
 

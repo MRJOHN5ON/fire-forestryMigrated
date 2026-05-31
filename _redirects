@@ -1,0 +1,26 @@
+# Squarespace URL parity — preserve SEO after domain cutover
+/flat-rates-for-tree-removal    /tree-removal    301
+/appointments                   /contact         301
+
+# Clean URLs (serve .html without extension)
+/about                          /about.html                      200
+/gallery                        /gallery.html                    200
+/services                       /services.html                   200
+/tree-removal                   /tree-removal.html               200
+/contact                        /contact.html                    200
+/resources                      /resources.html                  200
+/toolbox                        /toolbox.html                    200
+/tree-height-calculator         /tree-height-calculator.html     200
+/firewood-cord-calculator       /firewood-cord-calculator.html   200
+
+# Legacy .html URLs → canonical clean paths
+/tree-removal.html              /tree-removal    301
+/about.html                     /about           301
+/gallery.html                   /gallery         301
+/services.html                  /services        301
+/contact.html                   /contact         301
+/resources.html                 /resources       301
+/toolbox.html                   /toolbox         301
+/index.html                     /                301
+/tree-height-calculator.html    /tree-height-calculator    301
+/firewood-cord-calculator.html  /firewood-cord-calculator  301

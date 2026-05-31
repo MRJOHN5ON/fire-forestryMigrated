@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.givensfireandforestry.com/sitemap.xml
+
+# AI crawlers — allow llms.txt and public pages
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Disallow: /research/
