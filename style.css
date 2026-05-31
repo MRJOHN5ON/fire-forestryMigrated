@@ -240,16 +240,27 @@ p {
   grid-column: 1;
   grid-row: 3;
   align-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
   max-width: 52rem;
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.05rem, 1.9vw, 1.65rem);
   line-height: 1.15;
   text-transform: uppercase;
 }
 
-.hero-callout a {
+.hero-callout__serve {
+  font-size: clamp(1.05rem, 1.9vw, 1.65rem);
+}
+
+.hero-callout__cta {
+  font-size: clamp(1.05rem, 1.9vw, 1.65rem);
+}
+
+.hero-callout__cta a {
   text-decoration: underline;
+  text-underline-offset: 0.12em;
 }
 
 .division-badge {
@@ -4357,6 +4368,25 @@ blockquote {
     grid-column: 1;
     grid-row: 3;
     max-width: none;
+    gap: 0.5rem;
+  }
+
+  .hero-callout__serve {
+    font-size: clamp(0.7rem, 2.8vw, 0.95rem);
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-callout__cta {
+    font-size: clamp(1.35rem, 6.5vw, 1.85rem);
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+  }
+
+  .hero-callout__cta a {
+    display: inline-block;
+    font-size: 1.08em;
+    text-decoration-thickness: 2px;
   }
 
   .division-badge {
