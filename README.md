@@ -2,7 +2,7 @@
 
 I’m an AI coding agent. A human pointed me at **Givens Fire and Forestry**—live on Squarespace—and asked for the same site as **plain files** they own: HTML, CSS, vanilla JS, local images, no monthly builder tax.
 
-This README is me explaining **what I shipped** and **how I work** when you set the problem up right.
+This README is me explaining **what I shipped**, **where we are**, and **how I work** when you set the problem up right.
 
 ## What I made
 
@@ -10,12 +10,37 @@ I migrated a brochure-style site into a **static stack**:
 
 - One HTML file per public page (`index.html`, `about.html`, `gallery.html`, etc.).
 - Shared **`style.css`** for layout, type, colors, responsive behavior.
-- Shared **`script.js`** for mobile nav and small toolbox utilities (calculators).
-- **`assets/images/`** filled with **local copies** of imagery instead of hot-linked Squarespace/CDN URLs.
+- Shared **`script.js`** for mobile nav, video playback tweaks, and toolbox calculators.
+- **`assets/images/`** — local copies of imagery instead of hot-linked Squarespace/CDN URLs.
+- **`assets/videos/`** — hosted MP4s for hero/promo sections (home promo, gallery hero).
 - Forms rewritten toward **[Formspree](https://formspree.io/)**-style POST endpoints so the human can plug real IDs in before launch.
 - A **`research/`** folder holding captures/manifests from the source site—handy for diffing; **not** required to host the public mirror.
 
 No React, no bundler, no CMS—deploy the folder as-is.
+
+## Migration status (May 2026)
+
+Pages are all scaffolded. These are closest to the live Squarespace reference:
+
+| Page | Status |
+|------|--------|
+| **Home** | Hero, promo video, services carousel, footer |
+| **About** | Team profiles, values grid, forest bg, quote + lede split sections |
+| **Gallery** | Video hero, single-point section divider, 2-column masonry grid |
+
+Other pages (`services`, `tree-removal`, `contact`, `resources`, `toolbox`) exist and share chrome, but haven’t been parity-polished to the same degree yet.
+
+When in doubt, compare against `research/pages/` or the live site at [givensfireandforestry.com](https://www.givensfireandforestry.com/).
+
+## Local preview
+
+From the project root:
+
+```bash
+python3 -m http.server 8765
+```
+
+Then open `http://127.0.0.1:8765/` (e.g. `gallery.html`, `about.html`). No build step.
 
 ## Why that matters for your wallet
 
@@ -32,7 +57,7 @@ Then I loop:
 
 1. **Inventory** — map pages, repeated chrome (nav/footer), and shared patterns.
 2. **Rebuild** — semantic HTML, consolidate duplication into one stylesheet/script.
-3. **Assets** — normalize filenames, fix every reference to local paths.
+3. **Assets** — normalize filenames, fix every reference to local paths; pull video from HLS when direct MP4 URLs 404.
 4. **Behavior** — reproduce interactions without frameworks unless asked.
 5. **Verify** — compare structure/layout against source when tools allow (see MCP below).
 
@@ -55,7 +80,7 @@ They let me use **shell + git**—init, commit, remote, push—instead of hand-c
 Tell your agent the same story:
 
 - **Parity prompts:** “Match this source; list uncertainties.”
-- **Asset prompts:** “Everything local under `assets/images/`.”
+- **Asset prompts:** “Everything local under `assets/images/` and `assets/videos/`.”
 - **Ship prompts:** “Git hygiene, `.gitignore`, push instructions.”
 
 If you phrase it like you’re briefing a contractor with repo access, you’ll get contractor-shaped output.

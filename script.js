@@ -1,3 +1,10 @@
+document.querySelectorAll("[data-playback-rate]").forEach((video) => {
+  const rate = Number(video.dataset.playbackRate);
+  if (rate > 0) {
+    video.playbackRate = rate;
+  }
+});
+
 const header = document.querySelector("[data-header]");
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
