@@ -25,6 +25,43 @@ document.querySelectorAll("[data-property-other]").forEach((input) => {
   syncOtherField();
 });
 
+document.querySelectorAll("[data-tier-checkboxes]").forEach((fieldset) => {
+  const form = fieldset.closest("form");
+  const boxes = fieldset.querySelectorAll('input[type="checkbox"]');
+  const error = fieldset.querySelector("[data-tier-error]");
+
+  if (!form || !boxes.length) return;
+
+  const hasSelection = () => [...boxes].some((box) => box.checked);
+
+  const syncError = () => {
+    if (!error) return;
+    const show = error.dataset.showError === "true" && !hasSelection();
+    error.hidden = !show;
+  };
+
+  boxes.forEach((box) => {
+    box.addEventListener("change", syncError);
+  });
+
+  form.addEventListener("submit", (event) => {
+    if (hasSelection()) {
+      if (error) {
+        error.dataset.showError = "false";
+        error.hidden = true;
+      }
+      return;
+    }
+
+    event.preventDefault();
+    if (error) {
+      error.dataset.showError = "true";
+      error.hidden = false;
+    }
+    fieldset.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+});
+
 const header = document.querySelector("[data-header]");
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
