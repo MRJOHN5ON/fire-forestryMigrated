@@ -51,3 +51,34 @@ if (heightForm) {
     result.value = `Estimated tree height: ${height.toFixed(1)} feet.`;
   });
 }
+
+document.querySelectorAll("[data-services-carousel]").forEach((carousel) => {
+  const track = carousel.querySelector(".carousel-track");
+  const slides = carousel.querySelectorAll(".carousel-slide");
+  const prev = carousel.querySelector(".carousel-btn--prev");
+  const next = carousel.querySelector(".carousel-btn--next");
+
+  if (!track || !slides.length) return;
+
+  let index = 0;
+
+  const getStep = () => {
+    const slide = slides[0];
+    const gap = Number.parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 20;
+    return slide.offsetWidth + gap;
+  };
+
+  const scrollToIndex = (nextIndex) => {
+    index = Math.max(0, Math.min(nextIndex, slides.length - 1));
+    track.scrollTo({ left: getStep() * index, behavior: "smooth" });
+  };
+
+  prev?.addEventListener("click", () => scrollToIndex(index - 1));
+  next?.addEventListener("click", () => scrollToIndex(index + 1));
+
+  track.addEventListener("scroll", () => {
+    const step = getStep();
+    if (!step) return;
+    index = Math.round(track.scrollLeft / step);
+  }, { passive: true });
+});
