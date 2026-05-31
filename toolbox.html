@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Toolbox | Givens Fire and Forestry</title>
-    <meta name="description" content="Tree height and firewood cord calculators for forestry planning.">
+    <meta name="description" content="Free tree height and firewood cord calculators for forestry planning, homesteaders, and Montana landowners.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Newsreader:opsz,wght@6..72,400..700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
@@ -40,35 +40,152 @@
     </header>
 
     <main id="main">
-      <section class="section toolbox-section">
-        <div class="container centered-copy">
-          <h1>Toolbox</h1>
-          <p>Here are two useful tools for tree measurements and calculations. Use them to estimate firewood volume or tree height before your consultation.</p>
+      <section class="toolbox-hero" aria-labelledby="toolbox-hero-title">
+        <div class="toolbox-hero__frame">
+          <img
+            class="toolbox-hero__photo"
+            src="assets/images/forest-green-aerial-view-1280.jpg"
+            alt=""
+            width="1280"
+            height="720"
+            decoding="async"
+            fetchpriority="high"
+          >
+          <div class="toolbox-hero__overlay" aria-hidden="true"></div>
+          <div class="toolbox-hero__content">
+            <img class="toolbox-hero__crest" src="assets/images/givens-1.png" alt="" width="1563" height="1563" decoding="async">
+            <div class="toolbox-hero__intro">
+              <p class="toolbox-hero__eyebrow">Givens Fire &amp; Forestry</p>
+              <h1 id="toolbox-hero-title">Forestry Toolbox</h1>
+              <p class="toolbox-hero__tagline">Free calculators for height, volume, and cord estimates — built for Montana landowners.</p>
+            </div>
+            <ul class="toolbox-hero__badges" aria-label="Tool highlights">
+              <li>Free to use</li>
+              <li>No account needed</li>
+              <li>Field-tested formulas</li>
+            </ul>
+          </div>
         </div>
-        <div class="container tool-grid">
-          <article class="tool-card" id="firewood-cord">
-            <img src="assets/images/d2coinzctgkxneewkzjmgq.jpg" alt="Firewood cord calculator illustration">
-            <h2>Tree Volume &amp; Cords Calculator</h2>
-            <p>Got a felled tree and want to know how much firewood you've got? This tool calculates the tree's volume based on diameter and height, then converts it into cords of wood.</p>
-            <form class="tool-form" data-cord-form>
-              <label>Diameter in inches<input type="number" min="1" step="0.1" name="diameter" value="18"></label>
-              <label>Log length in feet<input type="number" min="1" step="0.1" name="length" value="16"></label>
-              <button class="button" type="submit">Calculate Cords</button>
-              <output data-cord-result>Estimated result appears here.</output>
-            </form>
-          </article>
-          <article class="tool-card" id="tree-height">
-            <img src="assets/images/livdtcxfspyd1l9vpmzofa.jpg" alt="Tree height calculator illustration">
-            <h2>Tree Height Calculator</h2>
-            <p>Want to estimate a tree's height without climbing it? Input your distance from the tree and angle of elevation for an instant height estimate.</p>
-            <form class="tool-form" data-height-form>
-              <label>Distance from tree in feet<input type="number" min="1" step="0.1" name="distance" value="60"></label>
-              <label>Angle of elevation<input type="number" min="1" max="89" step="0.1" name="angle" value="45"></label>
-              <label>Eye height in feet<input type="number" min="0" step="0.1" name="eye" value="5.5"></label>
-              <button class="button" type="submit">Calculate Height</button>
-              <output data-height-result>Estimated result appears here.</output>
-            </form>
-          </article>
+      </section>
+
+      <section class="tree-tools-section toolbox-page__tools" aria-labelledby="toolbox-tools-title">
+        <div class="tree-tools-section__background" aria-hidden="true"></div>
+        <div class="container tree-tools-section__inner">
+          <div class="tree-tools-panel">
+            <header class="tree-tools-panel__intro">
+              <p class="tree-tools-panel__eyebrow">Free Planning Tools</p>
+              <h2 id="toolbox-tools-title">Two Calculators, Zero Guesswork</h2>
+              <p class="tree-tools-panel__lede">Size up a tree from the ground before you call. Each tool opens as a full calculator with step-by-step guidance, reference guides, and print-friendly results.</p>
+            </header>
+
+            <div class="tree-tools-panel__calculators">
+              <article class="tree-tool-card">
+                <a class="tree-tool-card__media" href="tree-height-calculator.html" tabindex="-1" aria-hidden="true">
+                  <img src="assets/images/livdtcxfspyd1l9vpmzofa.jpg" alt="" width="640" height="400" loading="lazy">
+                </a>
+                <div class="tree-tool-card__body">
+                  <p class="tree-tool-card__step">Step 1 &middot; Height</p>
+                  <h3><a href="tree-height-calculator.html">Tree Height Calculator</a></h3>
+                  <p class="tree-tool-card__copy">Estimate tree height without climbing. Choose from five methods — angle, shadow, line-of-sight, clinometer, or triangulation — with metric and imperial units.</p>
+                  <ul class="tree-tool-card__benefits">
+                    <li>5 measurement methods</li>
+                    <li>Metric &amp; imperial units</li>
+                    <li>Print, email, and full how-to guide</li>
+                  </ul>
+                  <a class="tree-tool-card__cta" href="tree-height-calculator.html">
+                    <span>Open Height Calculator</span>
+                    <span class="tree-tool-card__arrow" aria-hidden="true">&rarr;</span>
+                  </a>
+                </div>
+              </article>
+
+              <article class="tree-tool-card">
+                <a class="tree-tool-card__media tree-tool-card__media--contain" href="firewood-cord-calculator.html" tabindex="-1" aria-hidden="true">
+                  <img src="assets/images/d2coinzctgkxneewkzjmgq.jpg" alt="Firewood cord illustration showing 4ft by 4ft by 8ft stack dimensions" width="640" height="640" loading="lazy">
+                </a>
+                <div class="tree-tool-card__body">
+                  <p class="tree-tool-card__step">Step 2 &middot; Volume</p>
+                  <h3><a href="firewood-cord-calculator.html">Tree Volume &amp; Cords Calculator</a></h3>
+                  <p class="tree-tool-card__copy">Got a felled tree and want to know how much firewood you&rsquo;ve got? Enter bottom diameter, top diameter, and height to get volume and cord estimates in real time.</p>
+                  <ul class="tree-tool-card__benefits">
+                    <li>Live volume + cord conversion</li>
+                    <li>Frustum formula for tapered logs</li>
+                    <li>What-is-a-cord reference guide</li>
+                  </ul>
+                  <a class="tree-tool-card__cta" href="firewood-cord-calculator.html">
+                    <span>Open Cord Calculator</span>
+                    <span class="tree-tool-card__arrow" aria-hidden="true">&rarr;</span>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <div class="tree-tools-panel__bridge" aria-labelledby="toolbox-workflow-title">
+              <p class="tree-tools-panel__bridge-label" id="toolbox-workflow-title">Use them together</p>
+              <p class="tree-tools-panel__bridge-copy">Start with height to find your removal tier, then run the cord calculator on felled timber to estimate firewood yield.</p>
+              <ol class="toolbox-workflow">
+                <li>
+                  <span class="toolbox-workflow__num" aria-hidden="true">1</span>
+                  <span class="toolbox-workflow__label">Measure height</span>
+                </li>
+                <li>
+                  <span class="toolbox-workflow__num" aria-hidden="true">2</span>
+                  <span class="toolbox-workflow__label">Estimate cords</span>
+                </li>
+                <li>
+                  <span class="toolbox-workflow__num" aria-hidden="true">3</span>
+                  <span class="toolbox-workflow__label">Share numbers at quote</span>
+                </li>
+              </ol>
+            </div>
+
+            <footer class="tree-tools-panel__footer">
+              <a class="button button--cta tree-tools-panel__quote" href="tree-removal.html">See Flat-Rate Removal Pricing</a>
+              <p class="tree-tools-panel__footer-note">Already have measurements? Send photos and your numbers — we&rsquo;ll confirm pricing fast.</p>
+              <a class="tree-tools-panel__back" href="contact.html">Or request a free quote &rarr;</a>
+            </footer>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolbox-audience" aria-labelledby="toolbox-audience-title">
+        <div class="container">
+          <header class="toolbox-audience__head">
+            <p class="toolbox-audience__eyebrow">Built for the field</p>
+            <h2 id="toolbox-audience-title">Who these tools help</h2>
+            <p class="toolbox-audience__lede">Whether you&rsquo;re selling cords, clearing hazard trees, or planning a removal budget, start with numbers you can trust.</p>
+          </header>
+          <ul class="toolbox-audience__grid">
+            <li class="toolbox-audience__card">
+              <span class="toolbox-audience__icon" aria-hidden="true">01</span>
+              <h3>Homesteaders &amp; Firewood Sellers</h3>
+              <p>Convert felled timber into cord counts before you stack, split, or price a load for delivery.</p>
+            </li>
+            <li class="toolbox-audience__card">
+              <span class="toolbox-audience__icon" aria-hidden="true">02</span>
+              <h3>Loggers &amp; Land Managers</h3>
+              <p>Quick volume checks in the field without hauling out a scaling stick or guessing from stump diameter alone.</p>
+            </li>
+            <li class="toolbox-audience__card">
+              <span class="toolbox-audience__icon" aria-hidden="true">03</span>
+              <h3>Homeowners Planning Removal</h3>
+              <p>Find your height tier and walk into a quote conversation with real measurements — not ballpark guesses.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="toolbox-page__cta" aria-labelledby="toolbox-cta-title">
+        <div class="container">
+          <div class="toolbox-page__cta-card">
+            <p class="toolbox-page__cta-eyebrow">Ready for the next step?</p>
+            <h2 id="toolbox-cta-title">Turn measurements into a firm quote</h2>
+            <p class="toolbox-page__cta-copy">Givens Fire &amp; Forestry offers flat-rate tree removal across Southwest Montana. Bring your calculator results and tree photos — we&rsquo;ll confirm tier pricing and schedule a walkthrough.</p>
+            <div class="toolbox-page__cta-actions">
+              <a class="button button--cta" href="contact.html">Get a Free Quote</a>
+              <a class="button button--outline" href="tree-removal.html">View Removal Pricing</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>

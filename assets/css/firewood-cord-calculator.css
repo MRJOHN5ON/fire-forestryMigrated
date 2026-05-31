@@ -1,0 +1,106 @@
+/* Firewood cord calculator — extends shared tool shell */
+
+@media (min-width: 961px) {
+  .tool-page--cord.tool-layout--sticky .tool-layout__primary,
+  .tool-page--cord .tool-layout--sticky .tool-layout__primary {
+    position: sticky;
+    top: 1.25rem;
+  }
+}
+
+.tool-page--cord {
+  overflow-x: clip;
+}
+
+.tool-page--cord .tool-layout__primary,
+.tool-page--cord .tool-layout__aside {
+  min-width: 0;
+}
+
+.cord-tooltip {
+  position: relative;
+  flex-shrink: 0;
+  color: var(--tool-muted);
+  cursor: help;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cord-tooltip[data-tooltip]:hover::after,
+  .cord-tooltip[data-tooltip]:focus-within::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 0.45rem);
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: 14rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.35rem;
+    background: var(--tool-dark);
+    color: var(--color-white);
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.4;
+    text-transform: none;
+    white-space: normal;
+    z-index: 5;
+    box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.2);
+  }
+}
+
+.cord-guide {
+  overflow: hidden;
+}
+
+.cord-guide p {
+  margin: 0 0 1rem;
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: rgba(0, 0, 0, 0.78);
+}
+
+.cord-guide__figure {
+  margin: 0 0 1rem;
+  overflow: hidden;
+  border-radius: 0.35rem;
+  border: 0.08rem solid rgba(0, 0, 0, 0.08);
+}
+
+.cord-guide__figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cord-guide__figure--secondary img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.cord-guide__note {
+  margin-bottom: 0;
+  padding: 0.85rem 1rem;
+  border-radius: 0.35rem;
+  background: rgba(143, 169, 143, 0.14);
+  font-size: 0.9rem;
+}
+
+.tool-results.has-results .tool-results__value::after {
+  content: " cords";
+  font-size: 0.45em;
+  letter-spacing: 0.04em;
+  vertical-align: baseline;
+}
+
+@media (max-width: 960px) {
+  .cord-guide__figure--secondary {
+    display: none;
+  }
+
+  .tool-page--cord .tool-layout__aside {
+    margin-top: 0.15rem;
+  }
+}

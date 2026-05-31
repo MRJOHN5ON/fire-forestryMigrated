@@ -54,7 +54,9 @@
         <div class="pricing-section__background" aria-hidden="true"></div>
         <div class="container pricing-section__inner">
           <h2 class="sr-only" id="pricing-title">Tree removal pricing tiers</h2>
-          <div class="pricing-wrapper">
+          <div class="pricing-carousel" data-pricing-carousel>
+            <div class="pricing-carousel__viewport">
+              <div class="pricing-wrapper">
             <article class="price-box">
               <div class="price-box__image" style="background-image: url('assets/images/gemini-generated-image-dfxn1ddfxn1ddfxn.png');"></div>
               <div class="price-box__content">
@@ -99,9 +101,17 @@
                 </ul>
               </div>
             </article>
+              </div>
+            </div>
+            <button class="carousel-btn carousel-btn--prev pricing-carousel__btn" type="button" aria-label="Previous pricing tier">
+              <svg viewBox="0 0 44 18" aria-hidden="true"><path d="M43 9H1M1 9l8-8M1 9l8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <button class="carousel-btn carousel-btn--next pricing-carousel__btn" type="button" aria-label="Next pricing tier">
+              <svg viewBox="0 0 44 18" aria-hidden="true"><path d="M1 9h42M43 9l-8-8M43 9l-8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
           </div>
 
-          <p class="pricing-swipe-hint" aria-hidden="true">&larr; Swipe to view tiers &rarr;</p>
+          <p class="pricing-swipe-hint" aria-hidden="true">&larr; Swipe or use arrows to view tiers &rarr;</p>
 
           <div class="pricing-notice">
             <p class="pricing-notice__minimum"><strong>Standard Project Minimum: $1,600</strong></p>
@@ -136,7 +146,7 @@
                     <li>No climbing required</li>
                     <li>Find your pricing tier faster</li>
                   </ul>
-                  <a class="tree-tool-card__cta" href="toolbox.html#tree-height">
+                  <a class="tree-tool-card__cta" href="tree-height-calculator.html">
                     <span>Calculate Height</span>
                     <span class="tree-tool-card__arrow" aria-hidden="true">&rarr;</span>
                   </a>
@@ -144,8 +154,8 @@
               </article>
 
               <article class="tree-tool-card">
-                <div class="tree-tool-card__media tree-tool-card__media--top">
-                  <img src="assets/images/d2coinzctgkxneewkzjmgq.jpg" alt="" width="320" height="240" loading="lazy">
+                <div class="tree-tool-card__media tree-tool-card__media--contain">
+                  <img src="assets/images/d2coinzctgkxneewkzjmgq.jpg" alt="Firewood cord illustration showing 4ft by 4ft by 8ft stack dimensions" width="320" height="240" loading="lazy">
                 </div>
                 <div class="tree-tool-card__body">
                   <p class="tree-tool-card__step">Step 2 &middot; Volume</p>
@@ -155,7 +165,7 @@
                     <li>Instant cord estimate</li>
                     <li>Great for sellers &amp; homesteaders</li>
                   </ul>
-                  <a class="tree-tool-card__cta" href="toolbox.html#firewood-cord">
+                  <a class="tree-tool-card__cta" href="firewood-cord-calculator.html">
                     <span>Calculate Cords</span>
                     <span class="tree-tool-card__arrow" aria-hidden="true">&rarr;</span>
                   </a>

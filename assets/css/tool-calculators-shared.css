@@ -1,0 +1,276 @@
+/* Shared shell for toolbox calculator pages — matches main site */
+.tool-page {
+  --tool-bg: var(--color-page);
+  --tool-surface: var(--color-white);
+  --tool-accent: var(--color-accent);
+  --tool-dark: var(--color-dark);
+  --tool-muted: var(--color-muted-green);
+  --tool-border: rgba(0, 0, 0, 0.1);
+  --tool-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.08);
+  --tool-radius: 0.5rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem) 0 clamp(3rem, 6vw, 4.5rem);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(143, 169, 143, 0.14), transparent 48%),
+    var(--tool-bg);
+  color: var(--color-black);
+  overflow-x: clip;
+}
+
+.tool-page *,
+.tool-page *::before,
+.tool-page *::after {
+  box-sizing: border-box;
+}
+
+.tool-page__inner {
+  max-width: 72rem;
+}
+
+.tool-page__header {
+  max-width: 40rem;
+  margin: 0 auto clamp(2rem, 4vw, 2.75rem);
+  text-align: center;
+}
+
+.tool-page__logo {
+  display: block;
+  max-width: clamp(5rem, 14vw, 7rem);
+  margin: 0 auto 1rem;
+}
+
+.tool-page__logo a {
+  display: block;
+  transition: transform 180ms ease;
+}
+
+.tool-page__logo a:hover,
+.tool-page__logo a:focus-visible {
+  transform: scale(1.04);
+}
+
+.tool-page__logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0.25rem 0.75rem rgba(0, 0, 0, 0.2));
+}
+
+.tool-page__eyebrow {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(0.78rem, 1.2vw, 0.9rem);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--tool-muted);
+}
+
+.tool-page__header h1 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3.25rem);
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+.tool-page__intro {
+  margin: 0 auto;
+  max-width: 34rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.tool-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: clamp(1.25rem, 2.5vw, 1.75rem);
+  align-items: start;
+}
+
+.tool-layout__primary,
+.tool-layout__aside {
+  min-width: 0;
+}
+
+.tool-layout--single {
+  grid-template-columns: minmax(0, 42rem);
+  justify-content: center;
+}
+
+.tool-card {
+  padding: clamp(1.35rem, 2.5vw, 2rem);
+  border: 1px solid var(--tool-border);
+  border-radius: var(--tool-radius);
+  background: var(--tool-surface);
+  box-shadow: var(--tool-shadow);
+}
+
+.tool-card__title {
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 0.12rem solid rgba(0, 0, 0, 0.08);
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--tool-accent);
+}
+
+.tool-field {
+  margin-bottom: 1.15rem;
+}
+
+.tool-field:last-child {
+  margin-bottom: 0;
+}
+
+.tool-field label,
+.tool-page label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.45rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--tool-accent);
+}
+
+.tool-page input,
+.tool-page select {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 0.12rem solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.35rem;
+  background: #f7f6f3;
+  color: var(--color-black);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.tool-page input:focus,
+.tool-page select:focus {
+  outline: none;
+  border-color: var(--tool-muted);
+  background: var(--color-white);
+  box-shadow: 0 0 0 0.2rem rgba(143, 169, 143, 0.35);
+}
+
+.tool-page input::placeholder {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.tool-results {
+  margin-top: 1.35rem;
+  padding: clamp(1.15rem, 2vw, 1.5rem);
+  border-radius: var(--tool-radius);
+  border: 0.12rem solid rgba(143, 169, 143, 0.35);
+  background: linear-gradient(145deg, rgba(143, 169, 143, 0.12), rgba(255, 255, 255, 0.9));
+}
+
+.tool-results.has-results {
+  border-color: var(--tool-accent);
+  background: linear-gradient(145deg, rgba(44, 56, 43, 0.08), rgba(255, 255, 255, 0.95));
+}
+
+.tool-results__primary {
+  text-align: center;
+  margin-bottom: 0.85rem;
+}
+
+.tool-results__label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tool-muted);
+}
+
+.tool-results__value {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  line-height: 1;
+  color: var(--tool-accent);
+}
+
+.tool-results__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-top: 0.08rem solid rgba(0, 0, 0, 0.08);
+  font-size: 0.95rem;
+  min-width: 0;
+}
+
+.tool-results__row span:last-child {
+  min-width: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.tool-results__row-label {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.62);
+}
+
+.tool-page__footer {
+  max-width: 40rem;
+  margin: clamp(2rem, 4vw, 2.75rem) auto 0;
+  padding-top: 1.25rem;
+  border-top: 0.12rem solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: rgba(0, 0, 0, 0.62);
+}
+
+.tool-page__footer a {
+  color: var(--tool-accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.tool-page__footer a:hover,
+.tool-page__footer a:focus-visible {
+  color: var(--tool-muted);
+  text-decoration: underline;
+}
+
+.tool-page__crosslink {
+  margin-top: 0.65rem;
+}
+
+@media (max-width: 960px) {
+  .tool-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-layout--sticky .tool-layout__primary {
+    position: static;
+    top: auto;
+  }
+
+  .tool-page {
+    padding-bottom: clamp(2rem, 5vw, 3rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .tool-layout--sticky .tool-layout__primary {
+    position: static;
+  }
+}
