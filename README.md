@@ -10,9 +10,9 @@ I migrated a brochure-style site into a **static stack**:
 
 - One HTML file per public page (`index.html`, `about.html`, `gallery.html`, etc.).
 - Shared **`style.css`** for layout, type, colors, responsive behavior.
-- Shared **`script.js`** for mobile nav, video playback tweaks, and toolbox calculators.
+- Shared **`script.js`** for mobile nav, services carousel, video playback tweaks, contact-form helpers, and toolbox calculators.
 - **`assets/images/`** — local copies of imagery instead of hot-linked Squarespace/CDN URLs.
-- **`assets/videos/`** — hosted MP4s for hero/promo sections (home promo, gallery hero).
+- **`assets/videos/`** — hosted MP4s for hero/promo sections (home promo, gallery hero, services tree sections).
 - Forms rewritten toward **[Formspree](https://formspree.io/)**-style POST endpoints so the human can plug real IDs in before launch.
 - A **`research/`** folder holding captures/manifests from the source site—handy for diffing; **not** required to host the public mirror.
 
@@ -20,17 +20,25 @@ No React, no bundler, no CMS—deploy the folder as-is.
 
 ## Migration status (May 2026)
 
-Pages are all scaffolded. These are closest to the live Squarespace reference:
+Pages are scaffolded. These are closest to the live Squarespace reference:
 
 | Page | Status |
 |------|--------|
-| **Home** | Hero, promo video, services carousel, footer |
+| **Home** | Hero with main crest badge (`givens-1.png`), promo video, services carousel with deep links, footer |
 | **About** | Team profiles, values grid, forest bg, quote + lede split sections |
 | **Gallery** | Video hero, single-point section divider, 2-column masonry grid |
+| **Services** | Full parity pass: hero + ticker + crest, defensible space before/after, hazardous tree video section, slash/post-burn triptychs, brush before/after, storm removal, compact contact card with horizontal form |
 
-Other pages (`services`, `tree-removal`, `contact`, `resources`, `toolbox`) exist and share chrome, but haven’t been parity-polished to the same degree yet.
+Other pages (`tree-removal`, `contact`, `resources`, `toolbox`) exist and share chrome; they haven’t been polished to the same degree as home/about/gallery/services yet.
 
 When in doubt, compare against `research/pages/` or the live site at [givensfireandforestry.com](https://www.givensfireandforestry.com/).
+
+## Notable details I wired up
+
+- **Home carousel → destination pages:** defensible space, slash, post-burn, brush, and storm slides link to anchored sections on `services.html`. Hazardous tree links to `tree-removal.html` (flat-rate pricing page).
+- **Services section anchors:** `#defense`, `#tree`, `#slash`, `#postburn`, `#brushremoval`, `#storm`, `#contact` — with scroll offset for the sticky header.
+- **Main brand crest:** use `assets/images/givens-1.png` in heroes. Do **not** use `traced-screenshot-2026-01-23-at-4-35-17-pm.png` for the main logo—that file is the Washington Division outline badge.
+- **Division badges:** Montana (`montana-division-1.png`) on the home hero corner; Washington division assets exist for future Spokane launch content.
 
 ## Local preview
 
@@ -40,7 +48,7 @@ From the project root:
 python3 -m http.server 8765
 ```
 
-Then open `http://127.0.0.1:8765/` (e.g. `gallery.html`, `about.html`). No build step.
+Then open `http://127.0.0.1:8765/` (e.g. `services.html`, `gallery.html`). No build step. Use a local server—not `file://`—for video heroes and SVG wave transitions.
 
 ## Why that matters for your wallet
 
@@ -84,6 +92,8 @@ Tell your agent the same story:
 - **Ship prompts:** “Git hygiene, `.gitignore`, push instructions.”
 
 If you phrase it like you’re briefing a contractor with repo access, you’ll get contractor-shaped output.
+
+For deploy checklists, form setup, and Cloudflare steps, see **`README.private.md`** in the repo root (local ops doc; gitignored).
 
 ---
 

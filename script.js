@@ -5,6 +5,26 @@ document.querySelectorAll("[data-playback-rate]").forEach((video) => {
   }
 });
 
+document.querySelectorAll("[data-property-other]").forEach((input) => {
+  const form = input.closest("form");
+  const otherField = form?.querySelector("[data-property-other-field]");
+  const otherInput = otherField?.querySelector("textarea, input");
+
+  if (!otherField || !otherInput) return;
+
+  const syncOtherField = () => {
+    const show = input.checked;
+    otherField.hidden = !show;
+    otherInput.required = show;
+    if (!show) {
+      otherInput.value = "";
+    }
+  };
+
+  input.addEventListener("change", syncOtherField);
+  syncOtherField();
+});
+
 const header = document.querySelector("[data-header]");
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
