@@ -37,8 +37,8 @@ When in doubt, compare against `research/pages/` or the live site at [givensfire
 
 - **Home carousel → destination pages:** defensible space, slash, post-burn, brush, and storm slides link to anchored sections on `services.html`. Hazardous tree links to `tree-removal.html` (flat-rate pricing page).
 - **Services section anchors:** `#defense`, `#tree`, `#slash`, `#postburn`, `#brushremoval`, `#storm`, `#contact` — with scroll offset for the sticky header.
-- **Main brand crest:** use `assets/images/givens-1.png` in heroes. Do **not** use `traced-screenshot-2026-01-23-at-4-35-17-pm.png` for the main logo—that file is the Washington Division outline badge.
-- **Division badges:** Montana (`montana-division-1.png`) on the home hero corner; Washington division assets exist for future Spokane launch content.
+- **Main brand crest:** use `assets/images/givens-1.png` in heroes.
+- **Division badge:** Montana (`montana-division-1.png`) on the home hero corner only.
 
 ## Local preview
 

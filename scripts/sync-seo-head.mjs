@@ -32,11 +32,11 @@ function localBusinessSchema() {
       "@type": "ContactPoint",
       telephone: site.phone,
       contactType: "customer service",
-      areaServed: ["US-MT", "US-WA"],
+      areaServed: ["US-MT"],
       availableLanguage: "English"
     },
     description:
-      "Wildfire mitigation, hazardous tree removal, slash pile removal, defensible space consulting, and post-burn cleanup for residential and commercial properties in Montana and Washington. Led by experienced wildland firefighter Samuel Givens.",
+      "Wildfire mitigation, hazardous tree removal, slash pile removal, defensible space consulting, and post-burn cleanup for residential and commercial properties in Southwest Montana. Led by experienced wildland firefighter Samuel Givens.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Three Forks",
@@ -52,10 +52,7 @@ function localBusinessSchema() {
       "@type": "Person",
       name: "Samuel Givens"
     },
-    areaServed: [
-      { "@type": "State", name: "Montana" },
-      { "@type": "State", name: "Washington" }
-    ],
+    areaServed: [{ "@type": "State", name: "Montana" }],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Wildfire Mitigation Services",
