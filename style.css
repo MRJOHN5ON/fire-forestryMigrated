@@ -19,6 +19,17 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 125%;
+  }
+
+  body {
+    line-height: 1.6;
+  }
 }
 
 body {
@@ -330,7 +341,7 @@ p {
 }
 
 .carousel-slide {
-  flex: 0 0 min(88vw, 22rem);
+  flex: 0 0 min(94vw, 100%);
   scroll-snap-align: start;
   background: var(--color-dark);
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -3185,7 +3196,7 @@ blockquote {
   }
 
   .toolbox-hero__eyebrow {
-    font-size: 0.62rem;
+    font-size: 0.8rem;
     letter-spacing: 0.1em;
   }
 
@@ -3212,7 +3223,7 @@ blockquote {
   }
 
   .toolbox-hero__badges li {
-    font-size: 0.58rem;
+    font-size: 0.75rem;
     letter-spacing: 0.05em;
     padding: 0.32rem 0.55rem;
   }
@@ -3976,7 +3987,7 @@ blockquote {
   }
 
   .resources-hero__tagline {
-    font-size: 0.92rem;
+    font-size: 1rem;
     line-height: 1.45;
     margin-bottom: 0;
   }
@@ -3993,7 +4004,7 @@ blockquote {
 
   .resources-hero__topics li {
     padding: 0.35rem 0.45rem;
-    font-size: 0.58rem;
+    font-size: 0.75rem;
     letter-spacing: 0.05em;
     text-align: center;
   }
@@ -4020,7 +4031,7 @@ blockquote {
   }
 
   .resources-page__intro {
-    font-size: 0.98rem;
+    font-size: 1.05rem;
     line-height: 1.55;
   }
 
@@ -4036,13 +4047,13 @@ blockquote {
   }
 
   .resource-tile__logo {
-    width: min(100%, 8.5rem);
+    width: min(100%, 11rem);
     margin-inline: auto;
     padding: 0.65rem;
   }
 
   .resource-tile__logo img {
-    max-height: 4.75rem;
+    max-height: 6.5rem;
   }
 
   .resource-tile__body {
@@ -4050,13 +4061,13 @@ blockquote {
   }
 
   .resource-tile__body h2 {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     line-height: 1.1;
     margin-bottom: 0.65rem;
   }
 
   .resource-tile__body p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.55;
     text-align: left;
   }
@@ -4336,7 +4347,7 @@ blockquote {
   }
 
   .price-box {
-    flex: 0 0 85%;
+    flex: 0 0 92%;
     scroll-snap-align: center;
   }
 
@@ -4349,7 +4360,7 @@ blockquote {
   }
 
   .services-hero__ticker {
-    font-size: clamp(0.5rem, 2.6vw, 0.68rem);
+    font-size: clamp(0.85rem, 3.5vw, 1rem);
     line-height: 1.25;
   }
 
@@ -4426,7 +4437,7 @@ blockquote {
   }
 
   .carousel-slide {
-    flex-basis: min(92vw, 22rem);
+    flex-basis: 94vw;
   }
 
   .reverse figure {
@@ -4473,7 +4484,7 @@ blockquote {
   }
 
   .hero-callout__serve {
-    font-size: clamp(0.7rem, 2.8vw, 0.95rem);
+    font-size: clamp(0.95rem, 3.5vw, 1.15rem);
     line-height: 1.25;
     letter-spacing: 0.02em;
   }
@@ -4546,8 +4557,45 @@ blockquote {
   .service-card {
     min-height: auto;
   }
+}
+
+/* Mobile readability & media — applies to every page */
+@media (max-width: 768px) {
+  .gallery-grid {
+    columns: 1;
+  }
+
+  .resource-card {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
 
   .resource-card img {
-    width: 7rem;
+    width: min(100%, 13rem);
+  }
+
+  .price-box__image {
+    height: 13rem;
+  }
+
+  .hero-logo {
+    width: clamp(8.5rem, 36vw, 12rem);
+  }
+
+  .division-badge {
+    width: clamp(7.5rem, 34vw, 10.5rem);
+  }
+
+  .team-profile__media img {
+    min-height: clamp(22rem, 62vw, 28rem);
+  }
+
+  .profile-grid img {
+    max-height: none;
+  }
+
+  .tool-card img {
+    width: 100%;
   }
 }
