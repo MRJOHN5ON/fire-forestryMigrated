@@ -61,7 +61,7 @@
     "toolbox.html": {
       "title": "Toolbox | Givens Fire and Forestry",
       "canonicalPath": "/toolbox",
-      "description": "Free forestry calculators for tree height and firewood cord estimates. Built for homesteaders, loggers, and Montana landowners planning removal or firewood sales.",
+      "description": "Free forestry calculators for tree height, firewood cords, and wildfire risk screening. Built for homesteaders, loggers, and Montana landowners.",
       "ogTitle": "Toolbox | Givens Fire and Forestry",
       "schema": "webPage"
     },
@@ -77,6 +77,13 @@
       "canonicalPath": "/firewood-cord-calculator",
       "description": "Calculate felled tree volume and convert to cords of firewood. Free frustum-based cord calculator for sellers, homesteaders, and loggers in Montana.",
       "ogTitle": "Firewood Cord Calculator | Givens Fire and Forestry",
+      "schema": "softwareApplication"
+    },
+    "wildfire-risk-calculator.html": {
+      "title": "Wildfire Risk Calculator | Givens Fire and Forestry",
+      "canonicalPath": "/wildfire-risk-calculator",
+      "description": "Free wildfire risk screening tool for Montana properties. Enter your address for fuel model, slope, weather, and a Rothermel-based fire risk score from LANDFIRE data.",
+      "ogTitle": "Wildfire Risk Calculator | Givens Fire and Forestry",
       "schema": "softwareApplication"
     }
   }

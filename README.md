@@ -1,100 +1,46 @@
-# I’m the agent that built this repo
+# Givens Fire and Forestry
 
-I’m an AI coding agent. A human pointed me at **Givens Fire and Forestry**—live on Squarespace—and asked for the same site as **plain files** they own: HTML, CSS, vanilla JS, local images, no monthly builder tax.
+Static site for [givensfireandforestry.com](https://www.givensfireandforestry.com). Wildfire mitigation, hazardous tree removal, defensible space, and forestry services out of Three Forks, Montana.
 
-This README is me explaining **what I shipped**, **where we are**, and **how I work** when you set the problem up right.
+This repo is a full rebuild off Squarespace: owned HTML/CSS/JS, local photos and video, no builder lock-in. The brochure side is big. The toolbox is bigger. SEO and AI discovery were built in from the start, not patched on later.
 
-## What I made
+## The site
 
-I migrated a brochure-style site into a **static stack**:
+Eleven indexable pages plus a [Field Tools privacy policy](field-tools-privacy.html) for the Android app.
 
-- One HTML file per public page (`index.html`, `about.html`, `gallery.html`, etc.).
-- Shared **`style.css`** for layout, type, colors, responsive behavior.
-- Shared **`script.js`** for mobile nav, services carousel, video playback tweaks, contact-form helpers, and toolbox calculators.
-- **`assets/images/`** — local copies of imagery instead of hot-linked Squarespace/CDN URLs.
-- **`assets/videos/`** — hosted MP4s for hero/promo sections (home promo, gallery hero, services tree sections).
-- Forms rewritten toward **[Formspree](https://formspree.io/)**-style POST endpoints so the human can plug real IDs in before launch.
-- A **`research/`** folder holding captures/manifests from the source site—handy for diffing; **not** required to host the public mirror.
+[**Home**](index.html) runs a crest hero, promo video, and a services carousel where every slide deep-links into the right section on the [services](services.html) page. Hazardous tree work routes to [flat-rate removal pricing](tree-removal.html).
 
-No React, no bundler, no CMS—deploy the folder as-is.
+[**Services**](services.html) is the anchor page: video hero, ticker, before/after pairs for defensible space and brush work, slash and post-burn triptychs, storm damage gallery, six anchored sections, and an inline quote form. This is the page that carries the business.
 
-## Migration status (May 2026)
+[**Gallery**](gallery.html) is a video hero over a masonry project grid. [**About**](about.html) is team, values, and forest atmosphere. [**Tree removal**](tree-removal.html) has tiered flat-rate pricing, a mobile carousel, custom illustration cards, and two embedded planning calculators so quotes start with real numbers. [**Contact**](contact.html) books through Jobber. [**Resources**](resources.html) curates wildfire and forestry links.
 
-Pages are scaffolded. These are closest to the live Squarespace reference:
+Roughly 4,600 lines in one shared [`style.css`](style.css). Hero MP4s in [`assets/videos/`](assets/videos/). The whole thing deploys as plain files.
 
-| Page | Status |
-|------|--------|
-| **Home** | Hero with main crest badge (`givens-1.png`), promo video, services carousel with deep links, footer |
-| **About** | Team profiles, values grid, forest bg, quote + lede split sections |
-| **Gallery** | Video hero, single-point section divider, 2-column masonry grid |
-| **Services** | Full parity pass: hero + ticker + crest, defensible space before/after, hazardous tree video section, slash/post-burn triptychs, brush before/after, storm removal, compact contact card with horizontal form |
+## Toolbox
 
-Other pages (`tree-removal`, `contact`, `resources`, `toolbox`) exist and share chrome; they haven’t been polished to the same degree as home/about/gallery/services yet.
+Three free web calculators, each with its own page, JS, and CSS. No backend. No login. Built for landowners, loggers, and sellers in Montana. Hub: [`toolbox.html`](toolbox.html).
 
-When in doubt, compare against `research/pages/` or the live site at [givensfireandforestry.com](https://www.givensfireandforestry.com/).
+[**Tree Height Calculator**](tree-height-calculator.html) · [`tree-height-calculator.js`](assets/js/tree-height-calculator.js)  
+Five field methods (angle, line-of-sight, shadow, clinometer, triangulation). Metric and imperial. Tabs, live results, share/export.
 
-## Notable details I wired up
+[**Firewood Cord Calculator**](firewood-cord-calculator.html) · [`firewood-cord-calculator.js`](assets/js/firewood-cord-calculator.js)  
+Frustum volume from log dimensions, cord conversion, stack diagrams. Instant yield estimates for pricing loads.
 
-- **Home carousel → destination pages:** defensible space, slash, post-burn, brush, and storm slides link to anchored sections on `services.html`. Hazardous tree links to `tree-removal.html` (flat-rate pricing page).
-- **Services section anchors:** `#defense`, `#tree`, `#slash`, `#postburn`, `#brushremoval`, `#storm`, `#contact` — with scroll offset for the sticky header.
-- **Main brand crest:** use `assets/images/givens-1.png` in heroes.
-- **Division badge:** Montana (`montana-division-1.png`) on the home hero corner only.
+[**Wildfire Risk Calculator**](wildfire-risk-calculator.html) · [`wildfire-risk-calculator.js`](assets/js/wildfire-risk-calculator.js) · [`wildfire-risk-fuel-models.js`](assets/js/wildfire-risk-fuel-models.js)  
+The heavy one. Address in, risk score out. Geocoding through Census and Nominatim. LANDFIRE fuel models and slope rasters. Open-Meteo weather. NWS fire weather alerts. A full Rothermel surface spread engine ported from Behave/emxsys. FBFM40 fuel tables with burnable vs non-burnable logic and a nearby-fuel scan when the pin lands on urban cover. Weighted 0-100 score across spread rate, flame length, slope, and weather, plus seasonal outlook copy. About 1,400 lines of calculator logic.
 
-## Local preview
+## SEO and AI visibility
 
-From the project root:
+Search engines and LLMs get the same care as human visitors.
 
-```bash
-python3 -m http.server 8765
-```
+Every managed page carries canonical URLs, Open Graph, Twitter cards, and JSON-LD (`LocalBusiness`, `Service`, `SoftwareApplication`, and the rest). Google Tag Manager, GA4, Google Ads conversion tracking, and Search Console verification are wired in. Geo tags point at Three Forks. Metadata source: [`config/seo-pages.json`](config/seo-pages.json). Head sync: [`scripts/sync-seo-head.mjs`](scripts/sync-seo-head.mjs).
 
-Then open `http://127.0.0.1:8765/` (e.g. `services.html`, `gallery.html`). No build step. Use a local server—not `file://`—for video heroes and SVG wave transitions.
+[`llms.txt`](llms.txt) is a machine-readable site index with citation rules for AI systems. [`robots.txt`](robots.txt) explicitly welcomes GPTBot, ClaudeBot, PerplexityBot, Google-Extended, and the rest. Geordy mirrors publish YAML, Markdown, JSON-LD, RSS, and manifest feeds for AI crawlers that want structured data instead of HTML.
 
-## Why that matters for your wallet
+[`_redirects`](_redirects) handles clean URLs and Squarespace legacy 301s. [`sitemap.xml`](sitemap.xml) and [`humans.txt`](humans.txt) round out the stack.
 
-Squarespace is fine until it isn’t. Static hosting on **[Cloudflare Pages](https://pages.cloudflare.com/)**, Netlify, or similar is often **$0** for traffic like this: connect Git, build command empty, output `/`. The human keeps the domain; I gave them **repo-shaped** artifacts instead of a locked builder.
+## What changed from Squarespace
 
-## How I actually executed this
+The migration matched the live brochure on home, about, gallery, and services. Everything after that is original work: the toolbox, all three calculators, wildfire risk scoring, Jobber booking, the SEO/AIO pipeline, redirect map, and analytics layer.
 
-**I don’t hallucinate a whole site from vibes.** I work best when the human gives me **constraints + artifacts**:
-
-- URLs or exported HTML/CSS, **or** a folder already scraped into the workspace.
-- Explicit asks: “match these breakpoints,” “these fonts,” “these calculators,” “forms must POST here.”
-
-Then I loop:
-
-1. **Inventory** — map pages, repeated chrome (nav/footer), and shared patterns.
-2. **Rebuild** — semantic HTML, consolidate duplication into one stylesheet/script.
-3. **Assets** — normalize filenames, fix every reference to local paths; pull video from HLS when direct MP4 URLs 404.
-4. **Behavior** — reproduce interactions without frameworks unless asked.
-5. **Verify** — compare structure/layout against source when tools allow (see MCP below).
-
-## Cursor + terminal
-
-The human ran me inside **Cursor** with the **project folder as the workspace**. That matters: I can edit **every** page when typography or nav changes, not “just the file you pasted.”
-
-They let me use **shell + git**—init, commit, remote, push—instead of hand-copying patches. That’s how this landed on GitHub as a real repo, not a zip fantasy.
-
-## MCP (the cheat codes)
-
-**Model Context Protocol** is how I attach to tools beyond “read file / edit file.”
-
-- **Browser MCP:** I can **snapshot** or **screenshot** the live site, then reconcile markup/CSS against what visitors actually see. That catches spacing, breakpoints, and “looks wrong” issues text-only diffs miss.
-- **Filesystem / repo:** Obvious but critical—I need the tree open so refactors stay consistent.
-- Other MCP servers (issues, docs APIs, whatever you enable) are optional; for a static migration, **browser + repo + shell** was the high-leverage trio.
-
-## What I need from the next human who clones this
-
-Tell your agent the same story:
-
-- **Parity prompts:** “Match this source; list uncertainties.”
-- **Asset prompts:** “Everything local under `assets/images/` and `assets/videos/`.”
-- **Ship prompts:** “Git hygiene, `.gitignore`, push instructions.”
-
-If you phrase it like you’re briefing a contractor with repo access, you’ll get contractor-shaped output.
-
-For deploy checklists, form setup, and Cloudflare steps, see **`README.private.md`** in the repo root (local ops doc; gitignored).
-
----
-
-*I wrote this README about myself. The site itself is boring on purpose—that’s the feature.*
+Static hosting target is Cloudflare Pages. The live domain still runs on Squarespace during cutover.

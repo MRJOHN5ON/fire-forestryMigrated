@@ -719,8 +719,8 @@ blockquote {
 }
 
 .social-link--footer svg {
-  width: 1.35rem;
-  height: 1.35rem;
+  width: 1.85rem;
+  height: 1.85rem;
 }
 
 @media (max-width: 767px) {
@@ -2194,9 +2194,13 @@ blockquote {
 
 .tree-tools-panel__calculators {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(1rem, 2vw, 1.35rem);
   margin-bottom: clamp(2rem, 4vw, 2.75rem);
+}
+
+.tree-tools-panel__calculators--duo {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .tree-tool-card {
@@ -2435,6 +2439,12 @@ blockquote {
 
 .tool-card[id] {
   scroll-margin-top: 6.5rem;
+}
+
+@media (max-width: 1100px) {
+  .tree-tools-panel__calculators {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
@@ -3074,15 +3084,17 @@ blockquote {
 .toolbox-audience__icon {
   display: grid;
   place-items: center;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 999px;
   background: var(--color-accent);
   color: var(--color-white);
-  font-family: var(--font-display);
-  font-size: 0.78rem;
+  flex-shrink: 0;
+}
+
+.toolbox-audience__icon i {
+  font-size: 1.05rem;
   line-height: 1;
-  letter-spacing: 0.04em;
 }
 
 .toolbox-audience__card h3 {
@@ -3165,6 +3177,25 @@ blockquote {
   background: rgba(255, 255, 255, 0.1);
   border-color: var(--color-white);
   color: var(--color-white);
+}
+
+.toolbox-page__legal {
+  margin: -2.5rem 0 0;
+  padding: 0 1rem clamp(1.5rem, 4vw, 2.5rem);
+  text-align: center;
+}
+
+.toolbox-page__legal a {
+  color: rgba(255, 255, 255, 0.38);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.toolbox-page__legal a:hover,
+.toolbox-page__legal a:focus-visible {
+  color: rgba(255, 255, 255, 0.62);
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {

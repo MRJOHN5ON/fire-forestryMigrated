@@ -25,5 +25,3 @@ Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
-
-Disallow: /research/

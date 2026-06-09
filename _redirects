@@ -12,6 +12,8 @@
 /toolbox                        /toolbox.html                    200
 /tree-height-calculator         /tree-height-calculator.html     200
 /firewood-cord-calculator       /firewood-cord-calculator.html   200
+/field-tools-privacy            /field-tools-privacy.html        200
+/wildfire-risk-calculator       /wildfire-risk-calculator.html   200
 
 # Legacy .html URLs → canonical clean paths
 /tree-removal.html              /tree-removal    301
@@ -24,3 +26,4 @@
 /index.html                     /                301
 /tree-height-calculator.html    /tree-height-calculator    301
 /firewood-cord-calculator.html  /firewood-cord-calculator  301
+/wildfire-risk-calculator.html  /wildfire-risk-calculator  301
