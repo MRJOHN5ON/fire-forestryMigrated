@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/plantnet-identify.js": {
+      "maxDuration": 30
+    }
+  }
+}

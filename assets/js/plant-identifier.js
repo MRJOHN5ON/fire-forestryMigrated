@@ -109,6 +109,12 @@
     return typeof key === 'string' && key.trim().length > 0 ? key.trim() : '';
   }
 
+  function getProxyUrl() {
+    const cfg = window.PLANT_IDENTIFIER_CONFIG || {};
+    const url = cfg.PLANTNET_PROXY_URL;
+    return typeof url === 'string' && url.trim().length > 0 ? url.trim() : '';
+  }
+
   function loadImageFromFile(file) {
     return new Promise(function (resolve, reject) {
       const url = URL.createObjectURL(file);
@@ -417,12 +423,13 @@
   }
 
   function identifyPlant(files) {
+    const proxyUrl = getProxyUrl();
     const apiKey = getApiKey();
-    if (!apiKey) {
+    if (!proxyUrl && !apiKey) {
       return Promise.reject(new Error('Plant identification is not configured yet. Please check back soon.'));
     }
 
-    const url = buildIdentifyUrl(apiKey);
+    const url = proxyUrl || buildIdentifyUrl(apiKey);
     const formData = buildFormData(files);
 
     return fetch(url, { method: 'POST', body: formData }).then(function (response) {
@@ -451,7 +458,7 @@
     const raw = data && (data.message || data.error || data.status);
     if (typeof raw === 'string' && raw.trim()) {
       if (raw.indexOf('remote IP not allowed') !== -1 || raw.indexOf('Origin not allowed') !== -1) {
-        return 'This site is not authorized for plant identification yet. If you are testing locally, use http://localhost:8080 and confirm that URL is listed in your Pl@ntNet API key settings.';
+        return 'Plant identification could not reach the API. If you are testing locally, use http://localhost:8080 with a direct API key, or confirm the production proxy is configured.';
       }
       if (status === 404 || raw.indexOf('Species not found') !== -1) {
         return 'No plant species matched that photo. Try a closer shot of leaves, flowers, fruit, or bark in good light.';
