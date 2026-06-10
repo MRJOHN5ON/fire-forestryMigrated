@@ -195,8 +195,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       Use custom weather instead of live forecast
                     </label>
                     <div class="tool-field">
-                      <label for="windOverride">Wind speed (mph at 10 m)</label>
-                      <input type="number" id="windOverride" min="0" max="80" step="1" inputmode="decimal">
+                      <label for="windOverride">Wind speed at 10 m height</label>
+                      <div class="tool-field__input-wrap">
+                        <input type="number" id="windOverride" min="0" max="80" step="1" inputmode="decimal">
+                        <span class="tool-field__unit" aria-hidden="true">mph</span>
+                      </div>
                     </div>
                     <div class="tool-field">
                       <label for="humidityOverride">Relative humidity (%)</label>

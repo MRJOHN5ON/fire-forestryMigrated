@@ -570,6 +570,25 @@
   background: var(--color-white);
 }
 
+.risk-advanced .tool-field__input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.risk-advanced .tool-field__input-wrap input {
+  flex: 1;
+  min-width: 0;
+}
+
+.risk-advanced .tool-field__unit {
+  flex-shrink: 0;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--tool-muted);
+}
+
 /* Results — full width panel */
 .risk-results {
   width: 100%;

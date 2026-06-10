@@ -15,13 +15,14 @@
 - [Tree Removal Pricing](https://www.givensfireandforestry.com/tree-removal): Flat-rate residential tree removal tiers
 - [Contact / Appointments](https://www.givensfireandforestry.com/contact): Schedule a consultation (Jobber booking)
 - [Resources](https://www.givensfireandforestry.com/resources): Wildfire and forest management educational links
-- [Toolbox](https://www.givensfireandforestry.com/toolbox): Free tree height, firewood cord, and wildfire risk calculators
+- [Toolbox](https://www.givensfireandforestry.com/toolbox): Free tree height, firewood cord, wildfire risk, and plant identifier tools
 
 ## Free tools
 
 - [Tree Height Calculator](https://www.givensfireandforestry.com/tree-height-calculator): Five measurement methods, metric and imperial
 - [Firewood Cord Calculator](https://www.givensfireandforestry.com/firewood-cord-calculator): Volume and cord estimates for felled timber
 - [Wildfire Risk Calculator](https://www.givensfireandforestry.com/wildfire-risk-calculator): Address-based LANDFIRE fuel, weather, and Rothermel risk score
+- [Plant & Tree Identifier](https://www.givensfireandforestry.com/plant-identifier): Photo-based species ID with Montana fire-risk notes
 
 ## Services offered
 

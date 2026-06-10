@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Field Tools Privacy Policy | Givens Fire and Forestry</title>
-    <meta name="description" content="Privacy policy for the Givens Field Tools mobile app — cord calculator and tree height tools for Android.">
+    <meta name="description" content="Privacy policy for the Givens Field Tools mobile app — cord calculator, tree height, and wildfire risk tools for Android.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://www.givensfireandforestry.com/field-tools-privacy">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -164,11 +164,11 @@
       <div class="givens-privacy__wrap">
         <p class="givens-privacy__eyebrow">Givens Field Tools · Android</p>
         <h1>Privacy Policy</h1>
-        <p class="givens-privacy__updated">Last updated: June 8, 2026</p>
+        <p class="givens-privacy__updated">Last updated: June 9, 2026</p>
 
         <div class="givens-privacy__summary">
           <p>
-            <strong>Givens Field Tools</strong> is a free offline calculator app (cord volume and tree height).
+            <strong>Givens Field Tools</strong> is a free field calculator app (cord volume, tree height, and wildfire risk).
             We do not require an account, we do not sell your data, and we do not run advertising in the app.
           </p>
         </div>
@@ -190,21 +190,28 @@
 
         <div class="givens-privacy__card">
           <h2>Information we collect</h2>
-          <p><strong>We do not collect personal information through the app.</strong> Specifically:</p>
+          <p><strong>We do not collect personal information on our own servers.</strong> Specifically:</p>
           <ul>
             <li>No name, email, or account is required</li>
             <li>No analytics or advertising SDKs in the app</li>
-            <li>No data is sent to our servers — the app has no backend</li>
-            <li>We do not track your location, contacts, photos, or microphone</li>
+            <li>No data is sent to Givens servers — the app has no backend of its own</li>
+            <li>We do not continuously track your location, contacts, photos, or microphone</li>
           </ul>
+          <p>
+            The <strong>wildfire risk calculator</strong> is different: when you tap calculate (or choose
+            “use my current location”), the app sends the address or coordinates needed for that one request
+            directly from your device to public data services (see below). We do not receive or store those
+            requests on our systems.
+          </p>
         </div>
 
         <div class="givens-privacy__card">
           <h2>Data stored on your device</h2>
           <p>
             To save your work between sessions, the app stores calculator inputs locally on your phone
-            (for example: log measurements, tree height values, and log names you enter). This stays on your
-            device using standard Android local storage.
+            (for example: log measurements, tree height values, log names, wildfire property addresses,
+            optional weather overrides, and the last GPS coordinates you used for a wildfire check). This stays
+            on your device using standard Android local storage.
           </p>
           <p>
             You can clear this data anytime by clearing the app’s storage in Android Settings, or by using
@@ -218,7 +225,32 @@
 
         <div class="givens-privacy__card">
           <h2>When the app connects outward</h2>
-          <p>The app works offline for calculators. It only opens external links when <strong>you choose to</strong>:</p>
+          <p>
+            The <strong>cord calculator</strong> and <strong>tree height</strong> tools work fully offline.
+            The <strong>wildfire risk calculator</strong> needs an internet connection when you run a calculation.
+          </p>
+          <p>When you calculate wildfire risk, your device may send an address or coordinates to these public services:</p>
+          <ul>
+            <li>
+              <strong>US Census Geocoder</strong> and <strong>OpenStreetMap Nominatim</strong> — turn an address
+              into map coordinates (and reverse-geocode GPS to a readable label)
+            </li>
+            <li>
+              <strong>USGS LANDFIRE</strong> — fuel models, slope, and canopy for the pin location
+            </li>
+            <li>
+              <strong>Open-Meteo</strong> — current weather and 16-day forecast for the area
+            </li>
+            <li>
+              <strong>National Weather Service</strong> — active fire-weather alerts when issued
+            </li>
+          </ul>
+          <p>
+            Those providers receive only what is needed for the lookup (typically coordinates, and an address
+            string if you typed one). Their privacy practices are governed by their own policies. We do not
+            control third-party services.
+          </p>
+          <p>The app also opens external links when <strong>you choose to</strong>:</p>
           <ul>
             <li>
               <strong>Call</strong> — opens your phone dialer to Givens Fire &amp; Forestry
@@ -228,8 +260,19 @@
               <strong>Website</strong> — opens your browser to
               <a href="https://www.givensfireandforestry.com">givensfireandforestry.com</a>
             </li>
+            <li>
+              <strong>NOAA outlook links</strong> — seasonal drought and forecast pages linked from wildfire results
+            </li>
           </ul>
-          <p>We do not control third-party websites or phone services once you leave the app.</p>
+        </div>
+
+        <div class="givens-privacy__card">
+          <h2>Location permission</h2>
+          <p>
+            The wildfire tool may ask for <strong>foreground location</strong> only if you tap
+            “use my current location instead.” The app does not read GPS in the background. You can always
+            enter a property address instead and decline location access.
+          </p>
         </div>
 
         <div class="givens-privacy__card">
@@ -243,8 +286,10 @@
         <div class="givens-privacy__card">
           <h2>Security</h2>
           <p>
-            Calculator data is stored locally on your device. No method of electronic storage is 100% secure,
-            but because we do not transmit your measurements to our servers, exposure through our systems is limited.
+            Calculator inputs are stored locally on your device. Wildfire lookups go over HTTPS directly to
+            public data providers; we do not operate a server that receives or stores those requests.
+            No method of electronic storage or transmission is 100% secure, but exposure through our own
+            systems is limited because we do not run a backend for this app.
           </p>
         </div>
 
