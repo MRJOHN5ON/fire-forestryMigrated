@@ -66,6 +66,9 @@ async function handler(req, res) {
     if (req.headers['content-type']) {
       headers['content-type'] = req.headers['content-type'];
     }
+    // Pl@ntNet with "expose API key" on rejects server IPs unless Origin matches an authorized domain.
+    // Override via PLANTNET_UPSTREAM_ORIGIN on Vercel, or uncheck "expose" in Pl@ntNet (then remove this).
+    headers.Origin = process.env.PLANTNET_UPSTREAM_ORIGIN || 'http://localhost:8080';
 
     const upstream = await fetch(upstreamUrl, {
       method: 'POST',

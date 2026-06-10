@@ -458,7 +458,7 @@
     const raw = data && (data.message || data.error || data.status);
     if (typeof raw === 'string' && raw.trim()) {
       if (raw.indexOf('remote IP not allowed') !== -1 || raw.indexOf('Origin not allowed') !== -1) {
-        return 'Plant identification could not reach the API. If you are testing locally, use http://localhost:8080 with a direct API key, or confirm the production proxy is configured.';
+        return 'Plant identification could not reach the API. The proxy may need a redeploy, or Pl@ntNet API key settings may need updating.';
       }
       if (status === 404 || raw.indexOf('Species not found') !== -1) {
         return 'No plant species matched that photo. Try a closer shot of leaves, flowers, fruit, or bark in good light.';
