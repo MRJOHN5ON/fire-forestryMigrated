@@ -37,12 +37,19 @@
       "ogTitle": "Services | Givens Fire and Forestry",
       "schema": "webPage"
     },
-    "tree-removal.html": {
+    "flat-rates-for-tree-removal.html": {
       "title": "Flat Rate Tree Removal | Givens Fire and Forestry",
-      "canonicalPath": "/tree-removal",
+      "canonicalPath": "/flat-rates-for-tree-removal",
       "description": "Transparent flat-rate residential tree removal pricing in Southwest Montana. Small, standard, and large removal tiers with free quote requests.",
       "ogTitle": "Flat Rate Tree Removal | Givens Fire and Forestry",
       "schema": "service"
+    },
+    "appointments.html": {
+      "title": "Appointments | Givens Fire and Forestry",
+      "canonicalPath": "/appointments",
+      "description": "Book an appointment with Givens Fire and Forestry for wildfire mitigation, forest management, and fire-smart property consultations in Three Forks and Gallatin Valley, Montana.",
+      "ogTitle": "Appointments | Givens Fire and Forestry",
+      "schema": "contactPage"
     },
     "contact.html": {
       "title": "Contact & Appointments | Givens Fire and Forestry",
@@ -84,6 +91,13 @@
       "canonicalPath": "/wildfire-risk-calculator",
       "description": "Free wildfire risk screening tool for Montana properties. Enter your address for fuel model, slope, weather, and a Rothermel-based fire risk score from LANDFIRE data.",
       "ogTitle": "Wildfire Risk Calculator | Givens Fire and Forestry",
+      "schema": "softwareApplication"
+    },
+    "plant-identifier.html": {
+      "title": "Plant & Tree Identifier | Givens Fire and Forestry",
+      "canonicalPath": "/plant-identifier",
+      "description": "Free plant and tree identifier for Montana landowners. Snap a photo to identify species and get local fire-risk notes for defensible space planning.",
+      "ogTitle": "Plant & Tree Identifier | Givens Fire and Forestry",
       "schema": "softwareApplication"
     }
   }

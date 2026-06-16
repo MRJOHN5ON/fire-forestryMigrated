@@ -24,20 +24,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Inject plant ID proxy URL
+      - name: Inject deploy config (plant ID proxy, Formspree)
         env:
           PLANTNET_PROXY_URL: ${{ secrets.PLANTNET_PROXY_URL }}
-        run: |
-          if [ -z "$PLANTNET_PROXY_URL" ]; then
-            echo "::error::GitHub secret PLANTNET_PROXY_URL is not set. Deploy api/plantnet-identify.js to Vercel, then add the function URL (e.g. https://your-project.vercel.app/api/plantnet-identify)."
-            exit 1
-          fi
-          node -e "
-            const fs = require('fs');
-            const proxyUrl = process.env.PLANTNET_PROXY_URL;
-            const content = 'window.PLANT_IDENTIFIER_CONFIG = {\n  PLANTNET_PROXY_URL: ' + JSON.stringify(proxyUrl) + '\n};\n';
-            fs.writeFileSync('assets/js/plant-identifier-config.js', content);
-          "
+          FORMSPREE_HOME_QUOTE: ${{ secrets.FORMSPREE_HOME_QUOTE }}
+          FORMSPREE_SERVICES_QUOTE: ${{ secrets.FORMSPREE_SERVICES_QUOTE }}
+          FORMSPREE_TREE_REMOVAL_QUOTE: ${{ secrets.FORMSPREE_TREE_REMOVAL_QUOTE }}
+        run: node scripts/pages-build.mjs
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

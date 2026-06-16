@@ -12,8 +12,9 @@
 
 - [Home](https://www.givensfireandforestry.com/): Wildfire mitigation and fire-smart property services
 - [Services](https://www.givensfireandforestry.com/services): Defensible space, hazardous tree removal, slash piles, brush, storm cleanup, post-burn cleanup
-- [Tree Removal Pricing](https://www.givensfireandforestry.com/tree-removal): Flat-rate residential tree removal tiers
+- [Tree Removal Pricing](https://www.givensfireandforestry.com/flat-rates-for-tree-removal): Flat-rate residential tree removal tiers
 - [Contact / Appointments](https://www.givensfireandforestry.com/contact): Schedule a consultation (Jobber booking)
+- [Appointments](https://www.givensfireandforestry.com/appointments): Book a consultation (Squarespace URL parity)
 - [Resources](https://www.givensfireandforestry.com/resources): Wildfire and forest management educational links
 - [Toolbox](https://www.givensfireandforestry.com/toolbox): Free tree height, firewood cord, wildfire risk, and plant identifier tools
 
