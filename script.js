@@ -92,41 +92,148 @@ if (header && menuToggle) {
 function setupScrollCarousel(carousel, trackSelector, slideSelector) {
   const track = carousel.querySelector(trackSelector);
   const slides = carousel.querySelectorAll(slideSelector);
+  const viewport = track?.closest(".carousel-viewport") || track?.parentElement;
   const prev = carousel.querySelector(".carousel-btn--prev");
   const next = carousel.querySelector(".carousel-btn--next");
+  const pageMode = carousel.dataset.carouselMode === "page";
+  const pagination = carousel.querySelector(".carousel-pagination");
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   if (!track || !slides.length) return;
 
-  let index = 0;
+  let pageIndex = 0;
+  let slideIndex = 0;
 
-  const getStep = () => {
-    const slide = slides[0];
-    const gap = Number.parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 20;
-    return slide.offsetWidth + gap;
+  const getGap = () => Number.parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 20;
+
+  const getStep = () => slides[0].offsetWidth + getGap();
+
+  const getSlidesPerView = () => {
+    const viewportWidth = viewport?.clientWidth || track.clientWidth;
+    const step = getStep();
+    if (!step) return 1;
+    return Math.max(1, Math.floor((viewportWidth + getGap()) / step));
+  };
+
+  const getPageCount = () => Math.max(1, Math.ceil(slides.length / getSlidesPerView()));
+
+  const usesPageScroll = () => pageMode && getSlidesPerView() > 1;
+
+  const getMaxScroll = () => Math.max(0, track.scrollWidth - track.clientWidth);
+
+  const scrollToOffset = (left) => {
+    track.scrollTo({
+      left,
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+    });
+  };
+
+  const scrollToSlideIndex = (nextIndex) => {
+    slideIndex = Math.max(0, Math.min(nextIndex, slides.length - 1));
+    scrollToOffset(getStep() * slideIndex);
+    updateUI();
+  };
+
+  const scrollToPageIndex = (nextIndex) => {
+    const perView = getSlidesPerView();
+    const maxPage = getPageCount() - 1;
+    pageIndex = Math.max(0, Math.min(nextIndex, maxPage));
+
+    if (pageIndex >= maxPage) {
+      scrollToOffset(getMaxScroll());
+      updateUI();
+      return;
+    }
+
+    scrollToOffset(pageIndex * perView * getStep());
+    updateUI();
+  };
+
+  const syncIndicesFromScroll = () => {
+    const step = getStep();
+    if (!step) return;
+
+    slideIndex = Math.round(track.scrollLeft / step);
+
+    if (usesPageScroll()) {
+      const perView = getSlidesPerView();
+      pageIndex = Math.round(track.scrollLeft / (perView * step));
+      if (track.scrollLeft >= getMaxScroll() - 2) {
+        pageIndex = getPageCount() - 1;
+      }
+    }
+
+    updateUI();
   };
 
   const updateButtons = () => {
-    if (prev) prev.disabled = index <= 0;
-    if (next) next.disabled = index >= slides.length - 1;
+    if (usesPageScroll()) {
+      const maxPage = getPageCount() - 1;
+      if (prev) prev.disabled = pageIndex <= 0;
+      if (next) next.disabled = pageIndex >= maxPage;
+      return;
+    }
+
+    if (prev) prev.disabled = slideIndex <= 0;
+    if (next) next.disabled = slideIndex >= slides.length - 1;
   };
 
-  const scrollToIndex = (nextIndex) => {
-    index = Math.max(0, Math.min(nextIndex, slides.length - 1));
-    track.scrollTo({ left: getStep() * index, behavior: "smooth" });
-    updateButtons();
+  const updateDots = () => {
+    if (!pagination) return;
+
+    const paging = usesPageScroll();
+    const dotCount = paging ? getPageCount() : slides.length;
+    const activeIndex = paging ? pageIndex : slideIndex;
+
+    if (pagination.children.length !== dotCount) {
+      pagination.replaceChildren();
+      for (let i = 0; i < dotCount; i += 1) {
+        const dot = document.createElement("button");
+        dot.type = "button";
+        dot.className = "carousel-pagination__dot";
+        dot.setAttribute("role", "tab");
+        dot.setAttribute("aria-label", paging ? `Show service group ${i + 1}` : `Show service ${i + 1}`);
+        dot.addEventListener("click", () => {
+          if (usesPageScroll()) scrollToPageIndex(i);
+          else scrollToSlideIndex(i);
+        });
+        pagination.appendChild(dot);
+      }
+    }
+
+    [...pagination.children].forEach((dot, i) => {
+      const isActive = i === activeIndex;
+      dot.classList.toggle("is-active", isActive);
+      dot.setAttribute("aria-selected", String(isActive));
+    });
   };
 
-  prev?.addEventListener("click", () => scrollToIndex(index - 1));
-  next?.addEventListener("click", () => scrollToIndex(index + 1));
-
-  track.addEventListener("scroll", () => {
-    const step = getStep();
-    if (!step) return;
-    index = Math.round(track.scrollLeft / step);
+  const updateUI = () => {
     updateButtons();
-  }, { passive: true });
+    updateDots();
+  };
 
-  updateButtons();
+  prev?.addEventListener("click", () => {
+    if (usesPageScroll()) scrollToPageIndex(pageIndex - 1);
+    else scrollToSlideIndex(slideIndex - 1);
+  });
+
+  next?.addEventListener("click", () => {
+    if (usesPageScroll()) scrollToPageIndex(pageIndex + 1);
+    else scrollToSlideIndex(slideIndex + 1);
+  });
+
+  track.addEventListener("scroll", syncIndicesFromScroll, { passive: true });
+
+  if (typeof ResizeObserver !== "undefined") {
+    const resizeObserver = new ResizeObserver(() => updateUI());
+    resizeObserver.observe(track);
+    if (viewport) resizeObserver.observe(viewport);
+  }
+
+  updateUI();
+  requestAnimationFrame(updateUI);
+  window.addEventListener("load", updateUI, { once: true });
 }
 
 document.querySelectorAll("[data-services-carousel]").forEach((carousel) => {

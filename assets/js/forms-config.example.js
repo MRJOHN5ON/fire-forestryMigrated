@@ -2,5 +2,6 @@
 window.GFF_FORMS = {
   homeQuote: "https://formspree.io/f/your-form-id",
   servicesQuote: "https://formspree.io/f/your-form-id",
-  treeRemovalQuote: "https://formspree.io/f/your-form-id"
+  treeRemovalQuote: "https://formspree.io/f/your-form-id",
+  nominationQuote: "https://formspree.io/f/your-form-id"
 };

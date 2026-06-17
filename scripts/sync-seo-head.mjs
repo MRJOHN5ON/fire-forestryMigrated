@@ -133,7 +133,7 @@ function buildSeoBlock(pageMeta) {
 <title>${esc(pageMeta.title)}</title>
 <link rel="canonical" href="${canonicalUrl}">
 <meta name="description" content="${esc(pageMeta.description)}">
-<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="robots" content="${esc(pageMeta.robots || "index,follow,max-image-preview:large")}">
 <meta property="og:site_name" content="${esc(site.name)}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="${site.locale}">

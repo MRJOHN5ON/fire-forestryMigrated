@@ -18,6 +18,7 @@
 /field-tools-privacy            /field-tools-privacy.html        200
 /wildfire-risk-calculator       /wildfire-risk-calculator.html   200
 /plant-identifier               /plant-identifier.html           200
+/nomination                     /nomination.html                 200
 
 # Legacy .html URLs → canonical clean paths
 /flat-rates-for-tree-removal.html    /flat-rates-for-tree-removal    301
@@ -34,3 +35,4 @@
 /firewood-cord-calculator.html  /firewood-cord-calculator  301
 /wildfire-risk-calculator.html  /wildfire-risk-calculator  301
 /plant-identifier.html         /plant-identifier    301
+/nomination.html                /nomination          301

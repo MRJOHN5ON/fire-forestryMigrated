@@ -30,6 +30,7 @@ jobs:
           FORMSPREE_HOME_QUOTE: ${{ secrets.FORMSPREE_HOME_QUOTE }}
           FORMSPREE_SERVICES_QUOTE: ${{ secrets.FORMSPREE_SERVICES_QUOTE }}
           FORMSPREE_TREE_REMOVAL_QUOTE: ${{ secrets.FORMSPREE_TREE_REMOVAL_QUOTE }}
+          FORMSPREE_NOMINATION: ${{ secrets.FORMSPREE_NOMINATION }}
         run: node scripts/pages-build.mjs
 
       - name: Configure GitHub Pages

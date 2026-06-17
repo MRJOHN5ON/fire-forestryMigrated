@@ -99,6 +99,14 @@
       "description": "Free plant and tree identifier for Montana landowners. Snap a photo to identify species and get local fire-risk notes for defensible space planning.",
       "ogTitle": "Plant & Tree Identifier | Givens Fire and Forestry",
       "schema": "softwareApplication"
+    },
+    "nomination.html": {
+      "title": "Nominate a Neighbor | Givens Fire and Forestry",
+      "canonicalPath": "/nomination",
+      "description": "Nominate a deserving neighbor for two complimentary days of wildfire mitigation work from Givens Fire and Forestry in Southwest Montana.",
+      "ogTitle": "Nominate a Neighbor | Givens Fire and Forestry",
+      "schema": "webPage",
+      "robots": "noindex,nofollow"
     }
   }
 }

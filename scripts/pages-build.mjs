@@ -36,7 +36,8 @@ console.log("Wrote assets/js/plant-identifier-config.js");
 const formVars = [
   ["FORMSPREE_HOME_QUOTE", "homeQuote"],
   ["FORMSPREE_SERVICES_QUOTE", "servicesQuote"],
-  ["FORMSPREE_TREE_REMOVAL_QUOTE", "treeRemovalQuote"]
+  ["FORMSPREE_TREE_REMOVAL_QUOTE", "treeRemovalQuote"],
+  ["FORMSPREE_NOMINATION", "nominationQuote"]
 ];
 
 const missingForms = formVars.filter(([envName]) => !process.env[envName]?.trim());
