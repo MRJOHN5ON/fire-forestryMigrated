@@ -1,3 +1,20 @@
+/* ==========================================================================
+   Givens Fire and Forestry — global stylesheet
+
+   Sections (in order):
+   - Base, accessibility, layout, header/nav, footer
+   - Components: carousel, cards, buttons, forms
+   - Pages: Home, Services, Flat rates, About, Gallery, Toolbox,
+     Contact, Resources, Nomination
+   - Responsive overrides at end of file
+
+   Calculator/tool pages use additional CSS in assets/css/.
+   ========================================================================== */
+
+/* ==========================================================================
+   Base — design tokens, reset, typography
+   ========================================================================== */
+
 :root {
   --color-black: #000000;
   --color-white: #ffffff;
@@ -79,6 +96,10 @@ p {
   margin-top: 0;
 }
 
+/* ==========================================================================
+   Accessibility — skip link, screen-reader text
+   ========================================================================== */
+
 .skip-link {
   left: 1rem;
   padding: 0.75rem 1rem;
@@ -104,11 +125,19 @@ p {
   width: 1px;
 }
 
+/* ==========================================================================
+   Layout — containers
+   ========================================================================== */
+
 .container,
 .wide-container {
   width: min(var(--container), calc(100% - var(--gutter) * 2));
   margin-inline: auto;
 }
+
+/* ==========================================================================
+   Site header & navigation
+   ========================================================================== */
 
 .site-header {
   position: sticky;
@@ -185,6 +214,10 @@ p {
   background: var(--color-white);
   transition: transform 180ms ease, opacity 180ms ease;
 }
+
+/* ==========================================================================
+   Page — Home (hero)
+   ========================================================================== */
 
 .hero {
   position: relative;
@@ -283,9 +316,17 @@ p {
   margin: 0;
 }
 
+/* ==========================================================================
+   Shared — section spacing
+   ========================================================================== */
+
 .section {
   padding: clamp(4rem, 7vw, 7rem) 0;
 }
+
+/* ==========================================================================
+   Page — Home (services preview & carousel)
+   ========================================================================== */
 
 .services-preview {
   background: var(--color-black);
@@ -421,6 +462,10 @@ p {
   }
 }
 
+/* ==========================================================================
+   Components — carousel (shared)
+   ========================================================================== */
+
 .carousel-pagination {
   display: flex;
   justify-content: center;
@@ -555,6 +600,10 @@ p {
   color: var(--color-white);
 }
 
+/* ==========================================================================
+   Components — service cards (shared)
+   ========================================================================== */
+
 .service-card {
   min-height: 24rem;
   padding: clamp(1.4rem, 2.5vw, 2.4rem);
@@ -576,6 +625,10 @@ p {
   font-family: var(--font-display);
   text-transform: uppercase;
 }
+
+/* ==========================================================================
+   Page — Home (consultation split & contact section)
+   ========================================================================== */
 
 .split-section,
 .contact-section {
@@ -734,6 +787,10 @@ p {
   text-underline-offset: 0.16em;
 }
 
+/* ==========================================================================
+   Components — buttons & phone line
+   ========================================================================== */
+
 .phone-line {
   font-family: var(--font-display);
   font-size: clamp(1.8rem, 3vw, 3rem);
@@ -764,6 +821,10 @@ p {
   object-fit: cover;
   object-position: center;
 }
+
+/* ==========================================================================
+   Page — Home (dark panel & promo video)
+   ========================================================================== */
 
 .dark-panel {
   background: var(--color-dark);
@@ -929,6 +990,10 @@ p {
   }
 }
 
+/* ==========================================================================
+   Components — forms & blockquote
+   ========================================================================== */
+
 .contact-grid {
   align-items: start;
 }
@@ -976,6 +1041,10 @@ blockquote {
 .contact-form textarea:focus {
   outline: 0.2rem solid var(--color-muted-green);
 }
+
+/* ==========================================================================
+   Site footer
+   ========================================================================== */
 
 .site-footer {
   padding: clamp(3rem, 6vw, 5rem) 0;
@@ -1094,6 +1163,10 @@ blockquote {
   }
 }
 
+/* ==========================================================================
+   Shared — page heroes
+   ========================================================================== */
+
 .page-hero {
   position: relative;
   display: grid;
@@ -1154,6 +1227,10 @@ blockquote {
   width: 100%;
 }
 
+/* ==========================================================================
+   Page — About & Gallery (hero variants)
+   ========================================================================== */
+
 .about-hero {
   --hero-image: url("assets/images/unsplash-image-iretlqzeu4.jpg");
 }
@@ -1200,6 +1277,10 @@ blockquote {
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
+
+/* ==========================================================================
+   Page — Services (hero)
+   ========================================================================== */
 
 .services-hero-section {
   position: relative;
@@ -1321,6 +1402,10 @@ blockquote {
 #contact {
   scroll-margin-top: 6.5rem;
 }
+
+/* ==========================================================================
+   Page — Services (panels, cards, before/after)
+   ========================================================================== */
 
 .services-panel {
   padding-top: clamp(3rem, 6vw, 5rem);
@@ -1446,6 +1531,7 @@ blockquote {
   line-height: 1.55;
 }
 
+/* Before/after drag slider (Services — defensible space, brush removal) */
 .ba-showcase {
   display: grid;
   gap: clamp(1.5rem, 3vw, 2rem);
@@ -1614,6 +1700,10 @@ blockquote {
   font-size: 1rem;
   line-height: 1.55;
 }
+
+/* ==========================================================================
+   Page — Services (tree hero, tree body, triptych)
+   ========================================================================== */
 
 .services-quote-section {
   padding: clamp(2.5rem, 5vw, 4rem) 0;
@@ -1846,6 +1936,10 @@ blockquote {
   display: inline-block;
 }
 
+/* ==========================================================================
+   Components — CTA button variant
+   ========================================================================== */
+
 .button--cta {
   background: var(--color-white);
   border-color: var(--color-white);
@@ -1879,6 +1973,10 @@ blockquote {
     box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0);
   }
 }
+
+/* ==========================================================================
+   Page — Services (triptych, slash, post-burn)
+   ========================================================================== */
 
 .services-triptych {
   background: var(--color-white);
@@ -1975,6 +2073,10 @@ blockquote {
 .services-triptych__grid article:last-child p {
   text-align: left;
 }
+
+/* ==========================================================================
+   Page — Services (storm removal)
+   ========================================================================== */
 
 .storm-body {
   background: var(--color-white);
@@ -2107,6 +2209,10 @@ blockquote {
   color: var(--color-white);
   box-shadow: 0 0.75rem 2rem rgba(242, 138, 53, 0.45);
 }
+
+/* ==========================================================================
+   Page — Services (contact block)
+   ========================================================================== */
 
 .services-contact {
   position: relative;
@@ -2298,6 +2404,10 @@ blockquote {
   accent-color: var(--color-accent);
 }
 
+/* ==========================================================================
+   Page — Flat rates (tree removal contact overrides)
+   ========================================================================== */
+
 .tree-removal-contact__background {
   background-image: url("assets/images/20230907-175912.jpg");
   background-position: 96.875% 82.5%;
@@ -2417,6 +2527,10 @@ blockquote {
   font-size: 0.95rem;
 }
 
+
+/* ==========================================================================
+   Page — Flat rates (forestry hero & pricing)
+   ========================================================================== */
 
 .tree-hero {
   --hero-image: url("assets/images/unsplash-image-iyu-6nppxh8.jpg");
@@ -2681,6 +2795,10 @@ blockquote {
   font-size: clamp(0.92rem, 1.4vw, 1rem);
   line-height: 1.5;
 }
+
+/* ==========================================================================
+   Page — Flat rates & Toolbox (tree tools panel)
+   ========================================================================== */
 
 .tree-tools-section {
   position: relative;
@@ -3021,6 +3139,10 @@ blockquote {
   --hero-image: url("assets/images/unsplash-image-gzqdz5r0dio.jpg");
 }
 
+/* ==========================================================================
+   Shared — two-column layouts & profile grids
+   ========================================================================== */
+
 .two-column-hero,
 .profile-grid,
 .two-column-text {
@@ -3053,6 +3175,10 @@ blockquote {
 .pricing-section h2 {
   font-size: clamp(2.5rem, 5vw, 5rem);
 }
+
+/* ==========================================================================
+   Page — About (team profile)
+   ========================================================================== */
 
 .team-profile {
   padding: 0;
@@ -3199,6 +3325,10 @@ blockquote {
   object-fit: cover;
   object-position: center;
 }
+
+/* ==========================================================================
+   Page — About (values section)
+   ========================================================================== */
 
 .values-section {
   background: var(--color-page);
@@ -3387,12 +3517,19 @@ blockquote {
   font-weight: 700;
 }
 
+/* ==========================================================================
+   Page — Gallery
+   ========================================================================== */
+
 .gallery-section {
   background: var(--color-page);
   color: var(--color-black);
 }
 
-/* Toolbox page */
+/* ==========================================================================
+   Page — Toolbox
+   ========================================================================== */
+
 .page-toolbox {
   overflow-x: clip;
 }
@@ -3870,6 +4007,10 @@ blockquote {
   object-fit: cover;
 }
 
+/* ==========================================================================
+   Shared — legacy grids & gallery masonry
+   ========================================================================== */
+
 .services-detail {
   background: var(--color-black);
 }
@@ -3920,6 +4061,10 @@ blockquote {
   padding: clamp(1rem, 2vw, 1.8rem);
   border: 1px solid var(--color-border);
 }
+
+/* ==========================================================================
+   Page — Contact & appointments
+   ========================================================================== */
 
 .contact-page-section {
   padding-top: 0;
@@ -4203,6 +4348,10 @@ blockquote {
 .location-cards h2 {
   font-size: clamp(1.8rem, 3vw, 3rem);
 }
+
+/* ==========================================================================
+   Page — Resources
+   ========================================================================== */
 
 .resources-hero {
   --hero-image: url("assets/images/unsplash-image-7ruhorzo-1g.jpg");
@@ -4713,6 +4862,10 @@ blockquote {
   }
 }
 
+/* ==========================================================================
+   Shared — resource cards & tool shell nav
+   ========================================================================== */
+
 .resource-intro {
   max-width: 76rem;
 }
@@ -4812,6 +4965,10 @@ blockquote {
   color: var(--color-white);
   font-weight: 700;
 }
+
+/* ==========================================================================
+   Responsive — mobile navigation (max-width: 1100px)
+   ========================================================================== */
 
 @media (max-width: 1100px) {
   .menu-toggle {
@@ -5252,7 +5409,10 @@ blockquote {
   }
 }
 
-/* Mobile readability & media — applies to every page */
+/* ==========================================================================
+   Responsive — mobile readability & media (max-width: 768px)
+   ========================================================================== */
+
 @media (max-width: 768px) {
   .gallery-grid {
     columns: 1;
@@ -5293,7 +5453,10 @@ blockquote {
   }
 }
 
-/* Nominate a Neighbor campaign (unlinked until promoted) */
+/* ==========================================================================
+   Page — Nomination (Nominate a Neighbor)
+   ========================================================================== */
+
 .page-nomination {
   background: var(--color-page);
 }
