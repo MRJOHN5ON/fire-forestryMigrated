@@ -113,11 +113,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <section class="forestry-hero-section" aria-labelledby="tree-hero-title">
         <div class="forestry-hero">
           <h1 id="tree-hero-title">Flat Rate Tree Removal</h1>
-          <p>Professional Forestry Services | Transparent Pricing | No Surprises</p>
-          <p class="forestry-hero__links">
-            <a class="forestry-hero__back" href="services.html">&larr; View All Services</a>
-          </p>
+          <ul class="forestry-hero__badges" aria-label="Flat rate highlights">
+            <li>Professional Forestry Services</li>
+            <li>Transparent Pricing</li>
+            <li>No Surprises</li>
+          </ul>
         </div>
+        <p class="forestry-hero__links">
+          <a class="forestry-hero__back" href="services.html">&larr; View All Services</a>
+        </p>
       </section>
 
       <section class="section pricing-section pricing-section--forest" aria-labelledby="pricing-title">
@@ -209,7 +213,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <img src="assets/images/livdtcxfspyd1l9vpmzofa.jpg" alt="" width="320" height="240" loading="lazy">
                 </div>
                 <div class="tree-tool-card__body">
-                  <p class="tree-tool-card__step">Step 1 &middot; Height</p>
                   <h3>Tree Height Calculator</h3>
                   <p class="tree-tool-card__copy">Stand back, measure your angle, and get a height estimate in under a minute.</p>
                   <ul class="tree-tool-card__benefits">
@@ -228,7 +231,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <img src="assets/images/d2coinzctgkxneewkzjmgq.jpg" alt="Firewood cord illustration showing 4ft by 4ft by 8ft stack dimensions" width="320" height="240" loading="lazy">
                 </div>
                 <div class="tree-tool-card__body">
-                  <p class="tree-tool-card__step">Step 2 &middot; Volume</p>
                   <h3>Firewood Cord Calculator</h3>
                   <p class="tree-tool-card__copy">Plug in diameter and log length to see how many cords you could recover from the job.</p>
                   <ul class="tree-tool-card__benefits">
@@ -278,12 +280,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <p class="services-contact__location">Three Forks Montana</p>
                 <p class="phone-line"><a href="tel:14065394224">(406) 539-4224</a></p>
                 <p class="services-contact__hint">Prefer to talk first? Call now — or send the form below, then text tree photos for the fastest quote.</p>
-                <ul class="services-contact__tags" aria-label="Removal tiers we quote">
-                  <li>Small 0&ndash;35 ft</li>
-                  <li>Standard 35&ndash;50 ft</li>
-                  <li>Large 50 ft+</li>
-                  <li>Neighbor deal</li>
-                </ul>
               </aside>
             </header>
 
@@ -293,17 +289,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <label class="services-contact__field">First Name <span>(required)</span><input name="first_name" autocomplete="given-name" required></label>
                 <label class="services-contact__field">Last Name <span>(required)</span><input name="last_name" autocomplete="family-name" required></label>
                 <label class="services-contact__field">Email <span>(required)</span><input type="email" name="email" autocomplete="email" required></label>
-                <label class="services-contact__field services-contact__field--full tree-removal-contact__phone">Phone<input type="tel" name="phone" autocomplete="tel" placeholder="Optional — we can call back faster"></label>
+                <label class="services-contact__field services-contact__field--full tree-removal-contact__phone">Phone<input type="tel" name="phone" autocomplete="tel" placeholder="Optional"></label>
 
-                <fieldset class="tree-removal-contact__tiers services-contact__field--full" data-tier-checkboxes>
-                  <legend>What services are you interested in? <span>(required)</span></legend>
-                  <div class="tree-removal-contact__tier-options">
-                    <label class="services-contact__choice"><input type="checkbox" name="service_tier" value="Small Removal (1-35ft)"> Small Removal (1&ndash;35 ft)</label>
-                    <label class="services-contact__choice"><input type="checkbox" name="service_tier" value="Standard Removal (35ft-50ft)"> Standard Removal (35&ndash;50 ft)</label>
-                    <label class="services-contact__choice"><input type="checkbox" name="service_tier" value="Large/Complex Removal (50ft and above)"> Large / Complex Removal (50 ft+)</label>
-                  </div>
-                  <p class="tree-removal-contact__tier-error" hidden data-tier-error>Select at least one removal tier.</p>
-                </fieldset>
+                <div class="tree-removal-contact__tiers-group services-contact__field--full">
+                  <p class="tree-removal-contact__tiers-label" id="tree-removal-tiers-label">What services are you interested in? <span>(required)</span></p>
+                  <fieldset class="tree-removal-contact__tiers" data-tier-checkboxes aria-labelledby="tree-removal-tiers-label">
+                    <legend class="sr-only">What services are you interested in? (required)</legend>
+                    <div class="tree-removal-contact__tier-options">
+                      <label class="services-contact__choice"><input type="checkbox" name="service_tier" value="Small Removal (1-35ft)"> Small Removal (1&ndash;35 ft)</label>
+                      <label class="services-contact__choice"><input type="checkbox" name="service_tier" value="Standard Removal (35ft-50ft)"> Standard Removal (35&ndash;50 ft)</label>
+                      <label class="services-contact__choice"><input type="checkbox" name="service_tier" value="Large/Complex Removal (50ft and above)"> Large / Complex Removal (50 ft+)</label>
+                    </div>
+                    <p class="tree-removal-contact__tier-error" hidden data-tier-error>Select at least one removal tier.</p>
+                  </fieldset>
+                </div>
 
                 <label class="services-contact__field services-contact__field--full">Project Details <span>(required)</span><textarea name="message" rows="4" required placeholder="Tree location, access notes, structures nearby, preferred timing…"></textarea></label>
 
