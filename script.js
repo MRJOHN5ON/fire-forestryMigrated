@@ -243,3 +243,34 @@ document.querySelectorAll("[data-services-carousel]").forEach((carousel) => {
 document.querySelectorAll("[data-pricing-carousel]").forEach((carousel) => {
   setupScrollCarousel(carousel, ".pricing-wrapper", ".price-box");
 });
+
+document.querySelectorAll(".promo-video").forEach((video) => {
+  const setSpeed = () => {
+    video.playbackRate = 2;
+  };
+
+  setSpeed();
+  video.addEventListener("loadedmetadata", setSpeed);
+});
+
+document.querySelectorAll("[data-ba-slider]").forEach((slider) => {
+  const frame = slider.querySelector(".ba-showcase__frame");
+  const range = slider.querySelector(".ba-showcase__range");
+
+  if (!frame || !range) return;
+
+  const setPosition = (value) => {
+    const num = Number(value);
+    const pos = `${num}%`;
+    frame.style.setProperty("--ba-pos", pos);
+    frame.style.setProperty("--ba-before-label-opacity", String(Math.min(1, num / 8)));
+    frame.style.setProperty("--ba-after-label-opacity", String(Math.min(1, (100 - num) / 8)));
+    range.setAttribute("aria-valuenow", value);
+  };
+
+  range.addEventListener("input", () => {
+    setPosition(range.value);
+  });
+
+  setPosition(range.value);
+});

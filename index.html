@@ -284,32 +284,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <section class="section split-section" aria-labelledby="consult-title">
         <div class="container split-grid">
-          <div class="split-copy">
-            <h2 id="consult-title">Schedule a consultation</h2>
-            <p><strong>Givens Fire &amp; Forestry LLC, led by experienced wildland firefighter Samuel Givens, brings over 5 years of wildfire expertise and 4 years of home ignition zone management to protect what matters most: your home and your peace of mind.</strong></p>
-            <p class="phone-line"><a href="tel:14065394224">(406)-539-4224</a></p>
-            <p><strong>Wildfires claim thousands of homes each year, with properties in the urban wildland interface facing the greatest danger. Without proper fire-smart planning, beautiful landscapes can become fuel for destruction.</strong></p>
-            <a class="button" href="contact.html">Book consultation</a>
-          </div>
-          <figure class="feature-image">
+          <h2 id="consult-title" class="split-grid__title">Schedule a consultation</h2>
+          <p class="split-copy__lead"><strong>Givens Fire &amp; Forestry LLC, led by experienced wildland firefighter Samuel Givens, brings over 5 years of wildfire expertise and 4 years of home ignition zone management to protect what matters most: your home and your peace of mind.</strong></p>
+          <figure class="feature-image split-grid__media">
             <img src="assets/images/fire-damage.jpg" alt="Debris and wreckage from fire damage with mountains in the background">
           </figure>
+          <p class="split-copy__body">Wildfires claim thousands of homes each year, with properties in the urban wildland interface facing the greatest danger. Without proper fire-smart planning, beautiful landscapes can become fuel for destruction.</p>
+          <div class="split-copy__actions split-grid__actions">
+            <a class="button" href="contact.html">Book consultation</a>
+            <p class="split-copy__phone">Or call <a href="tel:14065394224">(406) 539-4224</a></p>
+          </div>
         </div>
       </section>
 
-      <section class="section dark-panel">
-        <div class="container dark-panel-copy">
-          <p class="dark-panel-lede">Our services go beyond simple tree removal. From fire-smart home consultations to eco-friendly land management, we help homeowners create defensible spaces that safeguard their property while enhancing its natural beauty. With a commitment to education, sustainability, and personalized care, Givens Fire &amp; Forestry delivers expert solutions to keep your property safe in an increasingly wildfire-prone world.</p>
+      <section class="section dark-panel" aria-labelledby="defense-title">
+        <div class="container dark-panel__intro">
+          <p class="dark-panel__eyebrow">Full-service wildfire defense</p>
+          <div class="dark-panel__intro-grid">
+            <p class="dark-panel__lede"><strong>Our services go beyond simple tree removal.</strong> From fire-smart home consultations to eco-friendly land management, we help homeowners create defensible spaces that safeguard their property while enhancing its natural beauty.</p>
+            <p class="dark-panel__support">With a commitment to education, sustainability, and personalized care, Givens Fire &amp; Forestry delivers expert solutions to keep your property safe in an increasingly wildfire-prone world.</p>
+          </div>
         </div>
-        <div class="promo-video-wrap">
+        <figure class="promo-video-wrap">
           <video class="promo-video" autoplay muted loop playsinline poster="assets/images/20240420-143635.jpg">
             <source src="assets/videos/home-promo.mp4" type="video/mp4">
           </video>
-        </div>
-        <div class="container dark-panel-copy dark-panel-copy--centered">
-          <h2>No Job is Too Big for Us – Givens Fire and Forestry: Wildfire Defense Experts</h2>
-          <p>At Givens Fire and Forestry, we specialize in advanced wildfire mitigation strategies to protect your property from the ground up. Our services include hazardous tree removal, wildfire fuel reduction, slash pile removal, post-burn cleanup, and fire-smart property consultation. We apply industry best practices such as creating defensible space, strategic thinning, and managed fuel breaks to reduce fire intensity and prevent crown fires.</p>
-          <h3>Choose Givens Fire and Forestry for expert wildfire defense and risk reduction.</h3>
+        </figure>
+        <div class="container dark-panel__outro">
+          <div class="dark-panel__outro-grid">
+            <div class="dark-panel__headline">
+              <h2 id="defense-title">No job is too big for us</h2>
+              <p class="dark-panel__kicker">Givens Fire and Forestry — Wildfire Defense Experts</p>
+              <div class="dark-panel__badge-wrap">
+                <img class="dark-panel__badge" src="assets/images/givens-1.png" alt="">
+              </div>
+            </div>
+            <div class="dark-panel__detail">
+              <p class="dark-panel__body">At Givens Fire and Forestry, we specialize in advanced wildfire mitigation strategies to protect your property from the ground up. Our services include hazardous tree removal, wildfire fuel reduction, slash pile removal, post-burn cleanup, and fire-smart property consultation. We apply industry best practices such as creating defensible space, strategic thinning, and managed fuel breaks to reduce fire intensity and prevent crown fires.</p>
+              <div class="dark-panel__closing">
+                <p class="dark-panel__tagline">Choose Givens Fire and Forestry for expert wildfire defense and risk reduction.</p>
+                <a class="button button--cta" href="services.html">Explore our services</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -318,11 +335,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="container contact-grid">
           <div class="contact-copy">
             <h2 id="contact-title">Have Questions or Need a Free Estimate?</h2>
-            <p class="phone-line"><a href="tel:14065394224">406-539-4224</a></p>
             <blockquote>
               <p>Givens Fire and Forestry is here to assist with all your wildfire defense needs.</p>
               <p>Fill out the form, and we'll get back to you with a consultation or a free bid to help protect your property.</p>
             </blockquote>
+            <p class="phone-line"><a href="tel:14065394224">406-539-4224</a></p>
           </div>
           <form class="contact-form" data-form-key="homeQuote" action="https://formspree.io/f/your-form-id" method="POST">
             <label>First Name <span>(required)</span><input name="first_name" autocomplete="given-name" required></label>
