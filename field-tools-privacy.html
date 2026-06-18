@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Field Tools Privacy Policy | Givens Fire and Forestry</title>
-    <meta name="description" content="Privacy policy for the Givens Field Tools mobile app — cord calculator, tree height, and wildfire risk tools for Android.">
+    <meta name="description" content="Privacy policy for the Givens Field Tools mobile app — cord calculator, tree height, wildfire risk, and plant identifier tools for Android.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://www.givensfireandforestry.com/field-tools-privacy">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -164,11 +164,11 @@
       <div class="givens-privacy__wrap">
         <p class="givens-privacy__eyebrow">Givens Field Tools · Android</p>
         <h1>Privacy Policy</h1>
-        <p class="givens-privacy__updated">Last updated: June 9, 2026</p>
+        <p class="givens-privacy__updated">Last updated: June 17, 2026</p>
 
         <div class="givens-privacy__summary">
           <p>
-            <strong>Givens Field Tools</strong> is a free field calculator app (cord volume, tree height, and wildfire risk).
+            <strong>Givens Field Tools</strong> is a free field calculator app (cord volume, tree height, wildfire risk, and plant identification).
             We do not require an account, we do not sell your data, and we do not run advertising in the app.
           </p>
         </div>
@@ -203,6 +203,14 @@
             directly from your device to public data services (see below). We do not receive or store those
             requests on our systems.
           </p>
+          <p>
+            The <strong>plant &amp; tree identifier</strong> is also different: when you tap
+            “Identify plant,” the app sends the photo(s) you selected (up to five per plant) directly from
+            your device to <strong>Pl@ntNet</strong> for species identification, through a small proxy we operate
+            so our API key stays off the device. We do not receive, store, or retain those photos on Givens
+            systems. Pl@ntNet’s handling of uploaded images is governed by
+            <a href="https://my.plantnet.org/page/terms-and-conditions-of-use" rel="noopener noreferrer">Pl@ntNet’s terms</a>.
+          </p>
         </div>
 
         <div class="givens-privacy__card">
@@ -212,6 +220,11 @@
             (for example: log measurements, tree height values, log names, wildfire property addresses,
             optional weather overrides, and the last GPS coordinates you used for a wildfire check). This stays
             on your device using standard Android local storage.
+          </p>
+          <p>
+            <strong>Plant identifier photos</strong> are kept in the app only while you are building a queue
+            for the current identification. They are not saved to long-term app storage or sent anywhere until
+            you tap “Identify plant.” After results are shown, queued photos are cleared from the app session.
           </p>
           <p>
             You can clear this data anytime by clearing the app’s storage in Android Settings, or by using
@@ -227,7 +240,8 @@
           <h2>When the app connects outward</h2>
           <p>
             The <strong>cord calculator</strong> and <strong>tree height</strong> tools work fully offline.
-            The <strong>wildfire risk calculator</strong> needs an internet connection when you run a calculation.
+            The <strong>wildfire risk calculator</strong> and <strong>plant &amp; tree identifier</strong> need
+            an internet connection when you run a calculation or identification.
           </p>
           <p>When you calculate wildfire risk, your device may send an address or coordinates to these public services:</p>
           <ul>
@@ -249,6 +263,17 @@
             Those providers receive only what is needed for the lookup (typically coordinates, and an address
             string if you typed one). Their privacy practices are governed by their own policies. We do not
             control third-party services.
+          </p>
+          <p>When you identify a plant, your device sends compressed photo(s) to:</p>
+          <ul>
+            <li>
+              <strong>Pl@ntNet</strong> — species identification against the North-Central U.S. flora project
+              (via our proxy; images are not stored on Givens servers)
+            </li>
+          </ul>
+          <p>
+            Those uploads contain only the plant photo(s) you chose. We do not attach your name, address, or
+            account to the request. Pl@ntNet may retain or process images under its own policies.
           </p>
           <p>The app also opens external links when <strong>you choose to</strong>:</p>
           <ul>
@@ -276,6 +301,16 @@
         </div>
 
         <div class="givens-privacy__card">
+          <h2>Camera &amp; photo permissions</h2>
+          <p>
+            The plant identifier may ask for <strong>camera</strong> access only if you tap “Take Photo,”
+            and for <strong>photo library</strong> access only if you tap “Upload Photos.” The app does not
+            access your camera or gallery in the background. You can decline permission and still use the
+            other tools in the app.
+          </p>
+        </div>
+
+        <div class="givens-privacy__card">
           <h2>Children’s privacy</h2>
           <p>
             The app is a general-purpose utility and is not directed at children under 13.
@@ -286,10 +321,11 @@
         <div class="givens-privacy__card">
           <h2>Security</h2>
           <p>
-            Calculator inputs are stored locally on your device. Wildfire lookups go over HTTPS directly to
-            public data providers; we do not operate a server that receives or stores those requests.
-            No method of electronic storage or transmission is 100% secure, but exposure through our own
-            systems is limited because we do not run a backend for this app.
+            Calculator inputs are stored locally on your device. Wildfire lookups and plant identifications go
+            over HTTPS directly to public data providers or Pl@ntNet (via our proxy); we do not operate a server
+            that receives or stores those requests or photos. No method of electronic storage or transmission is
+            100% secure, but exposure through our own systems is limited because we do not run a backend for
+            this app.
           </p>
         </div>
 
