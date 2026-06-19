@@ -738,6 +738,10 @@ p {
   max-width: 42rem;
 }
 
+.split-section .split-grid__title {
+  margin-bottom: clamp(0.85rem, 2.2vw, 1.5rem);
+}
+
 .split-grid__title,
 .contact-section h2 {
   font-size: clamp(2.7rem, 5vw, 5rem);
