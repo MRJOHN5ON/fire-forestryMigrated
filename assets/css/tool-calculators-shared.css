@@ -84,6 +84,58 @@
   color: rgba(0, 0, 0, 0.72);
 }
 
+.tool-page__android {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.85rem;
+  padding: 0.55rem 1.15rem;
+  border: 1px solid rgba(61, 220, 132, 0.5);
+  border-radius: 999px;
+  background: rgba(61, 220, 132, 0.12);
+  color: #1a5c38;
+  font-family: var(--font-display);
+  font-size: clamp(0.75rem, 1.2vw, 0.85rem);
+  letter-spacing: 0.07em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.tool-page__android i {
+  font-size: 1.15rem;
+  color: #2db86a;
+}
+
+.tool-page__android:hover,
+.tool-page__android:focus-visible {
+  background: rgba(61, 220, 132, 0.22);
+  border-color: rgba(61, 220, 132, 0.75);
+  color: #0d2818;
+  transform: translateY(-1px);
+}
+
+.tool-page__android--hero {
+  margin-bottom: 0.65rem;
+  border-color: transparent;
+  background: #3ddc84;
+  color: #0d2818;
+  box-shadow: 0 0.35rem 1.25rem rgba(0, 0, 0, 0.28);
+}
+
+.tool-page__android--hero i {
+  color: #0d2818;
+}
+
+.tool-page__android--hero:hover,
+.tool-page__android--hero:focus-visible {
+  background: #4ae892;
+  border-color: transparent;
+  color: #0d2818;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.32);
+}
+
 .tool-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);

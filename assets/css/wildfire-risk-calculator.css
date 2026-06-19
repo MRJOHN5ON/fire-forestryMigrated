@@ -42,6 +42,25 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+.tool-page--wildfire .tool-page__android {
+  border-color: transparent;
+  background: #3ddc84;
+  color: #0d2818;
+  box-shadow: 0 0.35rem 1.25rem rgba(0, 0, 0, 0.28);
+}
+
+.tool-page--wildfire .tool-page__android i {
+  color: #0d2818;
+}
+
+.tool-page--wildfire .tool-page__android:hover,
+.tool-page--wildfire .tool-page__android:focus-visible {
+  background: #4ae892;
+  border-color: transparent;
+  color: #0d2818;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.32);
+}
+
 .tool-page--wildfire .tool-page__footer .disclaimer,
 .tool-page--wildfire .tool-page__footer .tool-page__crosslink {
   color: rgba(255, 255, 255, 0.78);
