@@ -195,6 +195,15 @@ p {
   color: var(--color-black);
   font-family: var(--font-serif) !important;
   text-transform: none !important;
+  animation: cta-pulse 2.4s ease-in-out infinite;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.quote-link:hover,
+.quote-link:focus-visible {
+  animation: none;
+  transform: translateY(-2px);
+  box-shadow: 0 0.35rem 1.25rem rgba(255, 255, 255, 0.35);
 }
 
 .site-nav .nav-link--contact {
@@ -1986,6 +1995,13 @@ blockquote {
 
   50% {
     box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quote-link,
+  .button--cta {
+    animation: none;
   }
 }
 
