@@ -3743,6 +3743,160 @@ blockquote {
   text-transform: uppercase;
 }
 
+.toolbox-android-download {
+  position: relative;
+  z-index: 2;
+  padding: 0 var(--gutter) clamp(2rem, 4vw, 3rem);
+  background: var(--color-black);
+}
+
+.toolbox-android-download--in-panel {
+  padding: 0;
+  margin-top: clamp(1.75rem, 4vw, 2.75rem);
+  background: transparent;
+}
+
+.toolbox-android-download--in-panel .toolbox-android-download__card {
+  max-width: none;
+}
+
+.toolbox-android-download--in-panel .toolbox-android-download__note {
+  max-width: none;
+}
+
+.toolbox-android-download__card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: clamp(1rem, 2.5vw, 1.75rem);
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: clamp(1.25rem, 3vw, 2rem) clamp(1.25rem, 3.5vw, 2.25rem);
+  border: 1px solid rgba(61, 220, 132, 0.35);
+  border-radius: 1rem;
+  background:
+    linear-gradient(135deg, rgba(44, 56, 43, 0.98), rgba(20, 28, 22, 0.98));
+  color: var(--color-white);
+  text-decoration: none;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset,
+    0 1.25rem 3rem rgba(0, 0, 0, 0.35);
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .toolbox-android-download__card:hover,
+  .toolbox-android-download__card:focus-visible {
+    transform: translateY(-2px);
+    border-color: rgba(61, 220, 132, 0.65);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+      0 1.5rem 3.5rem rgba(0, 0, 0, 0.45),
+      0 0 2.5rem rgba(61, 220, 132, 0.12);
+  }
+}
+
+.toolbox-android-download__icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: clamp(3.5rem, 8vw, 4.75rem);
+  height: clamp(3.5rem, 8vw, 4.75rem);
+  border-radius: 1.1rem;
+  background: linear-gradient(145deg, #3ddc84, #2db86a);
+  color: #0d2818;
+  box-shadow: 0 0.65rem 1.75rem rgba(61, 220, 132, 0.28);
+}
+
+.toolbox-android-download__icon i {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  line-height: 1;
+}
+
+.toolbox-android-download__copy {
+  min-width: 0;
+}
+
+.toolbox-android-download__eyebrow {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: clamp(0.68rem, 1.1vw, 0.78rem);
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--color-muted-green);
+}
+
+.toolbox-android-download__copy h2 {
+  margin: 0 0 0.45rem;
+  font-size: clamp(1.35rem, 3.2vw, 2.35rem);
+  line-height: 0.98;
+  color: var(--color-white);
+}
+
+.toolbox-android-download__lede {
+  margin: 0;
+  max-width: 36rem;
+  font-family: var(--font-serif);
+  font-size: clamp(0.88rem, 1.35vw, 1.02rem);
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.toolbox-android-download__action {
+  display: grid;
+  gap: 0.2rem;
+  justify-items: center;
+  flex-shrink: 0;
+  min-width: clamp(7rem, 16vw, 9rem);
+  padding: 0.85rem 1.15rem;
+  border-radius: 0.55rem;
+  background: #3ddc84;
+  color: #0d2818;
+  text-align: center;
+  box-shadow: 0 0.5rem 1.25rem rgba(61, 220, 132, 0.25);
+  transition: background 180ms ease;
+}
+
+.toolbox-android-download__card:hover .toolbox-android-download__action,
+.toolbox-android-download__card:focus-visible .toolbox-android-download__action {
+  background: #4ae892;
+}
+
+.toolbox-android-download__btn-label {
+  font-family: var(--font-display);
+  font-size: clamp(0.82rem, 1.4vw, 0.95rem);
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.toolbox-android-download__btn-meta {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  opacity: 0.75;
+}
+
+.toolbox-android-download__note {
+  max-width: var(--container);
+  margin: 0.85rem auto 0;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.toolbox-android-download__note a {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.toolbox-android-download__note a:hover,
+.toolbox-android-download__note a:focus-visible {
+  color: rgba(255, 255, 255, 0.78);
+}
+
 .toolbox-page__tools {
   position: relative;
   z-index: 1;
@@ -4032,6 +4186,43 @@ blockquote {
     font-size: 0.75rem;
     letter-spacing: 0.05em;
     padding: 0.32rem 0.55rem;
+  }
+
+  .toolbox-android-download {
+    padding-bottom: clamp(1.25rem, 4vw, 2rem);
+  }
+
+  .toolbox-android-download__card {
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "icon copy"
+      "action action";
+    gap: 0.85rem 1rem;
+    padding: 1.15rem;
+    border-radius: 0.85rem;
+  }
+
+  .toolbox-android-download__icon {
+    grid-area: icon;
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 0.85rem;
+  }
+
+  .toolbox-android-download__icon i {
+    font-size: 1.85rem;
+  }
+
+  .toolbox-android-download__copy {
+    grid-area: copy;
+    text-align: left;
+  }
+
+  .toolbox-android-download__action {
+    grid-area: action;
+    width: 100%;
+    min-width: 0;
+    padding: 0.9rem 1rem;
   }
 
   .toolbox-page__tools {
