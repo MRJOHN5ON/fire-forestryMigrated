@@ -197,6 +197,23 @@ p {
   text-transform: none !important;
 }
 
+.site-nav .nav-link--contact {
+  padding: 0.45rem 0.85rem;
+  border: 0.14rem solid rgba(255, 255, 255, 0.72);
+  border-radius: 0.2rem;
+  margin-left: 0.1rem;
+}
+
+.site-nav .nav-link--contact:hover,
+.site-nav .nav-link--contact:focus-visible {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.site-nav .nav-link--contact[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.16);
+  text-decoration: none;
+}
+
 .menu-toggle {
   display: none;
   width: 3rem;
@@ -5271,8 +5288,13 @@ blockquote {
   }
 
   .site-nav .social-link,
-  .site-nav .quote-link {
+  .site-nav .quote-link,
+  .site-nav .nav-link--contact {
     font-size: 1.25rem;
+  }
+
+  .site-nav .nav-link--contact {
+    border-color: var(--color-black);
   }
 
   .site-nav .social-link {
