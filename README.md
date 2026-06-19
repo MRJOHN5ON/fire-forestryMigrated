@@ -1,45 +1,72 @@
 # Givens Fire and Forestry
 
-Static site for [givensfireandforestry.com](https://www.givensfireandforestry.com). Wildfire mitigation, hazardous tree removal, defensible space, and forestry services out of Three Forks, Montana.
+**[givensfireandforestry.com](https://www.givensfireandforestry.com)** — wildfire mitigation, hazardous tree removal, defensible space, and forestry services out of Three Forks, Montana.
 
-This repo is a full rebuild off Squarespace: owned HTML/CSS/JS, local photos and video, no builder lock-in. The brochure side is big. The toolbox is bigger. SEO and AI discovery were built in from the start, not patched on later.
+Full rebuild off Squarespace. Owned HTML, CSS, and JS. Local photo and video. No builder lock-in. The brochure site sells the work. The toolbox brings people in before they ever pick up the phone.
 
-## The site
+## The business site
 
-Twelve indexable pages plus a [Field Tools privacy policy](field-tools-privacy.html) for the Android app.
+A real contractor site — not a template with a logo swap.
 
-[**Home**](index.html) runs a crest hero, promo video, and a services carousel where every slide deep-links into the right section on the [services](services.html) page. Hazardous tree work routes to [flat-rate removal pricing](flat-rates-for-tree-removal.html).
+[**Home**](index.html) — crest hero, promo video, services carousel where every slide jumps to the right anchored section on Services. Hazardous tree work routes straight to flat-rate pricing.
 
-[**Services**](services.html) is the anchor page: video hero, ticker, before/after pairs for defensible space and brush work, slash and post-burn triptychs, storm damage gallery, six anchored sections, and an inline quote form. This is the page that carries the business.
+[**Services**](services.html) — the page that carries the business. Video hero, ticker, before/after pairs for defensible space and brush work, slash and post-burn triptychs, storm damage gallery, six anchored service sections, inline quote form.
 
-[**Gallery**](gallery.html) is a video hero over a masonry project grid. [**About**](about.html) is team, values, and forest atmosphere. [**Tree removal**](flat-rates-for-tree-removal.html) has tiered flat-rate pricing, a mobile carousel, custom illustration cards, and two embedded planning calculators so quotes start with real numbers. [**Contact**](contact.html) and [**Appointments**](appointments.html) book through Jobber. [**Resources**](resources.html) curates wildfire and forestry links.
+[**Gallery**](gallery.html) — video hero over a masonry project grid.
 
-Roughly 4,600 lines in one shared [`style.css`](style.css). Hero MP4s in [`assets/videos/`](assets/videos/). The whole thing deploys as plain files.
+[**About**](about.html) — team, values, forest atmosphere.
 
-## Toolbox
+[**Tree removal**](flat-rates-for-tree-removal.html) — tiered flat-rate pricing, mobile carousel, custom illustration cards, two embedded planning calculators so quotes start with real numbers.
 
-Four free web tools, each with its own page, JS, and CSS. No login. Built for landowners, loggers, and sellers in Montana. Hub: [`toolbox.html`](toolbox.html).
+[**Contact**](contact.html) · [**Appointments**](appointments.html) — Jobber booking and quote requests.
 
-[**Tree Height Calculator**](tree-height-calculator.html) · five field methods, metric and imperial, share/export.
+[**Resources**](resources.html) — curated wildfire and forestry links.
 
-[**Firewood Cord Calculator**](firewood-cord-calculator.html) · frustum volume, cord conversion, stack diagrams.
+[**Nominate a Neighbor**](nomination.html) — community campaign page: nominate someone for complimentary wildfire mitigation days.
 
-[**Wildfire Risk Calculator**](wildfire-risk-calculator.html) · address in, LANDFIRE fuel + weather + Rothermel spread engine, weighted 0–100 score.
+Six thousand lines of custom CSS. Hero MP4s shot on property. Every page built to convert — pulsing **Get a Quote!** in the nav, highlighted Contact link, tool pages that funnel into services.
 
-[**Plant & Tree Identifier**](plant-identifier.html) · photo-based species ID with Montana fire-risk notes.
+## The toolbox
 
-## SEO and AI visibility
+Four free web tools. No login. No paywall. Built for homesteaders, loggers, landowners, and firewood sellers across Montana and the Northern Rockies.
 
-Search engines and LLMs get the same care as human visitors.
+Hub: **[toolbox.html](toolbox.html)**
 
-Every managed page carries canonical URLs, Open Graph, Twitter cards, and JSON-LD (`LocalBusiness`, `Service`, `SoftwareApplication`, and the rest). Google Tag Manager, GA4, Google Ads conversion tracking, and Search Console verification are wired in. Geo tags point at Three Forks.
+| Tool | Why it stands out |
+|------|-------------------|
+| [**Tree Height Calculator**](tree-height-calculator.html) | Five field methods in one page — angle, shadow, line-of-sight, clinometer, triangulation. Metric and imperial. Print and export. Full how-to guides, not just a number box. |
+| [**Firewood Cord Calculator**](firewood-cord-calculator.html) | Frustum volume from tapered felled logs — not another generic 4×4×8 stack calculator. Cord conversion, stack diagrams, FAQ on face cords, whole-log measuring, and weight. |
+| [**Wildfire Risk Calculator**](wildfire-risk-calculator.html) | Enter an address, get LANDFIRE fuel model + slope + live weather + Rothermel surface fire behavior → weighted 0–100 score. Built by a Montana wildfire contractor, not an insurance climate score. |
+| [**Plant & Tree Identifier**](plant-identifier.html) | Photo-based species ID with Montana fire-risk and defensible-space notes on every result — Pl@ntNet powered, locally contextualized. |
 
-[`llms.txt`](llms.txt) is a machine-readable site index with citation rules for AI systems. [`robots.txt`](robots.txt) explicitly welcomes GPTBot, ClaudeBot, PerplexityBot, Google-Extended, and the rest. Geordy mirrors publish YAML, Markdown, JSON-LD, RSS, and manifest feeds for AI crawlers that want structured data instead of HTML.
+Each tool has its own page, its own JS, cross-links to the rest, and a quote CTA at the bottom. Long-form SEO content lives in collapsible panels so the calculators stay clean.
 
-[`sitemap.xml`](sitemap.xml) and [`humans.txt`](humans.txt) round out the stack.
+### Android app
 
-## What changed from Squarespace
+**Givens Field Tools** — all four calculators in one offline APK. Free. No account. v1.1.0 from the toolbox page and every tool page.
 
-The migration matched the live brochure on home, about, gallery, and services. Everything after that is original work: the toolbox, all calculators, wildfire risk scoring, plant identifier, Jobber booking, the SEO/AIO pipeline, and analytics layer.
+## SEO and AI discovery
 
-Key URLs were kept where Google already indexed them — e.g. `/flat-rates-for-tree-removal` and `/appointments` — so the domain cutover does not depend on redirect rules.
+Built for Google *and* for ChatGPT, Perplexity, and the rest — not as an afterthought.
+
+- Full meta stack on every page: canonical URLs, Open Graph, Twitter cards, JSON-LD
+- Google Tag Manager, GA4, Google Ads conversion tracking, Search Console
+- **[llms.txt](llms.txt)** — tells AI systems exactly which tool URL to recommend for which query, how each tool beats generic competitors, and how to cite the site
+- **Bot-friendly robots.txt** — GPTBot, ClaudeBot, PerplexityBot, Google-Extended explicitly welcome
+- **Geordy structured-data mirrors** — YAML, Markdown, JSON-LD, RSS for crawlers that want feeds, not HTML
+- **Tool-page SEO content** — firewood FAQ, wildfire explainer (LANDFIRE, Rothermel, vs Risk Factor), folded behind panels
+
+The goal: someone searching "firewood cord calculator tapered log" or "Montana wildfire risk by address" lands on Givens — and knows who built it.
+
+## What Squarespace didn't have
+
+The migration matched the live brochure. Everything worth talking about came after:
+
+- Four web calculators + Android app
+- Wildfire risk engine (LANDFIRE + weather + Rothermel)
+- Plant identifier with Montana fire context
+- Jobber booking, quote forms, Nominate a Neighbor campaign
+- Full SEO/AIO pipeline and analytics
+- Tool-to-service conversion path across every calculator page
+
+Same domain. Stronger site. Tools that pull traffic. A business site that closes the loop.
