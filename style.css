@@ -302,8 +302,10 @@ p {
   grid-row: 3;
   align-self: end;
   display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.75rem;
   max-width: 52rem;
   margin: 0;
   font-family: var(--font-display);
@@ -5665,6 +5667,8 @@ blockquote {
   .hero-callout {
     grid-column: 1;
     grid-row: 3;
+    flex-direction: column;
+    align-items: flex-start;
     max-width: none;
     gap: 0.5rem;
   }
