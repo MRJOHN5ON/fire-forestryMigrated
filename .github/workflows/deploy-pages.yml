@@ -33,6 +33,14 @@ jobs:
           FORMSPREE_NOMINATION: ${{ secrets.FORMSPREE_NOMINATION }}
         run: node scripts/pages-build.mjs
 
+      - name: Bundle Field Tools APK for same-origin download
+        run: |
+          mkdir -p assets/downloads
+          curl -fsSL \
+            -o assets/downloads/GivensFieldTools.apk \
+            "https://github.com/MRJOHN5ON/givens-field-tools/releases/download/v1.1.0/GivensFieldTools.apk"
+          test -s assets/downloads/GivensFieldTools.apk
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
