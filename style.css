@@ -5941,12 +5941,12 @@ blockquote {
 
 .nomination-campaign__title span {
   display: inline;
-  padding: 0 0.12em;
+  padding: 0.1em 0.22em;
   color: var(--color-dark);
-  background:
-    linear-gradient(175deg, transparent 42%, rgba(143, 169, 143, 0.95) 42%, rgba(143, 169, 143, 0.95) 78%, transparent 78%);
+  background: #ead9a0;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+  box-shadow: 0 0.12rem 0.45rem rgba(0, 0, 0, 0.28);
 }
 
 .nomination-campaign__copy p {
