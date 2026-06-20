@@ -5942,8 +5942,9 @@ blockquote {
 .nomination-campaign__title span {
   display: inline;
   padding: 0 0.12em;
+  color: var(--color-dark);
   background:
-    linear-gradient(175deg, transparent 42%, rgba(225, 223, 217, 0.92) 42%, rgba(225, 223, 217, 0.92) 78%, transparent 78%);
+    linear-gradient(175deg, transparent 42%, rgba(143, 169, 143, 0.95) 42%, rgba(143, 169, 143, 0.95) 78%, transparent 78%);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
