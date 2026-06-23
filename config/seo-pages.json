@@ -3,7 +3,8 @@
     "domain": "https://www.givensfireandforestry.com",
     "name": "Givens Fire and Forestry",
     "legalName": "Givens Fire & Forestry LLC",
-    "defaultImage": "https://www.givensfireandforestry.com/assets/images/givens-1.png",
+    "defaultImage": "https://www.givensfireandforestry.com/assets/images/og-share.jpg",
+    "defaultImageAlt": "Givens Fire and Forestry emblem",
     "phone": "+1-406-539-4224",
     "locale": "en_US",
     "twitterCard": "summary_large_image"
@@ -70,6 +71,8 @@
       "canonicalPath": "/toolbox",
       "description": "Free forestry calculators for tree height, firewood cords, and wildfire risk screening. Built for homesteaders, loggers, and Montana landowners.",
       "ogTitle": "Toolbox | Givens Fire and Forestry",
+      "ogImage": "https://www.givensfireandforestry.com/assets/images/og-share-dark.jpg",
+      "ogImageAlt": "Givens Fire and Forestry toolbox — free forestry calculators",
       "schema": "webPage"
     },
     "tree-height-calculator.html": {

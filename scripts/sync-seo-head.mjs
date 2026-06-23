@@ -128,6 +128,8 @@ function buildSeoBlock(pageMeta) {
   const canonical = `${site.domain}${pageMeta.canonicalPath}`.replace(/\/$/, pageMeta.canonicalPath === "/" ? "/" : "");
   const canonicalUrl = pageMeta.canonicalPath === "/" ? `${site.domain}/` : `${site.domain}${pageMeta.canonicalPath}`;
   const schemas = pageSchema(pageMeta, canonicalUrl);
+  const ogImage = pageMeta.ogImage || site.defaultImage;
+  const ogImageAlt = pageMeta.ogImageAlt || site.defaultImageAlt || site.name;
 
   return `<!-- SEO:START -->
 <title>${esc(pageMeta.title)}</title>
@@ -140,11 +142,14 @@ function buildSeoBlock(pageMeta) {
 <meta property="og:url" content="${canonicalUrl}">
 <meta property="og:title" content="${esc(pageMeta.ogTitle)}">
 <meta property="og:description" content="${esc(pageMeta.description)}">
-<meta property="og:image" content="${site.defaultImage}">
+<meta property="og:image" content="${ogImage}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(ogImageAlt)}">
 <meta name="twitter:card" content="${site.twitterCard}">
 <meta name="twitter:title" content="${esc(pageMeta.ogTitle)}">
 <meta name="twitter:description" content="${esc(pageMeta.description)}">
-<meta name="twitter:image" content="${site.defaultImage}">
+<meta name="twitter:image" content="${ogImage}">
 <meta name="twitter:url" content="${canonicalUrl}">
 <link rel="icon" href="/assets/images/logo-crest.png" type="image/png">
 <!-- Google tag (gtag.js) - Google Ads -->
