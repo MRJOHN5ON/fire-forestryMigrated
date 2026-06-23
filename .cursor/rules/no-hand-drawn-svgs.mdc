@@ -1,0 +1,21 @@
+---
+description: Do not hand-draw inline SVG icons or illustrations for UI
+alwaysApply: true
+---
+
+# No hand-drawn SVGs
+
+Never create custom inline SVG paths, icons, or decorative illustrations for UI.
+
+## Instead
+
+- Use **Font Awesome** (already on calculator/toolbox pages): `<i class="fas fa-..."></i>`
+- Reuse existing site images and icon patterns from `style.css`
+- Ask the user for an asset, or use a proper icon library / licensed illustration
+
+## Do not
+
+- Hand-write `<svg><path d="M12 3 L8 11...">` style icons
+- Generate "quick" vector art for cards, badges, or section headers
+
+If SVG is truly required (logo, chart, map), use an established library, a designer-provided file, or code-generated geometry with clear specs — not improvised paths.
