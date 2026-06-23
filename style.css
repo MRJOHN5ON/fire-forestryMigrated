@@ -2565,24 +2565,6 @@ blockquote {
   line-height: 1.4;
 }
 
-.services-contact__tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin: 0.25rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.services-contact__tags li {
-  padding: 0.35rem 0.65rem;
-  border: 1px solid rgba(0, 0, 0, 0.14);
-  font-size: 0.78rem;
-  letter-spacing: 0.03em;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-
 .services-contact__form {
   padding: 0;
   background: transparent;
