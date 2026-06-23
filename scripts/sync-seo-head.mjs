@@ -67,7 +67,7 @@ function localBusinessSchema() {
     },
     sameAs: [
       "https://www.facebook.com/profile.php?id=61573118516671",
-      "https://www.instagram.com/givensfireandforestry/",
+      "https://www.linkedin.com/in/samuel-givens/",
       "https://www.yelp.com/biz/givens-fire-and-forestry-three-forks",
       "https://www.linkedin.com/company/givens-fire-and-forestry/"
     ]
