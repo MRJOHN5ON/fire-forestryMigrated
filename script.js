@@ -110,9 +110,19 @@ function setupScrollCarousel(carousel, trackSelector, slideSelector) {
 
   const getSlidesPerView = () => {
     const viewportWidth = viewport?.clientWidth || track.clientWidth;
-    const step = getStep();
-    if (!step) return 1;
-    return Math.max(1, Math.floor((viewportWidth + getGap()) / step));
+    if (!viewportWidth || !slides.length) return 1;
+
+    let fitting = 0;
+    for (let i = 0; i < slides.length; i += 1) {
+      const slideRight = slides[i].offsetLeft + slides[i].offsetWidth;
+      if (slideRight <= viewportWidth + 1) {
+        fitting = i + 1;
+      } else {
+        break;
+      }
+    }
+
+    return Math.max(1, fitting);
   };
 
   const getPageCount = () => Math.max(1, Math.ceil(slides.length / getSlidesPerView()));
@@ -120,6 +130,14 @@ function setupScrollCarousel(carousel, trackSelector, slideSelector) {
   const usesPageScroll = () => pageMode && getSlidesPerView() > 1;
 
   const getMaxScroll = () => Math.max(0, track.scrollWidth - track.clientWidth);
+
+  const getPageScrollLeft = (index) => {
+    const perView = getSlidesPerView();
+    const maxPage = getPageCount() - 1;
+    if (index >= maxPage) return getMaxScroll();
+    const startSlide = Math.min(index * perView, slides.length - 1);
+    return slides[startSlide].offsetLeft;
+  };
 
   const scrollToOffset = (left) => {
     track.scrollTo({
@@ -135,17 +153,10 @@ function setupScrollCarousel(carousel, trackSelector, slideSelector) {
   };
 
   const scrollToPageIndex = (nextIndex) => {
-    const perView = getSlidesPerView();
     const maxPage = getPageCount() - 1;
     pageIndex = Math.max(0, Math.min(nextIndex, maxPage));
 
-    if (pageIndex >= maxPage) {
-      scrollToOffset(getMaxScroll());
-      updateUI();
-      return;
-    }
-
-    scrollToOffset(pageIndex * perView * getStep());
+    scrollToOffset(getPageScrollLeft(pageIndex));
     updateUI();
   };
 
@@ -156,10 +167,21 @@ function setupScrollCarousel(carousel, trackSelector, slideSelector) {
     slideIndex = Math.round(track.scrollLeft / step);
 
     if (usesPageScroll()) {
-      const perView = getSlidesPerView();
-      pageIndex = Math.round(track.scrollLeft / (perView * step));
+      const maxPage = getPageCount() - 1;
       if (track.scrollLeft >= getMaxScroll() - 2) {
-        pageIndex = getPageCount() - 1;
+        pageIndex = maxPage;
+      } else {
+        let closestPage = 0;
+        let closestDistance = Infinity;
+        for (let i = 0; i <= maxPage; i += 1) {
+          const target = getPageScrollLeft(i);
+          const distance = Math.abs(track.scrollLeft - target);
+          if (distance < closestDistance) {
+            closestDistance = distance;
+            closestPage = i;
+          }
+        }
+        pageIndex = closestPage;
       }
     }
 
