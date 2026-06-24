@@ -8,13 +8,49 @@ const config = JSON.parse(
 );
 
 const { site, pages } = config;
-const GEO_AI_VERSION = "2026-05-31";
+
+const MONTANA_CITIES = [
+  { name: "Bozeman", sameAs: "https://en.wikipedia.org/wiki/Bozeman,_Montana" },
+  { name: "Three Forks", sameAs: "https://en.wikipedia.org/wiki/Three_Forks,_Montana" },
+  { name: "Belgrade", sameAs: "https://en.wikipedia.org/wiki/Belgrade,_Montana" },
+  { name: "Livingston", sameAs: "https://en.wikipedia.org/wiki/Livingston,_Montana" },
+  { name: "Missoula", sameAs: "https://en.wikipedia.org/wiki/Missoula,_Montana" },
+  { name: "Helena", sameAs: "https://en.wikipedia.org/wiki/Helena,_Montana" },
+  { name: "Kalispell", sameAs: "https://en.wikipedia.org/wiki/Kalispell,_Montana" },
+  { name: "Whitefish", sameAs: "https://en.wikipedia.org/wiki/Whitefish,_Montana" }
+];
 
 function esc(value) {
   return String(value)
     .replace(/&/g, "&amp;")
     .replace(/"/g, "&quot;")
     .replace(/</g, "&lt;");
+}
+
+function areaServedSchema() {
+  return [
+    {
+      "@type": "State",
+      name: "Montana",
+      sameAs: "https://en.wikipedia.org/wiki/Montana"
+    },
+    ...MONTANA_CITIES.map((city) => ({
+      "@type": "City",
+      name: city.name,
+      sameAs: city.sameAs
+    }))
+  ];
+}
+
+function serviceOffers(areaServed = "Montana") {
+  return (site.services || []).map((name) => ({
+    "@type": "Offer",
+    itemOffered: {
+      "@type": "Service",
+      name,
+      areaServed
+    }
+  }));
 }
 
 function localBusinessSchema() {
@@ -35,8 +71,7 @@ function localBusinessSchema() {
       areaServed: ["US-MT"],
       availableLanguage: "English"
     },
-    description:
-      "Wildfire mitigation, hazardous tree removal, slash pile removal, defensible space consulting, and post-burn cleanup for residential and commercial properties in Southwest Montana. Led by experienced wildland firefighter Samuel Givens.",
+    description: site.businessDescription,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Three Forks",
@@ -50,20 +85,14 @@ function localBusinessSchema() {
     },
     founder: {
       "@type": "Person",
-      name: "Samuel Givens"
+      name: "Samuel Givens",
+      jobTitle: "Wildland Firefighter & Forestry Specialist"
     },
-    areaServed: [{ "@type": "State", name: "Montana" }],
+    areaServed: areaServedSchema(),
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Wildfire Mitigation Services",
-      itemListElement: [
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Defensible Space Consulting" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Hazardous Tree Removal" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Slash Pile Removal" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Brush Removal" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Post Burn Clean-Up" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Storm Removal" } }
-      ]
+      name: "Fire & Forestry Services",
+      itemListElement: serviceOffers()
     },
     sameAs: [
       "https://www.facebook.com/profile.php?id=61573118516671",
@@ -86,10 +115,34 @@ function webSiteSchema() {
   };
 }
 
-function pageSchema(pageMeta, canonical) {
+function servicesPageSchema(pageMeta, canonicalUrl) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    url: canonicalUrl,
+    name: pageMeta.title,
+    description: pageMeta.description,
+    inLanguage: "en-US",
+    isPartOf: { "@id": `${site.domain}/#website` },
+    about: {
+      "@type": "LocalBusiness",
+      "@id": `${site.domain}/#localbusiness`,
+      name: site.name,
+      url: site.domain,
+      areaServed: areaServedSchema(),
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Fire & Forestry Services",
+        itemListElement: serviceOffers("Montana")
+      }
+    }
+  };
+}
+
+function pageSchema(pageMeta, canonicalUrl) {
   const base = {
     "@context": "https://schema.org",
-    url: canonical,
+    url: canonicalUrl,
     name: pageMeta.title,
     description: pageMeta.description,
     isPartOf: { "@id": `${site.domain}/#website` },
@@ -99,6 +152,9 @@ function pageSchema(pageMeta, canonical) {
   if (pageMeta.schema === "localBusiness") {
     return [localBusinessSchema(), webSiteSchema()];
   }
+  if (pageMeta.schema === "servicesPage") {
+    return [servicesPageSchema(pageMeta, canonicalUrl)];
+  }
   if (pageMeta.schema === "contactPage") {
     return [{ ...base, "@type": "ContactPage" }];
   }
@@ -107,8 +163,8 @@ function pageSchema(pageMeta, canonical) {
       ...base,
       "@type": "Service",
       provider: { "@id": `${site.domain}/#localbusiness` },
-      serviceType: "Tree Removal",
-      areaServed: { "@type": "State", name: "Montana" }
+      serviceType: "Hazardous Tree Removal",
+      areaServed: areaServedSchema()
     }];
   }
   if (pageMeta.schema === "softwareApplication") {
@@ -118,23 +174,27 @@ function pageSchema(pageMeta, canonical) {
       applicationCategory: "UtilitiesApplication",
       operatingSystem: "Web",
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
-      provider: { "@id": `${site.domain}/#localbusiness` }
+      provider: { "@id": `${site.domain}/#localbusiness` },
+      areaServed: { "@type": "State", name: "Montana" }
     }];
   }
   return [{ ...base, "@type": "WebPage" }];
 }
 
 function buildSeoBlock(pageMeta) {
-  const canonical = `${site.domain}${pageMeta.canonicalPath}`.replace(/\/$/, pageMeta.canonicalPath === "/" ? "/" : "");
   const canonicalUrl = pageMeta.canonicalPath === "/" ? `${site.domain}/` : `${site.domain}${pageMeta.canonicalPath}`;
   const schemas = pageSchema(pageMeta, canonicalUrl);
   const ogImage = pageMeta.ogImage || site.defaultImage;
   const ogImageAlt = pageMeta.ogImageAlt || site.defaultImageAlt || site.name;
+  const keywordsLine = pageMeta.keywords
+    ? `<meta name="keywords" content="${esc(pageMeta.keywords)}">`
+    : "";
 
   return `<!-- SEO:START -->
 <title>${esc(pageMeta.title)}</title>
 <link rel="canonical" href="${canonicalUrl}">
 <meta name="description" content="${esc(pageMeta.description)}">
+${keywordsLine}
 <meta name="robots" content="${esc(pageMeta.robots || "index,follow,max-image-preview:large")}">
 <meta property="og:site_name" content="${esc(site.name)}">
 <meta property="og:type" content="website">
@@ -211,7 +271,6 @@ for (const [fileName, pageMeta] of Object.entries(pages)) {
       /(<meta name="viewport"[^>]*>\n)/,
       `$1${seoBlock}\n`
     );
-    // Remove duplicate bare description if we inserted full block after viewport
     html = html.replace(/\n\s*<meta name="description" content="[^"]*">\n(?=\s*<link rel="preconnect")/, "\n");
   }
 

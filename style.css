@@ -469,17 +469,6 @@ p {
   .services-carousel .carousel-pagination {
     grid-row: 2;
   }
-
-  .services-carousel .carousel-slide-content {
-    min-height: 11.5rem;
-  }
-
-  .services-carousel .carousel-slide-content p {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

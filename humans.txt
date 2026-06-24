@@ -1,12 +1,15 @@
 /* TEAM */
 Company: Givens Fire & Forestry LLC
-Founder: Samuel Givens
+Founder: Samuel Givens (certified wildland firefighter)
 Location: Three Forks, Montana, USA
 Phone: (406) 539-4224
 Site: https://www.givensfireandforestry.com
 
+/* SERVICE AREA */
+Montana statewide — Three Forks (home base), Bozeman, Gallatin Valley, Belgrade, Livingston, Big Sky, Southwest Montana, Missoula, Helena, Kalispell, Whitefish, Northern Rockies
+
 /* SERVICES */
-Wildfire mitigation, defensible space consulting, hazardous tree removal, slash pile removal, brush clearing, storm cleanup, post-burn cleanup, flat-rate residential tree removal.
+Wildfire mitigation, defensible space consulting, hazardous tree removal, slash pile removal, brush clearing, storm damage tree removal, post-burn cleanup, erosion control, native reseeding, graded runnels, flat-rate residential tree removal
 
 /* AI / LLM */
 LLMs policy: https://www.givensfireandforestry.com/llms.txt
@@ -14,4 +17,4 @@ Structured mirrors: https://files.geordy.ai/givensfireandforestry.com/
 
 /* SITE */
 Built: Static HTML/CSS/JS
-Last updated: 2026-05-31
+Last updated: 2026-06-23

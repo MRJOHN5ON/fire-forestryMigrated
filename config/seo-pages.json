@@ -7,100 +7,141 @@
     "defaultImageAlt": "Givens Fire and Forestry emblem",
     "phone": "+1-406-539-4224",
     "locale": "en_US",
-    "twitterCard": "summary_large_image"
+    "twitterCard": "summary_large_image",
+    "businessDescription": "Wildfire mitigation, hazardous tree removal, brush clearing, erosion control, native reseeding, slash pile removal, defensible space consulting, and post-burn cleanup for residential and commercial properties across Montana. Based in Three Forks, serving Bozeman, Gallatin Valley, and landowners statewide. Led by experienced wildland firefighter Samuel Givens.",
+    "services": [
+      "Wildfire Mitigation",
+      "Defensible Space Consulting",
+      "Hazardous Tree Removal",
+      "Slash Pile Removal",
+      "Brush Clearing",
+      "Storm Damage Tree Removal",
+      "Post-Burn Cleanup",
+      "Erosion Control & Native Reseeding"
+    ],
+    "serviceAreas": [
+      "Montana",
+      "Bozeman",
+      "Three Forks",
+      "Gallatin Valley",
+      "Belgrade",
+      "Livingston",
+      "Big Sky",
+      "Missoula",
+      "Helena",
+      "Kalispell",
+      "Whitefish",
+      "Great Falls",
+      "Billings",
+      "Southwest Montana",
+      "Northern Rockies"
+    ]
   },
   "pages": {
     "index.html": {
-      "title": "Givens Fire and Forestry",
+      "title": "Wildfire Mitigation & Forestry Services in Montana | Givens Fire and Forestry",
       "canonicalPath": "/",
-      "description": "Givens Fire and Forestry offers expert wildfire mitigation services across Montana, including hazardous tree removal, fuel reduction, post burn cleanup, and fire-smart property consultations.",
-      "ogTitle": "Givens Fire and Forestry",
+      "description": "Expert wildfire mitigation, hazardous tree removal, erosion control, and fire-smart consulting for Montana landowners. Serving Bozeman, Three Forks, Gallatin Valley, and properties statewide.",
+      "ogTitle": "Wildfire Mitigation & Forestry Services in Montana | Givens Fire and Forestry",
+      "keywords": "wildfire mitigation Montana, fire mitigation Bozeman MT, forestry services Montana, hazardous tree removal Montana, erosion control Montana, defensible space Montana, fire-smart property Montana, wildfire protection Gallatin County, Three Forks forestry, Samuel Givens wildland firefighter",
       "schema": "localBusiness"
     },
     "about.html": {
-      "title": "About | Givens Fire and Forestry",
+      "title": "About Samuel Givens | Montana Wildfire Mitigation Expert | Givens Fire and Forestry",
       "canonicalPath": "/about",
-      "description": "Givens Fire & Forestry offers expert wildfire mitigation, forest management, and fire-smart solutions to protect properties and promote environmental sustainability in Montana.",
-      "ogTitle": "About | Givens Fire and Forestry",
+      "description": "Meet Samuel Givens — certified wildland firefighter and founder of Givens Fire & Forestry. Expert wildfire mitigation and forest management for Montana properties in Bozeman, Three Forks, and statewide.",
+      "ogTitle": "About Samuel Givens | Montana Wildfire Mitigation Expert | Givens Fire and Forestry",
+      "keywords": "Samuel Givens wildland firefighter, Givens Fire and Forestry about, wildfire mitigation expert Montana, forestry company Three Forks MT, fire-smart consulting Bozeman Montana",
       "schema": "webPage"
     },
     "gallery.html": {
-      "title": "Gallery | Givens Fire and Forestry",
+      "title": "Wildfire Mitigation Project Gallery | Montana | Givens Fire and Forestry",
       "canonicalPath": "/gallery",
-      "description": "Explore Givens Fire and Forestry past projects showcasing fire management and forestry services in Three Forks, Montana.",
-      "ogTitle": "Gallery | Givens Fire and Forestry",
+      "description": "Before-and-after wildfire mitigation, brush clearing, and forestry project photos from Givens Fire and Forestry across Three Forks, Bozeman, and Southwest Montana.",
+      "ogTitle": "Wildfire Mitigation Project Gallery | Montana | Givens Fire and Forestry",
+      "keywords": "wildfire mitigation before and after Montana, forestry project gallery Bozeman, brush clearing photos Montana, defensible space projects Gallatin County",
       "schema": "webPage"
     },
     "services.html": {
-      "title": "Services | Givens Fire and Forestry",
+      "title": "Fire & Forestry Services in Bozeman & Three Forks, MT | Givens Fire and Forestry",
       "canonicalPath": "/services",
-      "description": "Wildfire mitigation, hazardous tree removal, slash pile removal, brush clearing, storm cleanup, and post-burn cleanup services across Montana.",
-      "ogTitle": "Services | Givens Fire and Forestry",
-      "schema": "webPage"
+      "description": "Wildfire mitigation, hazardous tree removal, slash pile removal, brush clearing, erosion control, native reseeding, and post-burn cleanup serving Bozeman, Three Forks, and all of Montana.",
+      "ogTitle": "Fire & Forestry Services in Bozeman & Three Forks, MT | Givens Fire and Forestry",
+      "keywords": "wildfire mitigation Bozeman MT, tree removal Bozeman Montana, brush clearing Montana, erosion control Montana, native reseeding Montana, slash pile removal Three Forks MT, fire mitigation Gallatin County, forestry services Montana, weed mitigation Montana, post-burn cleanup Montana, runnel erosion control Montana",
+      "schema": "servicesPage"
     },
     "flat-rates-for-tree-removal.html": {
-      "title": "Flat Rate Tree Removal | Givens Fire and Forestry",
+      "title": "Flat Rate Tree Removal Montana | Bozeman & Three Forks | Givens Fire and Forestry",
       "canonicalPath": "/flat-rates-for-tree-removal",
-      "description": "Transparent flat-rate residential tree removal pricing in Southwest Montana. Small, standard, and large removal tiers with free quote requests.",
-      "ogTitle": "Flat Rate Tree Removal | Givens Fire and Forestry",
+      "description": "Transparent flat-rate hazardous tree removal pricing for Montana homeowners. Small, standard, and large removal tiers in Bozeman, Three Forks, Gallatin Valley, and statewide.",
+      "ogTitle": "Flat Rate Tree Removal Montana | Bozeman & Three Forks | Givens Fire and Forestry",
+      "keywords": "tree removal cost Montana, flat rate tree removal Bozeman, hazardous tree removal Montana pricing, residential tree removal Three Forks MT, tree removal Gallatin County",
       "schema": "service"
     },
     "appointments.html": {
-      "title": "Appointments | Givens Fire and Forestry",
+      "title": "Book a Consultation | Montana Wildfire Mitigation | Givens Fire and Forestry",
       "canonicalPath": "/appointments",
-      "description": "Book an appointment with Givens Fire and Forestry for wildfire mitigation, forest management, and fire-smart property consultations in Three Forks and Gallatin Valley, Montana.",
-      "ogTitle": "Appointments | Givens Fire and Forestry",
+      "description": "Schedule a wildfire mitigation or forestry consultation with Givens Fire and Forestry. Serving Bozeman, Three Forks, Gallatin Valley, and Montana landowners statewide.",
+      "ogTitle": "Book a Consultation | Montana Wildfire Mitigation | Givens Fire and Forestry",
+      "keywords": "book wildfire mitigation Montana, forestry consultation Bozeman MT, fire mitigation appointment Three Forks, schedule defensible space consultation Montana",
       "schema": "contactPage"
     },
     "contact.html": {
-      "title": "Contact & Appointments | Givens Fire and Forestry",
+      "title": "Contact Givens Fire and Forestry | Montana Wildfire Mitigation",
       "canonicalPath": "/contact",
-      "description": "Schedule a consultation with Givens Fire and Forestry for expert forest management and fire safety services in Three Forks and Gallatin Valley, Montana.",
-      "ogTitle": "Contact & Appointments | Givens Fire and Forestry",
+      "description": "Request a quote or schedule a consultation for wildfire mitigation, tree removal, erosion control, and forestry services in Bozeman, Three Forks, Gallatin Valley, and across Montana.",
+      "ogTitle": "Contact Givens Fire and Forestry | Montana Wildfire Mitigation",
+      "keywords": "contact wildfire mitigation Montana, Givens Fire Forestry quote, tree removal quote Bozeman MT, fire mitigation consultation Three Forks, forestry services contact Montana",
       "schema": "contactPage"
     },
     "resources.html": {
-      "title": "Resources | Givens Fire and Forestry",
+      "title": "Wildfire & Forestry Resources for Montana Landowners | Givens Fire and Forestry",
       "canonicalPath": "/resources",
-      "description": "Educational resources on wildfire mitigation, forest management, and fire safety from Givens Fire and Forestry to protect your land and community.",
-      "ogTitle": "Resources | Givens Fire and Forestry",
+      "description": "Educational wildfire mitigation, forest management, and fire safety resources for Montana landowners from Givens Fire and Forestry — defensible space, fuel reduction, and community protection.",
+      "ogTitle": "Wildfire & Forestry Resources for Montana Landowners | Givens Fire and Forestry",
+      "keywords": "wildfire mitigation resources Montana, fire safety landowner Montana, defensible space education Bozeman, forest management resources Gallatin County, Montana wildfire preparedness",
       "schema": "webPage"
     },
     "toolbox.html": {
-      "title": "Toolbox | Givens Fire and Forestry",
+      "title": "Free Montana Forestry Tools & Calculators | Givens Fire and Forestry",
       "canonicalPath": "/toolbox",
-      "description": "Free forestry calculators for tree height, firewood cords, and wildfire risk screening. Built for homesteaders, loggers, and Montana landowners.",
-      "ogTitle": "Toolbox | Givens Fire and Forestry",
+      "description": "Free forestry calculators for Montana landowners — tree height, firewood cords, wildfire risk screening, and plant identification. Built by Givens Fire and Forestry in Three Forks, MT.",
+      "ogTitle": "Free Montana Forestry Tools & Calculators | Givens Fire and Forestry",
       "ogImage": "https://www.givensfireandforestry.com/assets/images/og-share-dark.jpg",
       "ogImageAlt": "Givens Fire and Forestry toolbox — free forestry calculators",
+      "keywords": "free forestry tools Montana, wildfire risk calculator Montana, tree height calculator, firewood cord calculator, Montana landowner tools, Givens field tools",
       "schema": "webPage"
     },
     "tree-height-calculator.html": {
-      "title": "Tree Height Calculator | Givens Fire and Forestry",
+      "title": "Tree Height Calculator | Free Montana Forestry Tool | Givens Fire and Forestry",
       "canonicalPath": "/tree-height-calculator",
-      "description": "Estimate tree height without climbing using five field-tested methods. Free calculator with metric and imperial units from Givens Fire and Forestry.",
-      "ogTitle": "Tree Height Calculator | Givens Fire and Forestry",
+      "description": "Estimate tree height without climbing using five field-tested methods. Free calculator with metric and imperial units — built for Montana landowners, loggers, and tree removal planning.",
+      "ogTitle": "Tree Height Calculator | Free Montana Forestry Tool | Givens Fire and Forestry",
+      "keywords": "tree height calculator Montana, measure tree height without climbing, forestry height estimate, tree removal planning tool Montana, clinometer tree height",
       "schema": "softwareApplication"
     },
     "firewood-cord-calculator.html": {
-      "title": "Firewood Cord Calculator | Givens Fire and Forestry",
+      "title": "Firewood Cord Calculator | Free Montana Forestry Tool | Givens Fire and Forestry",
       "canonicalPath": "/firewood-cord-calculator",
-      "description": "Calculate felled tree volume and convert to cords of firewood. Free frustum-based cord calculator for sellers, homesteaders, and loggers in Montana.",
-      "ogTitle": "Firewood Cord Calculator | Givens Fire and Forestry",
+      "description": "Calculate felled tree volume and convert to cords of firewood. Free frustum-based cord calculator for Montana sellers, homesteaders, and loggers.",
+      "ogTitle": "Firewood Cord Calculator | Free Montana Forestry Tool | Givens Fire and Forestry",
+      "keywords": "firewood cord calculator Montana, cord of wood calculator, log to cord calculator, frustum firewood estimate, Montana firewood volume",
       "schema": "softwareApplication"
     },
     "wildfire-risk-calculator.html": {
-      "title": "Wildfire Risk Calculator | Givens Fire and Forestry",
+      "title": "Wildfire Risk Calculator | Free Montana Property Screening | Givens Fire and Forestry",
       "canonicalPath": "/wildfire-risk-calculator",
-      "description": "Free wildfire risk screening tool for Montana properties. Enter your address for fuel model, slope, weather, and a Rothermel-based fire risk score from LANDFIRE data.",
-      "ogTitle": "Wildfire Risk Calculator | Givens Fire and Forestry",
+      "description": "Free wildfire risk screening for Montana properties. Enter your address for LANDFIRE fuel model, slope, live weather, and a Rothermel-based fire risk score.",
+      "ogTitle": "Wildfire Risk Calculator | Free Montana Property Screening | Givens Fire and Forestry",
+      "keywords": "Montana wildfire risk calculator, wildfire risk by address Montana, LANDFIRE fuel model, property wildfire screening Bozeman, WUI wildfire risk Montana, defensible space planning tool",
       "schema": "softwareApplication"
     },
     "plant-identifier.html": {
-      "title": "Plant & Tree Identifier | Givens Fire and Forestry",
+      "title": "Plant & Tree Identifier | Montana Fire-Risk Notes | Givens Fire and Forestry",
       "canonicalPath": "/plant-identifier",
-      "description": "Free plant and tree identifier for Montana landowners. Snap a photo to identify species and get local fire-risk notes for defensible space planning.",
-      "ogTitle": "Plant & Tree Identifier | Givens Fire and Forestry",
+      "description": "Free plant and tree identifier for Montana landowners. Snap a photo to identify species and get local fire-risk and defensible-space notes for your property.",
+      "ogTitle": "Plant & Tree Identifier | Montana Fire-Risk Notes | Givens Fire and Forestry",
+      "keywords": "Montana plant identifier, tree ID defensible space, plant identification fire risk Montana, noxious weed ID Montana, species ID landowner Montana",
       "schema": "softwareApplication"
     },
     "nomination.html": {
