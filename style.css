@@ -1618,11 +1618,33 @@ blockquote {
   bottom: 0;
   left: var(--ba-pos);
   z-index: 4;
+  width: 2.75rem;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  transform: translateX(-50%);
+  pointer-events: auto;
+  cursor: ew-resize;
+  touch-action: none;
+}
+
+.ba-showcase__divider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
   width: 0.14rem;
   background: var(--color-white);
   box-shadow: 0 0 0.65rem rgba(0, 0, 0, 0.45);
-  pointer-events: none;
   transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.ba-showcase__divider:focus-visible {
+  outline: 2px solid var(--color-muted-green);
+  outline-offset: 2px;
 }
 
 .ba-showcase__knob {
@@ -1636,6 +1658,7 @@ blockquote {
   background: rgba(0, 0, 0, 0.55);
   box-shadow: 0 0.2rem 0.85rem rgba(0, 0, 0, 0.35);
   transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 .ba-showcase__knob::before,
@@ -1661,13 +1684,16 @@ blockquote {
 
 .ba-showcase__range {
   position: absolute;
-  inset: 0;
-  z-index: 5;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  cursor: ew-resize;
-  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .ba-showcase__hint {

@@ -406,22 +406,90 @@ setupGalleryLightbox();
 
 document.querySelectorAll("[data-ba-slider]").forEach((slider) => {
   const frame = slider.querySelector(".ba-showcase__frame");
+  const handle = slider.querySelector(".ba-showcase__divider");
   const range = slider.querySelector(".ba-showcase__range");
+  const label = slider.querySelector("label[for]");
 
-  if (!frame || !range) return;
+  if (!frame || !handle) return;
 
-  const setPosition = (value) => {
-    const num = Number(value);
-    const pos = `${num}%`;
+  let value = Number(range?.value) || 50;
+  let dragging = false;
+
+  const clamp = (num) => Math.max(0, Math.min(100, num));
+
+  const setPosition = (num) => {
+    value = clamp(num);
+    const rounded = Math.round(value);
+    const pos = `${value}%`;
+
     frame.style.setProperty("--ba-pos", pos);
-    frame.style.setProperty("--ba-before-label-opacity", String(Math.min(1, num / 8)));
-    frame.style.setProperty("--ba-after-label-opacity", String(Math.min(1, (100 - num) / 8)));
-    range.setAttribute("aria-valuenow", value);
+    frame.style.setProperty("--ba-before-label-opacity", String(Math.min(1, value / 8)));
+    frame.style.setProperty("--ba-after-label-opacity", String(Math.min(1, (100 - value) / 8)));
+    handle.setAttribute("aria-valuenow", String(rounded));
+
+    if (range) {
+      range.value = String(rounded);
+    }
   };
 
-  range.addEventListener("input", () => {
-    setPosition(range.value);
+  const positionFromClientX = (clientX) => {
+    const rect = frame.getBoundingClientRect();
+    if (!rect.width) return;
+
+    setPosition(((clientX - rect.left) / rect.width) * 100);
+  };
+
+  handle.removeAttribute("aria-hidden");
+  handle.setAttribute("role", "slider");
+  handle.setAttribute("aria-valuemin", "0");
+  handle.setAttribute("aria-valuemax", "100");
+  handle.setAttribute("tabindex", "0");
+
+  if (label) {
+    handle.setAttribute("aria-label", label.textContent.trim());
+    label.classList.add("sr-only");
+  } else {
+    handle.setAttribute("aria-label", "Drag to compare before and after photos");
+  }
+
+  handle.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0 && event.pointerType === "mouse") return;
+
+    dragging = true;
+    handle.setPointerCapture(event.pointerId);
+    positionFromClientX(event.clientX);
   });
 
-  setPosition(range.value);
+  handle.addEventListener("pointermove", (event) => {
+    if (!dragging) return;
+
+    positionFromClientX(event.clientX);
+  });
+
+  const endDrag = (event) => {
+    if (!dragging) return;
+
+    dragging = false;
+
+    if (handle.hasPointerCapture(event.pointerId)) {
+      handle.releasePointerCapture(event.pointerId);
+    }
+  };
+
+  handle.addEventListener("pointerup", endDrag);
+  handle.addEventListener("pointercancel", endDrag);
+
+  handle.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      setPosition(value - 2);
+    }
+
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      setPosition(value + 2);
+    }
+  });
+
+  setPosition(value);
 });
