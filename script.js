@@ -275,6 +275,135 @@ document.querySelectorAll(".promo-video").forEach((video) => {
   video.addEventListener("loadedmetadata", setSpeed);
 });
 
+function setupGalleryLightbox() {
+  const gallery = document.querySelector("[data-gallery]");
+  const lightbox = document.querySelector("[data-gallery-lightbox]");
+
+  if (!gallery || !lightbox || typeof lightbox.showModal !== "function") return;
+
+  const triggers = [...gallery.querySelectorAll("[data-gallery-open]")];
+  const image = lightbox.querySelector(".gallery-lightbox__image");
+  const prev = lightbox.querySelector("[data-gallery-prev]");
+  const next = lightbox.querySelector("[data-gallery-next]");
+  const closeButtons = [...lightbox.querySelectorAll("[data-gallery-close]")];
+  const stage = lightbox.querySelector(".gallery-lightbox__stage");
+
+  if (!triggers.length || !image || !prev || !next || !stage) return;
+
+  let activeIndex = 0;
+  let lastTrigger = null;
+  const mobileQuery = window.matchMedia("(max-width: 768px)");
+
+  const getTriggerLabel = (trigger) => {
+    const alt = trigger.querySelector("img")?.alt?.trim();
+    return alt ? `View full size: ${alt}` : "View full size project photo";
+  };
+
+  const syncMobileTriggers = () => {
+    const isMobile = mobileQuery.matches;
+
+    triggers.forEach((trigger) => {
+      trigger.disabled = isMobile;
+      trigger.tabIndex = isMobile ? -1 : 0;
+
+      if (isMobile) {
+        trigger.removeAttribute("aria-label");
+      } else {
+        trigger.setAttribute("aria-label", getTriggerLabel(trigger));
+      }
+    });
+
+    if (isMobile && lightbox.open) {
+      closeLightbox();
+    }
+  };
+
+  const getImageData = (trigger) => {
+    const thumb = trigger.querySelector("img");
+    return {
+      src: thumb?.currentSrc || thumb?.src || "",
+      alt: thumb?.alt || "Givens Fire and Forestry project photo",
+    };
+  };
+
+  const updateNav = () => {
+    prev.disabled = activeIndex <= 0;
+    next.disabled = activeIndex >= triggers.length - 1;
+  };
+
+  const showImage = (index) => {
+    activeIndex = Math.max(0, Math.min(index, triggers.length - 1));
+    const data = getImageData(triggers[activeIndex]);
+    image.src = data.src;
+    image.alt = data.alt;
+    updateNav();
+  };
+
+  const openAt = (index, trigger) => {
+    if (mobileQuery.matches) return;
+
+    lastTrigger = trigger;
+    showImage(index);
+    if (!lightbox.open) {
+      lightbox.showModal();
+    }
+  };
+
+  const closeLightbox = () => {
+    if (!lightbox.open) return;
+    lightbox.close();
+    image.removeAttribute("src");
+    if (lastTrigger) {
+      lastTrigger.focus();
+    }
+  };
+
+  triggers.forEach((trigger, index) => {
+    trigger.addEventListener("click", () => openAt(index, trigger));
+  });
+
+  syncMobileTriggers();
+  mobileQuery.addEventListener("change", syncMobileTriggers);
+
+  prev.addEventListener("click", () => showImage(activeIndex - 1));
+  next.addEventListener("click", () => showImage(activeIndex + 1));
+  closeButtons.forEach((button) => {
+    button.addEventListener("click", closeLightbox);
+  });
+
+  lightbox.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    closeLightbox();
+  });
+
+  lightbox.addEventListener("close", () => {
+    image.removeAttribute("src");
+    if (lastTrigger) {
+      lastTrigger.focus();
+    }
+  });
+
+  stage.addEventListener("click", (event) => {
+    if (event.target === stage) {
+      closeLightbox();
+    }
+  });
+
+  lightbox.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft" && activeIndex > 0) {
+      event.preventDefault();
+      showImage(activeIndex - 1);
+    }
+
+    if (event.key === "ArrowRight" && activeIndex < triggers.length - 1) {
+      event.preventDefault();
+      showImage(activeIndex + 1);
+    }
+  });
+}
+
+setupGalleryLightbox();
+
 document.querySelectorAll("[data-ba-slider]").forEach((slider) => {
   const frame = slider.querySelector(".ba-showcase__frame");
   const range = slider.querySelector(".ba-showcase__range");

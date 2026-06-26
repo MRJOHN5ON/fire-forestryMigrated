@@ -1,16 +1,422 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.givensfireandforestry.com/</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/about</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/gallery</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/services</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/flat-rates-for-tree-removal</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/contact</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/appointments</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/resources</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/toolbox</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/tree-height-calculator</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/firewood-cord-calculator</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/wildfire-risk-calculator</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.givensfireandforestry.com/plant-identifier</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.givensfireandforestry.com/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/image-1739138668530.jpg</image:loc>
+      <image:caption>A house on a hillside while a wildfire burns on the hillside, producing thick black smoke and flames.</image:caption>
+      <image:title>A house on a hillside while a wildfire burns on the hillside, producing thick black smoke and flames.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240909-134220.jpg</image:loc>
+      <image:caption>Back of a wood delivery truck filled with chopped logs.</image:caption>
+      <image:title>Back of a wood delivery truck filled with chopped logs.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/8304799397366373428-jpg.jpg</image:loc>
+      <image:caption>A firefighter in uniform and helmet standing next to a burnt tree in a forested area.</image:caption>
+      <image:title>A firefighter in uniform and helmet standing next to a burnt tree in a forested area.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20171019-095721.jpg</image:loc>
+      <image:caption>Burned automotive debris with a rusted car and charred debris in the background.</image:caption>
+      <image:title>Burned automotive debris with a rusted car and charred debris in the background.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20230824-160905.jpg</image:loc>
+      <image:caption>Dense forest with trees and bushes and sunlight filtering through the canopy.</image:caption>
+      <image:title>Dense forest with trees and bushes and sunlight filtering through the canopy.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/screenshot-2026-02-10-at-6-20-57-pm.png</image:loc>
+      <image:caption>Fallen tree branch on a sidewalk near a building with a brown metal roof.</image:caption>
+      <image:title>Fallen tree branch on a sidewalk near a building with a brown metal roof.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/c4ea4c64-e735-46c3-8b11-f0282a8f8d3e.jpeg</image:loc>
+      <image:caption>Erosion control and reseeding work on a slope</image:caption>
+      <image:title>Erosion control and reseeding work on a slope</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/fire-damage.jpg</image:loc>
+      <image:caption>Debris and wreckage from fire damage with mountains in the background</image:caption>
+      <image:title>Debris and wreckage from fire damage with mountains in the background</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/about</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/screen-shot-2025-01-26-at-5-25-06-pm.png</image:loc>
+      <image:caption>Samuel Givens cutting a fallen tree with a chainsaw in a forested area</image:caption>
+      <image:title>Samuel Givens cutting a fallen tree with a chainsaw in a forested area</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/teueudh.jpg</image:loc>
+      <image:caption>Dense evergreen forest floor with brush piles before wildfire mitigation in Montana</image:caption>
+      <image:title>Dense evergreen forest floor with brush piles before wildfire mitigation in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/44536680-10212078440187725-2851013928333344768-n.jpg</image:loc>
+      <image:caption>A firefighter wearing a yellow helmet, sunglasses, and a yellow uniform, smiling amidst a smoky background.</image:caption>
+      <image:title>A firefighter wearing a yellow helmet, sunglasses, and a yellow uniform, smiling amidst a smoky background.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/image-2025-01-26-17-44-48.jpg</image:loc>
+      <image:caption>Side-by-side images of a forest setting; the left shows a smoky, burned forest with a damaged log cabin, while the right shows a clean, landscaped yard with a gravel pathway and green lawn.</image:caption>
+      <image:title>Side-by-side images of a forest setting; the left shows a smoky, burned forest with a damaged log cabin, while the right shows a clean, landscaped yard with a gravel pathway and green lawn.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/gallery</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/before-and-after-1-3.jpg</image:loc>
+      <image:caption>Forest trail with spaced trees and a clearing after mitigation</image:caption>
+      <image:title>Forest trail with spaced trees and a clearing after mitigation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/before-and-after-1-1.jpg</image:loc>
+      <image:caption>Forested area with dense trees and a wooden structure before mitigation</image:caption>
+      <image:title>Forested area with dense trees and a wooden structure before mitigation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20230825-111330.jpg</image:loc>
+      <image:caption>Rocky dry creek bed surrounded by thinned trees after brush clearing</image:caption>
+      <image:title>Rocky dry creek bed surrounded by thinned trees after brush clearing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20230824-160905-2.jpg</image:loc>
+      <image:caption>Dense forest with thick undergrowth and fallen branches before brush clearing</image:caption>
+      <image:title>Dense forest with thick undergrowth and fallen branches before brush clearing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/post-burn-cleanup-after.jpg</image:loc>
+      <image:caption>Cleared and leveled soil after post-burn cleanup in a Montana forest clearing</image:caption>
+      <image:title>Cleared and leveled soil after post-burn cleanup in a Montana forest clearing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/post-burn-cleanup-before.jpg</image:loc>
+      <image:caption>Scorched forest clearing with charred logs before post-burn cleanup in Montana</image:caption>
+      <image:title>Scorched forest clearing with charred logs before post-burn cleanup in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20171019-095718.jpg</image:loc>
+      <image:caption>Ash-covered property after residential fire with charred debris and burned car in Montana</image:caption>
+      <image:title>Ash-covered property after residential fire with charred debris and burned car in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240916-115101.jpg</image:loc>
+      <image:caption>Tree removal site with felled pine stump excavator and forested hillside in Montana</image:caption>
+      <image:title>Tree removal site with felled pine stump excavator and forested hillside in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/1000003137.jpg</image:loc>
+      <image:caption>Cleared hillside with wood chip mulch among aspen trees after brush clearing in Montana</image:caption>
+      <image:title>Cleared hillside with wood chip mulch among aspen trees after brush clearing in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240903-182933.jpg</image:loc>
+      <image:caption>Large broken tree limb fallen across a field before storm damage tree removal</image:caption>
+      <image:title>Large broken tree limb fallen across a field before storm damage tree removal</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20170913-184013.jpg</image:loc>
+      <image:caption>Wildland firefighter with chainsaw on smoky fire line during active burn in Montana</image:caption>
+      <image:title>Wildland firefighter with chainsaw on smoky fire line during active burn in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/screenshot-20220817-010240-instagram.jpg</image:loc>
+      <image:caption>Massive wildfire smoke plume behind Bitterroot Hotshots fire crew truck in Montana</image:caption>
+      <image:title>Massive wildfire smoke plume behind Bitterroot Hotshots fire crew truck in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240414-084336.jpg</image:loc>
+      <image:caption>Controlled burn bonfire of slash piles in an open Montana field</image:caption>
+      <image:title>Controlled burn bonfire of slash piles in an open Montana field</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20230421-122843.jpg</image:loc>
+      <image:caption>Cut logs and Stihl chainsaw at post-fire tree removal site with flagged stumps in Montana</image:caption>
+      <image:title>Cut logs and Stihl chainsaw at post-fire tree removal site with flagged stumps in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240412-162104.jpg</image:loc>
+      <image:caption>Stihl chainsaws drip torches and forestry equipment staged for wildfire mitigation work in Montana</image:caption>
+      <image:title>Stihl chainsaws drip torches and forestry equipment staged for wildfire mitigation work in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240905-192443.jpg</image:loc>
+      <image:caption>Stack of cut pine logs along a driveway after hazardous tree removal in Montana</image:caption>
+      <image:title>Stack of cut pine logs along a driveway after hazardous tree removal in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/1000003437.jpg</image:loc>
+      <image:caption>Gravel road past cleared birch hillside mulched after brush clearing in Montana</image:caption>
+      <image:title>Gravel road past cleared birch hillside mulched after brush clearing in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20180708-135845-1.jpg</image:loc>
+      <image:caption>Wildland firefighter in PPE carrying tools on cleared forest trail in Montana</image:caption>
+      <image:title>Wildland firefighter in PPE carrying tools on cleared forest trail in Montana</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/services</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/before-and-after-1-3.jpg</image:loc>
+      <image:caption>Forest trail with spaced trees and a clearing after mitigation</image:caption>
+      <image:title>Forest trail with spaced trees and a clearing after mitigation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/before-and-after-1-1.jpg</image:loc>
+      <image:caption>Forested area with dense trees and a wooden structure in the background before mitigation</image:caption>
+      <image:title>Forested area with dense trees and a wooden structure in the background before mitigation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240909-134220.jpg</image:loc>
+      <image:caption>Truck carrying cut logs with Montana license plate</image:caption>
+      <image:title>Truck carrying cut logs with Montana license plate</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240905-192443.jpg</image:loc>
+      <image:caption>Piled cut logs stacked beside trees on a forest floor</image:caption>
+      <image:title>Piled cut logs stacked beside trees on a forest floor</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20240414-084336.jpg</image:loc>
+      <image:caption>Controlled burn of wooden logs in a field</image:caption>
+      <image:title>Controlled burn of wooden logs in a field</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20171019-122517.jpg</image:loc>
+      <image:caption>Burned outdoor patio with charred debris</image:caption>
+      <image:title>Burned outdoor patio with charred debris</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/unsplash-image-nujw3h9k1em.jpg</image:loc>
+      <image:caption>Person walking toward a burning wooden structure in a field</image:caption>
+      <image:title>Person walking toward a burning wooden structure in a field</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20171019-095721.jpg</image:loc>
+      <image:caption>Burned building remains with a destroyed car</image:caption>
+      <image:title>Burned building remains with a destroyed car</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20230825-111330.jpg</image:loc>
+      <image:caption>Rocky dry creek bed surrounded by thinned trees after brush clearing</image:caption>
+      <image:title>Rocky dry creek bed surrounded by thinned trees after brush clearing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/20230824-160905-2.jpg</image:loc>
+      <image:caption>Dense forest with thick undergrowth and fallen branches before brush clearing</image:caption>
+      <image:title>Dense forest with thick undergrowth and fallen branches before brush clearing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/screenshot-2026-02-10-at-6-29-31-pm.png</image:loc>
+      <image:caption>Evergreen tree fallen onto the side of a house in snowy weather</image:caption>
+      <image:title>Evergreen tree fallen onto the side of a house in snowy weather</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/screenshot-2026-02-10-at-6-29-42-pm.png</image:loc>
+      <image:caption>Fallen tree leaning against a backyard fence with snow</image:caption>
+      <image:title>Fallen tree leaning against a backyard fence with snow</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/screenshot-2026-02-10-at-6-29-24-pm.png</image:loc>
+      <image:caption>Large tree fallen onto a house roof and driveway</image:caption>
+      <image:title>Large tree fallen onto a house roof and driveway</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/screenshot-2026-02-10-at-6-20-57-pm-2.png</image:loc>
+      <image:caption>Fallen tree blocking a carport with snow on the ground</image:caption>
+      <image:title>Fallen tree blocking a carport with snow on the ground</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/Gemini_Generated_Image_7aq3fa7aq3fa7aq3.png</image:loc>
+      <image:caption>Native grasses establishing on a reseeded slope</image:caption>
+      <image:title>Native grasses establishing on a reseeded slope</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/Gemini_Generated_Image_lr0w1vlr0w1vlr0w.png</image:loc>
+      <image:caption>Erosion control matting installed on a steep hillside to stabilize soil</image:caption>
+      <image:title>Erosion control matting installed on a steep hillside to stabilize soil</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/Gemini_Generated_Image_prf7sbprf7sbprf7.png</image:loc>
+      <image:caption>Stabilized ground recovering with new native growth after slash pile burning and brush clearing</image:caption>
+      <image:title>Stabilized ground recovering with new native growth after slash pile burning and brush clearing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/Gemini_Generated_Image_4pqprj4pqprj4pqp.png</image:loc>
+      <image:caption>Dense invasive cheatgrass and noxious weeds taking over bare ground on a Montana property</image:caption>
+      <image:title>Dense invasive cheatgrass and noxious weeds taking over bare ground on a Montana property</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/flat-rates-for-tree-removal</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/livdtcxfspyd1l9vpmzofa.jpg</image:loc>
+      <image:caption>Illustration of a forester using a stick method to measure tree height in Montana mountains</image:caption>
+      <image:title>Illustration of a forester using a stick method to measure tree height in Montana mountains</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/d2coinzctgkxneewkzjmgq.jpg</image:loc>
+      <image:caption>Firewood cord illustration showing 4ft by 4ft by 8ft stack dimensions</image:caption>
+      <image:title>Firewood cord illustration showing 4ft by 4ft by 8ft stack dimensions</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/contact</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/unsplash-image-gzqdz5r0dio.jpg</image:loc>
+      <image:caption>Rushing mountain stream through a pine forest in Montana</image:caption>
+      <image:title>Rushing mountain stream through a pine forest in Montana</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/appointments</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/unsplash-image-gzqdz5r0dio.jpg</image:loc>
+      <image:caption>Rushing mountain stream through a pine forest in Montana</image:caption>
+      <image:title>Rushing mountain stream through a pine forest in Montana</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/resources</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/unsplash-image-7ruhorzo-1g.jpg</image:loc>
+      <image:caption>Intense wildfire flames illustrating forest fire danger in Montana</image:caption>
+      <image:title>Intense wildfire flames illustrating forest fire danger in Montana</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/msu-core-logo-initial-only-400x300px.jpg</image:loc>
+      <image:caption>Montana State University Extension logo</image:caption>
+      <image:title>Montana State University Extension logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/images.png</image:loc>
+      <image:caption>National Interagency Fire Center logo</image:caption>
+      <image:title>National Interagency Fire Center logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/unnamed-1.jpg</image:loc>
+      <image:caption>Map of Fire logo</image:caption>
+      <image:title>Map of Fire logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/ab67656300005f1f0485c40f584aa0bf418526eb.jpg</image:loc>
+      <image:caption>Anchor Point Podcast artwork</image:caption>
+      <image:title>Anchor Point Podcast artwork</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/unnamed.jpg</image:loc>
+      <image:caption>Hotshot Wake Up podcast artwork</image:caption>
+      <image:title>Hotshot Wake Up podcast artwork</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/images.jpg</image:loc>
+      <image:caption>Wildland Fire Learning Portal logo</image:caption>
+      <image:title>Wildland Fire Learning Portal logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/dnrc.png</image:loc>
+      <image:caption>Montana DNRC logo</image:caption>
+      <image:title>Montana DNRC logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/toolbox</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/forest-green-aerial-view-1280.jpg</image:loc>
+      <image:caption>Aerial view of dense green Montana forest canopy</image:caption>
+      <image:title>Aerial view of dense green Montana forest canopy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/livdtcxfspyd1l9vpmzofa.jpg</image:loc>
+      <image:caption>Illustration of a forester using a stick method to measure tree height in Montana mountains</image:caption>
+      <image:title>Illustration of a forester using a stick method to measure tree height in Montana mountains</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/d2coinzctgkxneewkzjmgq.jpg</image:loc>
+      <image:caption>Firewood cord illustration showing 4ft by 4ft by 8ft stack dimensions</image:caption>
+      <image:title>Firewood cord illustration showing 4ft by 4ft by 8ft stack dimensions</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/wildfire-risk-toolbox-card.png</image:loc>
+      <image:caption>Illustrated Montana home at the forest edge with wildfire risk gauge</image:caption>
+      <image:title>Illustrated Montana home at the forest edge with wildfire risk gauge</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/plant-identifier-toolbox-card.png</image:loc>
+      <image:caption>Illustrated Montana homestead at the forest edge with a homesteader photographing a plant for species identification</image:caption>
+      <image:title>Illustrated Montana homestead at the forest edge with a homesteader photographing a plant for species identification</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/tree-height-calculator</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/firewood-cord-calculator</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/tools/firewood-cord/cord-of-wood.webp</image:loc>
+      <image:caption>Cord of wood stacked showing 4 by 4 by 8 foot dimensions</image:caption>
+      <image:title>Cord of wood stacked showing 4 by 4 by 8 foot dimensions</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/tools/firewood-cord/tree-harvesting.webp</image:loc>
+      <image:caption>Tree harvesting for firewood</image:caption>
+      <image:title>Tree harvesting for firewood</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/wildfire-risk-calculator</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.givensfireandforestry.com/plant-identifier</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.givensfireandforestry.com/assets/images/forest-green-aerial-view-1280.jpg</image:loc>
+      <image:caption>Aerial view of dense green Montana forest canopy</image:caption>
+      <image:title>Aerial view of dense green Montana forest canopy</image:title>
+    </image:image>
+  </url>
 </urlset>

@@ -135,19 +135,127 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </section>
 
       <section class="section gallery-section">
-        <div class="container gallery-grid">
-          <figure><img src="assets/images/20171019-095718.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/20240916-115101.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/1000003137.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/20240903-182933.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/20170913-184013.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/screenshot-20220817-010240-instagram.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/20240414-084336.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/20230421-122843.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/20240412-162104.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/20240905-192443.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/1000003437.jpg" alt="Givens Fire and Forestry project photo"></figure>
-          <figure><img src="assets/images/20180708-135845-1.jpg" alt="Givens Fire and Forestry project photo"></figure>
+        <div class="container gallery-before-after">
+          <h2 class="gallery-section__title">Before &amp; After</h2>
+          <div class="gallery-ba-grid">
+            <article class="gallery-ba-pair">
+              <h3 class="gallery-ba-pair__title">Wildfire Mitigation</h3>
+              <div class="ba-showcase gallery-ba-showcase" data-ba-showcase>
+                <div class="ba-showcase__slider" data-ba-slider>
+                  <div class="ba-showcase__frame">
+                    <img class="ba-showcase__photo ba-showcase__photo--after" src="assets/images/before-and-after-1-3.jpg" alt="Forest trail with spaced trees and a clearing after mitigation">
+                    <img class="ba-showcase__photo ba-showcase__photo--before" src="assets/images/before-and-after-1-1.jpg" alt="Forested area with dense trees and a wooden structure before mitigation">
+                    <div class="ba-showcase__divider" aria-hidden="true">
+                      <span class="ba-showcase__knob"></span>
+                    </div>
+                    <label class="sr-only" for="ba-slider-gallery-mitigation">Drag to compare before and after photos</label>
+                    <input class="ba-showcase__range" id="ba-slider-gallery-mitigation" type="range" min="0" max="100" value="50" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                  </div>
+                  <p class="ba-showcase__hint">Drag the slider to compare</p>
+                </div>
+              </div>
+            </article>
+            <article class="gallery-ba-pair">
+              <h3 class="gallery-ba-pair__title">Brush Clearing</h3>
+              <div class="ba-showcase gallery-ba-showcase" data-ba-showcase>
+                <div class="ba-showcase__slider" data-ba-slider>
+                  <div class="ba-showcase__frame">
+                    <img class="ba-showcase__photo ba-showcase__photo--after" src="assets/images/20230825-111330.jpg" alt="Rocky dry creek bed surrounded by thinned trees after brush clearing">
+                    <img class="ba-showcase__photo ba-showcase__photo--before" src="assets/images/20230824-160905-2.jpg" alt="Dense forest with thick undergrowth and fallen branches before brush clearing">
+                    <div class="ba-showcase__divider" aria-hidden="true">
+                      <span class="ba-showcase__knob"></span>
+                    </div>
+                    <label class="sr-only" for="ba-slider-gallery-brush">Drag to compare before and after photos</label>
+                    <input class="ba-showcase__range" id="ba-slider-gallery-brush" type="range" min="0" max="100" value="50" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                  </div>
+                  <p class="ba-showcase__hint">Drag the slider to compare</p>
+                </div>
+              </div>
+            </article>
+            <article class="gallery-ba-pair">
+              <h3 class="gallery-ba-pair__title">Post Burn Clean Up</h3>
+              <div class="ba-showcase gallery-ba-showcase" data-ba-showcase>
+                <div class="ba-showcase__slider" data-ba-slider>
+                  <div class="ba-showcase__frame">
+                    <img class="ba-showcase__photo ba-showcase__photo--after" src="assets/images/post-burn-cleanup-after.jpg" alt="Cleared and leveled soil after post-burn cleanup in a Montana forest clearing">
+                    <img class="ba-showcase__photo ba-showcase__photo--before" src="assets/images/post-burn-cleanup-before.jpg" alt="Scorched forest clearing with charred logs before post-burn cleanup in Montana">
+                    <div class="ba-showcase__divider" aria-hidden="true">
+                      <span class="ba-showcase__knob"></span>
+                    </div>
+                    <label class="sr-only" for="ba-slider-gallery-post-burn">Drag to compare before and after photos</label>
+                    <input class="ba-showcase__range" id="ba-slider-gallery-post-burn" type="range" min="0" max="100" value="50" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+                  </div>
+                  <p class="ba-showcase__hint">Drag the slider to compare</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="container">
+          <h2 class="gallery-section__title">Project Photos</h2>
+          <div class="gallery-grid" data-gallery>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20171019-095718.jpg" alt="Ash-covered property after residential fire with charred debris and burned car in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20240916-115101.jpg" alt="Tree removal site with felled pine stump excavator and forested hillside in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/1000003137.jpg" alt="Cleared hillside with wood chip mulch among aspen trees after brush clearing in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20240903-182933.jpg" alt="Large broken tree limb fallen across a field before storm damage tree removal" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20170913-184013.jpg" alt="Wildland firefighter with chainsaw on smoky fire line during active burn in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/screenshot-20220817-010240-instagram.jpg" alt="Massive wildfire smoke plume behind Bitterroot Hotshots fire crew truck in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20240414-084336.jpg" alt="Controlled burn bonfire of slash piles in an open Montana field" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20230421-122843.jpg" alt="Cut logs and Stihl chainsaw at post-fire tree removal site with flagged stumps in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20240412-162104.jpg" alt="Stihl chainsaws drip torches and forestry equipment staged for wildfire mitigation work in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20240905-192443.jpg" alt="Stack of cut pine logs along a driveway after hazardous tree removal in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/1000003437.jpg" alt="Gravel road past cleared birch hillside mulched after brush clearing in Montana" loading="lazy">
+            </button>
+          </figure>
+          <figure class="gallery-thumb">
+            <button type="button" class="gallery-thumb__trigger" data-gallery-open aria-label="View full size project photo">
+              <img src="assets/images/20180708-135845-1.jpg" alt="Wildland firefighter in PPE carrying tools on cleared forest trail in Montana" loading="lazy">
+            </button>
+          </figure>
+        </div>
         </div>
       </section>
     </main>
@@ -158,7 +266,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <p class="site-footer__location">Three Forks Montana</p>
           <p class="site-footer__phone"><a href="tel:14065394224">(406) 539-4224</a></p>
         </div>
-        <img class="site-footer__logo" src="assets/images/logo-crest.png" alt="">
+        <img class="site-footer__logo" src="assets/images/logo-crest.png" alt="Givens Fire and Forestry crest logo">
         <p class="site-footer__company">Givens Fire &amp; Forestry LLC</p>
         <nav class="site-footer__social" aria-label="Social media">
           <a class="social-link social-link--footer" href="https://www.linkedin.com/in/samuel-givens/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -170,6 +278,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </nav>
       </div>
     </footer>
+
+    <dialog class="gallery-lightbox" data-gallery-lightbox aria-label="Project photo viewer">
+      <button type="button" class="gallery-lightbox__close" data-gallery-close aria-label="Close image viewer">Close</button>
+      <div class="gallery-lightbox__stage">
+        <button type="button" class="gallery-lightbox__nav gallery-lightbox__nav--prev" data-gallery-prev aria-label="Previous photo">
+          <span aria-hidden="true">‹</span>
+        </button>
+        <img class="gallery-lightbox__image" src="" alt="">
+        <button type="button" class="gallery-lightbox__nav gallery-lightbox__nav--next" data-gallery-next aria-label="Next photo">
+          <span aria-hidden="true">›</span>
+        </button>
+      </div>
+    </dialog>
 
     <script src="assets/js/forms-config.js"></script>
     <script src="script.js"></script>
