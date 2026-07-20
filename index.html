@@ -233,6 +233,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Newsreader:opsz,wght@6..72,400..700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen">
+    <link rel="preload" href="assets/models/givens-logo.glb?v=30" as="fetch" type="model/gltf-binary" crossorigin>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
   </head>
   <body>
@@ -276,7 +277,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <model-viewer
               class="hero-logo"
               src="assets/models/givens-logo.glb?v=30"
-              poster="assets/images/givens-1.png"
               alt="Givens Fire and Forestry badge"
               auto-rotate
               auto-rotate-delay="0"
@@ -291,6 +291,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               disable-pan
               touch-action="none"
               loading="eager"
+              reveal="auto"
             ></model-viewer>
             <noscript>
               <img class="hero-logo" src="assets/images/givens-1.png" alt="Givens Fire and Forestry badge">
@@ -477,6 +478,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         if (!logo) return;
         if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
           logo.removeAttribute("auto-rotate");
+        }
+        function showLogo() {
+          logo.classList.add("is-ready");
+        }
+        if (logo.loaded) {
+          showLogo();
+        } else {
+          logo.addEventListener("load", showLogo, { once: true });
         }
       })();
     </script>

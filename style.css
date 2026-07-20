@@ -315,13 +315,17 @@ model-viewer.hero-logo {
   --progress-bar-height: 0px;
   --progress-mask: transparent;
   overflow: visible;
+  opacity: 0;
+  transition: opacity 0.45s ease;
 }
 
-model-viewer.hero-logo::part(default-progress-bar) {
-  display: none;
+model-viewer.hero-logo.is-ready {
+  opacity: 1;
 }
 
-model-viewer.hero-logo::part(default-progress-mask) {
+model-viewer.hero-logo::part(default-progress-bar),
+model-viewer.hero-logo::part(default-progress-mask),
+model-viewer.hero-logo::part(default-poster) {
   display: none;
 }
 
