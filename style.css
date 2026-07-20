@@ -301,8 +301,8 @@ p {
 }
 
 .hero-logo {
-  width: clamp(11rem, 24vw, 18rem);
-  height: clamp(11rem, 24vw, 18rem);
+  width: clamp(14rem, 30vw, 23rem);
+  height: clamp(14rem, 30vw, 23rem);
   object-fit: contain;
   filter: drop-shadow(0 0.45rem 1rem rgba(0, 0, 0, 0.55)) drop-shadow(0 0 0.15rem rgba(0, 0, 0, 0.85));
 }
@@ -6143,8 +6143,8 @@ blockquote {
   }
 
   .hero-logo {
-    width: clamp(8.5rem, 32vw, 12rem);
-    height: clamp(8.5rem, 32vw, 12rem);
+    width: clamp(11rem, 40vw, 15rem);
+    height: clamp(11rem, 40vw, 15rem);
   }
 
   .services-contact__head {
@@ -6302,8 +6302,8 @@ blockquote {
   }
 
   .hero-logo {
-    width: min(78vw, 18rem);
-    height: min(78vw, 18rem);
+    width: min(86vw, 22rem);
+    height: min(86vw, 22rem);
   }
 
   .service-card {
@@ -6368,8 +6368,8 @@ blockquote {
   }
 
   .hero-logo {
-    width: clamp(10rem, 40vw, 14rem);
-    height: clamp(10rem, 40vw, 14rem);
+    width: clamp(12.5rem, 48vw, 17rem);
+    height: clamp(12.5rem, 48vw, 17rem);
   }
 
   .division-badge {
