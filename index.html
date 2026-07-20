@@ -233,6 +233,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Newsreader:opsz,wght@6..72,400..700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -272,7 +273,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="hero-overlay">
           <h1 id="hero-title">Creating Fire Smart Spaces For Safer Living</h1>
           <div class="hero-logo-wrap">
-            <img class="hero-logo" src="assets/images/givens-1.png" alt="Givens Fire and Forestry badge">
+            <model-viewer
+              class="hero-logo"
+              src="assets/models/givens-logo.glb?v=30"
+              poster="assets/images/givens-1.png"
+              alt="Givens Fire and Forestry badge"
+              auto-rotate
+              auto-rotate-delay="0"
+              rotation-per-second="18deg"
+              interaction-prompt="none"
+              shadow-intensity="0"
+              environment-image="neutral"
+              exposure="1.15"
+              camera-orbit="0deg 90deg 110%"
+              field-of-view="26deg"
+              disable-zoom
+              disable-pan
+              touch-action="none"
+              loading="eager"
+            ></model-viewer>
+            <noscript>
+              <img class="hero-logo" src="assets/images/givens-1.png" alt="Givens Fire and Forestry badge">
+            </noscript>
           </div>
           <p class="hero-callout">
             <span class="hero-callout__serve">Serving commercial and residential properties,</span>
@@ -449,5 +471,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" clienthub_id="8d993e07-3e4e-4808-ae9a-e1497d670872-4996145" form_url="https://clienthub.getjobber.com/client_hubs/8d993e07-3e4e-4808-ae9a-e1497d670872/public/work_request/embedded_work_request_form?form_id=4996145"></script>
     <script src="assets/js/forms-config.js"></script>
     <script src="script.js"></script>
+    <script>
+      (function () {
+        var logo = document.querySelector("model-viewer.hero-logo");
+        if (!logo) return;
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          logo.removeAttribute("auto-rotate");
+        }
+      })();
+    </script>
   </body>
 </html>

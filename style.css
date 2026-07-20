@@ -301,9 +301,28 @@ p {
 }
 
 .hero-logo {
-  width: clamp(9rem, 20vw, 15rem);
+  width: clamp(11rem, 24vw, 18rem);
+  height: clamp(11rem, 24vw, 18rem);
   object-fit: contain;
-  filter: drop-shadow(0 0.35rem 0.75rem rgba(0, 0, 0, 0.35));
+  filter: drop-shadow(0 0.45rem 1rem rgba(0, 0, 0, 0.55)) drop-shadow(0 0 0.15rem rgba(0, 0, 0, 0.85));
+}
+
+model-viewer.hero-logo {
+  display: block;
+  background-color: transparent;
+  --poster-color: transparent;
+  --progress-bar-color: transparent;
+  --progress-bar-height: 0px;
+  --progress-mask: transparent;
+  overflow: visible;
+}
+
+model-viewer.hero-logo::part(default-progress-bar) {
+  display: none;
+}
+
+model-viewer.hero-logo::part(default-progress-mask) {
+  display: none;
 }
 
 .hero-callout {
@@ -6120,7 +6139,8 @@ blockquote {
   }
 
   .hero-logo {
-    width: clamp(7rem, 28vw, 10rem);
+    width: clamp(8.5rem, 32vw, 12rem);
+    height: clamp(8.5rem, 32vw, 12rem);
   }
 
   .services-contact__head {
@@ -6278,7 +6298,8 @@ blockquote {
   }
 
   .hero-logo {
-    width: min(72vw, 16rem);
+    width: min(78vw, 18rem);
+    height: min(78vw, 18rem);
   }
 
   .service-card {
@@ -6343,7 +6364,8 @@ blockquote {
   }
 
   .hero-logo {
-    width: clamp(8.5rem, 36vw, 12rem);
+    width: clamp(10rem, 40vw, 14rem);
+    height: clamp(10rem, 40vw, 14rem);
   }
 
   .division-badge {
