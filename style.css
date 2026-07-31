@@ -364,6 +364,8 @@ model-viewer.hero-logo::part(default-poster) {
   align-self: end;
   justify-self: end;
   width: clamp(7rem, 11vw, 10.5rem);
+  height: auto;
+  aspect-ratio: 1;
   margin: 0;
 }
 
@@ -509,7 +511,9 @@ model-viewer.hero-logo::part(default-poster) {
 .carousel-pagination {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.55rem;
+  min-height: 0.65rem;
 }
 
 .carousel-pagination__dot {
@@ -746,17 +750,20 @@ model-viewer.hero-logo::part(default-poster) {
 .contact-section__embed {
   width: 100%;
   min-width: 0;
+  min-height: 59rem;
   padding: clamp(0.75rem, 2vw, 1rem);
   border-radius: 0.35rem;
   background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.12);
 }
 
-.contact-section__embed [id="8d993e07-3e4e-4808-ae9a-e1497d670872-4146697"],
+.contact-section__embed > [id],
+.contact-section__embed .jobber-inline-work-request,
 .contact-section__embed iframe {
   display: block;
   width: 100% !important;
   max-width: 100% !important;
+  min-height: 57rem;
   border: 0;
 }
 
@@ -969,6 +976,7 @@ model-viewer.hero-logo::part(default-poster) {
 .dark-panel__badge {
   width: clamp(5.5rem, 24cqw, 9.5rem);
   height: auto;
+  aspect-ratio: 1;
   object-fit: contain;
   filter: drop-shadow(0 0.35rem 1rem rgba(0, 0, 0, 0.35));
 }
@@ -1134,6 +1142,7 @@ blockquote {
   display: block;
   width: min(100%, 16rem);
   height: auto;
+  aspect-ratio: 1;
 }
 
 .site-footer__company {
@@ -2614,7 +2623,8 @@ blockquote {
 }
 
 .services-contact__embed,
-.services-contact__embed [id="8d993e07-3e4e-4808-ae9a-e1497d670872-4146697"],
+.services-contact__embed > [id],
+.services-contact__embed .jobber-inline-work-request,
 .services-contact__embed iframe {
   width: 100% !important;
   max-width: 100% !important;
@@ -2622,10 +2632,14 @@ blockquote {
 
 .services-contact__embed {
   min-width: 0;
+  min-height: 59rem;
 }
 
+.services-contact__embed > [id],
+.services-contact__embed .jobber-inline-work-request,
 .services-contact__embed iframe {
   display: block;
+  min-height: 57rem;
   border: 0;
 }
 
@@ -5031,6 +5045,7 @@ blockquote {
 .gff-schedule__embed {
   width: 100%;
   min-width: 0;
+  min-height: 59rem;
   margin-top: 0.5rem;
   padding: clamp(0.75rem, 2vw, 1rem);
   border-radius: 0.35rem;
@@ -5040,11 +5055,13 @@ blockquote {
     0 0 0 1px rgba(255, 255, 255, 0.12);
 }
 
-.gff-schedule__embed [id="8d993e07-3e4e-4808-ae9a-e1497d670872-4146697"],
+.gff-schedule__embed > [id],
+.gff-schedule__embed .jobber-inline-work-request,
 .gff-schedule__embed iframe {
   display: block;
   width: 100% !important;
   max-width: 100% !important;
+  min-height: 57rem;
   border: 0;
 }
 
