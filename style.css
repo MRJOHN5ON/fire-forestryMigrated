@@ -594,10 +594,12 @@ model-viewer.hero-logo::part(default-poster) {
 
 .carousel-slide picture {
   display: block;
+  width: 100%;
 }
 
 .carousel-slide img {
   width: 100%;
+  height: auto;
   aspect-ratio: 3 / 2;
   object-fit: cover;
 }
@@ -887,10 +889,12 @@ model-viewer.hero-logo::part(default-poster) {
 
 .feature-image picture {
   display: block;
+  width: 100%;
 }
 
 .feature-image img {
   width: 100%;
+  height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center;
@@ -953,6 +957,7 @@ model-viewer.hero-logo::part(default-poster) {
 .promo-video {
   display: block;
   width: min(100%, var(--container));
+  height: auto;
   margin-inline: auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
