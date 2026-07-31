@@ -427,9 +427,11 @@ model-viewer.hero-logo::part(default-poster) {
 }
 
 .services-carousel .carousel-nav {
+  position: absolute;
+  z-index: 2;
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  align-items: center;
+  gap: 0.55rem;
 }
 
 .services-carousel .carousel-track {
@@ -465,22 +467,52 @@ model-viewer.hero-logo::part(default-poster) {
   gap: 0.65rem;
 }
 
+@media (max-width: 899px) {
+  .services-carousel .carousel-nav {
+    right: clamp(0.85rem, 3vw, 1.35rem);
+    bottom: clamp(0.85rem, 3vw, 1.35rem);
+    justify-content: flex-end;
+  }
+
+  .services-carousel .carousel-nav .carousel-btn {
+    width: 2.65rem;
+    height: 2.65rem;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(6px);
+    border-color: rgba(255, 255, 255, 0.8);
+    color: var(--color-white);
+  }
+
+  .services-carousel .carousel-nav .carousel-btn:hover,
+  .services-carousel .carousel-nav .carousel-btn:focus-visible,
+  .services-carousel .carousel-nav .carousel-btn:active {
+    background: rgba(255, 255, 255, 0.18);
+    color: var(--color-white);
+  }
+
+  .services-carousel .carousel-nav .carousel-btn:disabled:hover,
+  .services-carousel .carousel-nav .carousel-btn:disabled:focus-visible,
+  .services-carousel .carousel-nav .carousel-btn:disabled:active {
+    background: rgba(0, 0, 0, 0.55);
+    color: var(--color-white);
+  }
+
+  .services-carousel .carousel-slide-content {
+    padding-right: 6.5rem;
+  }
+
+  .services-carousel .carousel-slide-content a {
+    margin-top: 0.85rem;
+  }
+}
+
 @media (min-width: 900px) {
   .services-carousel {
     gap: 1.25rem;
   }
 
-  .services-carousel .carousel-viewport,
   .services-carousel .carousel-nav {
-    grid-row: 1;
-    grid-column: 1;
-  }
-
-  .services-carousel .carousel-nav {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    align-items: center;
+    inset: 0;
     justify-content: space-between;
     pointer-events: none;
     padding-inline: clamp(0.5rem, 1.5vw, 0.85rem);
@@ -497,10 +529,6 @@ model-viewer.hero-logo::part(default-poster) {
   .services-carousel .carousel-nav .carousel-btn:disabled:focus-visible {
     background: rgba(0, 0, 0, 0.62);
     color: var(--color-white);
-  }
-
-  .services-carousel .carousel-pagination {
-    grid-row: 2;
   }
 }
 
@@ -6106,11 +6134,6 @@ blockquote {
   .storm-body__cta .button--cta {
     width: 100%;
     max-width: 22rem;
-  }
-
-  .services-carousel .carousel-nav .carousel-btn {
-    width: 3.5rem;
-    height: 3.5rem;
   }
 
   .reverse figure {
