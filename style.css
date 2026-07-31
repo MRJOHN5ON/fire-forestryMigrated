@@ -262,6 +262,14 @@ p {
   background-size: cover;
 }
 
+@media (max-width: 767px) {
+  .hero-media {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)),
+      url("assets/images/mobile/20201224-182400.jpg");
+  }
+}
+
 .hero-overlay {
   position: relative;
   z-index: 1;
@@ -584,6 +592,10 @@ model-viewer.hero-logo::part(default-poster) {
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
+.carousel-slide picture {
+  display: block;
+}
+
 .carousel-slide img {
   width: 100%;
   aspect-ratio: 3 / 2;
@@ -701,6 +713,12 @@ model-viewer.hero-logo::part(default-poster) {
   background-size: cover;
   transform: scaleX(-1);
   z-index: 0;
+}
+
+@media (max-width: 767px) {
+  .contact-section__background {
+    background-image: url("assets/images/mobile/20240420-143635.jpg");
+  }
 }
 
 .contact-section__background::after {
@@ -865,6 +883,10 @@ model-viewer.hero-logo::part(default-poster) {
   transform: translateY(-2px);
   background: var(--color-accent);
   color: var(--color-white);
+}
+
+.feature-image picture {
+  display: block;
 }
 
 .feature-image img {
