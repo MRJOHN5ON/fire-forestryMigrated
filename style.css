@@ -497,12 +497,9 @@ model-viewer.hero-logo::part(default-poster) {
     color: var(--color-white);
   }
 
-  .services-carousel .carousel-slide-content {
-    padding-right: 6.5rem;
-  }
-
   .services-carousel .carousel-slide-content a {
     margin-top: 0.85rem;
+    margin-right: 6.5rem;
   }
 }
 
